@@ -34,7 +34,7 @@ Para crear listas de viñetas, empiece una línea con *, + o - y luego el texto.
 `>Esta es una nota importante.`
 
 
-    >[!Nota]
+    >[!IMPORTANT]
     >Esta es una nota importante.
 ## Imágenes
    ![Imagen](img/img1.jpg "Hover text")
