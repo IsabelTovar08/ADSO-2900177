@@ -25,7 +25,7 @@ Para crear listas de viñetas, empiece una línea con *, + o - y luego el texto.
    |Número|  Dos |
 
 ## Hacer una nota
-`>[!IMPORTANT]`
+`>[!Importante]`
 
 
 `>`
@@ -34,7 +34,7 @@ Para crear listas de viñetas, empiece una línea con *, + o - y luego el texto.
 `>Esta es una nota importante.`
 
 
-    >[!IMPORTANT]
+    >[!Nota]
     >Esta es una nota importante.
 ## Imágenes
    ![Imagen](img/img1.jpg "Hover text")
