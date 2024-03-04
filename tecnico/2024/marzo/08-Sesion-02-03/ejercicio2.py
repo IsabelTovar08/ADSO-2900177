@@ -1,15 +1,15 @@
 # Capturar las notas obtenidas
 # Matemáticas
-examenM=float(input("Para calcular la nota promedio de Matemáticas, ingrese la nota obtenida en el exámen: "))
+examenM=float(input("Para calcular la nota promedio de Matemáticas, ingrese la nota obtenida en el examen: "))
 tareaUnoM=float(input("Ingrese la nota obtenida en la tarea 1: "))
 tareaDosM=float(input("Ingrese la nota obtenida en la tarea 2: "))
 tareaTresM=float(input("Ingrese la nota obtenida en la tarea 3: "))
 # Física
-examenF=float(input("Para calcular la nota promedio de Física, ingrese la nota obtenida en el exámen: "))
+examenF=float(input("Para calcular la nota promedio de Física, ingrese la nota obtenida en el examen: "))
 tareaUnoF=float(input("Ingrese la nota obtenida en la tarea 1: "))
 tareaDosF=float(input("Ingrese la nota obtenida en la tarea 2: "))
 # Química
-examenQ=float(input("Para calcular la nota promedio de Química, ingrese la nota obtenida en el exámen: "))
+examenQ=float(input("Para calcular la nota promedio de Química, ingrese la nota obtenida en el examen: "))
 tareaUnoQ=float(input("Ingrese la nota obtenida en la tarea 1: "))
 tareaDosQ=float(input("Ingrese la nota obtenida en la tarea 2: "))
 tareaTresQ=float(input("Ingrese la nota obtenida en la tarea 3: "))
