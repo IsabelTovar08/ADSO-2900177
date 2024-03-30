@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de tres edades</title>
+</head>
+<body>
+    <script>
+        let fechaActual;
+        let fechaNacUno;
+        let fechaNacDos;
+        let fechaNacTres;
+        let edadUno;
+        let edadDos;
+        let edadTres;
+        let promedio;
+
+        fechaActual=2024;
+        fechaNacUno=2000;
+        fechaNacDos=2005;
+        fechaNacTres=2008;
+
+        edadUno=fechaActual-fechaNacUno;
+        edadDos=fechaActual-fechaNacDos;
+        edadTres=fechaActual-fechaNacTres;
+        promedio=(edadUno+edadDos+edadTres)/3
+
+        if(edadUno>=18){
+            console.log("La persona uno es mayor de edad. Tiene "+edadUno+" años.");
+        }else{
+            console.log("La persona uno es menor de edas. Tiene "+edadUno+" años.");
+        }
+        if(edadDos>=18){
+            console.log("La persona dos es mayor de edad. Tiene "+edadDos+" años.");
+        }else{
+            console.log("La persona dos es menor de edad. Tiene "+edadDos+" años.");
+        }
+        if(edadTres>=18){
+            console.log("La persona tres es mayor de edad. Tiene "+edadTres+" años.");
+        }else{
+            console.log("La persona tres es menor de edad. Tiene "+edadTres+" años.");
+        }
+        if(promedio>=18){
+            console.log("El promedio es mayor de edad. "+promedio);
+        }else{
+            console.log("El promedio es menor de edad: "+promedio);
+        }
+       
+    </script>
+</body>
+</html>

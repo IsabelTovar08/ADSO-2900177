@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas del 1 al 5 que multiplican hasta 5</title>
+</head>
+<body>
+    <script>
+        let tabla;
+        let multiplicar;
+        let resultado;
+        let ctabla;
+        let cMult;
+        let par;
+        let impar;
+
+        tabla=5;
+        multiplicar=5;
+        resultado=0;
+        ctabla=0;
+        par=0;
+        impar=0;
+
+        while(ctabla<tabla){
+            cMult=0;
+            ctabla=ctabla+1;
+            while (cMult<multiplicar){
+                cMult=cMult+1;
+                resultado=ctabla*cMult;
+                if (resultado%2==0){
+                    par=par+1;
+                    console.log(ctabla+"x"+cMult+"="+resultado+" Es par. Buzz");
+                }else{
+                    impar=impar+1;
+                    console.log(ctabla+"x"+cMult+"="+resultado+" Es impar. Bass");
+                }
+            }
+        }
+        console.log("Hay "+par+" numeros pares y "+impar+" numeros impares.");
+    </script>
+</body>
+</html>

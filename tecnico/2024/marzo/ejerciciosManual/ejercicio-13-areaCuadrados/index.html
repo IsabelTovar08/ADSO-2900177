@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular el área de tres cuadrados</title>
+</head>
+<body>
+    <script>
+        let ladoUno;
+        let ladoDos;
+        let ladoTres;
+        let areaCuadradoUno;
+        let areaCuadradoDos;
+        let areaCuadradoTres;
+
+        ladoUno=7;
+        ladoDos=8;
+        ladoTres=9;
+
+        areaCuadradoUno=ladoUno*ladoUno;
+        areaCuadradoDos=ladoDos*ladoDos;
+        areaCuadradoTres=ladoTres*ladoTres;
+
+        if(areaCuadradoUno!=areaCuadradoDos && areaCuadradoDos!=areaCuadradoTres && areaCuadradoUno!=areaCuadradoTres){
+            if(areaCuadradoUno>areaCuadradoDos && areaCuadradoUno>areaCuadradoTres){
+                console.log("El área del cuadrado uno es mayor.");
+            }
+            else{
+                if (areaCuadradoDos>areaCuadradoUno && areaCuadradoDos>areaCuadradoTres) {
+                    console.log("El área del cuadrado dos es mayor.");
+                } else {
+                    console.log("El área del cuadrado tres es mayor.");
+                }
+            }
+        }
+        else{
+            console.log("Las tres áreas son iguales.");
+        }
+    </script>
+</body>
+</html>
