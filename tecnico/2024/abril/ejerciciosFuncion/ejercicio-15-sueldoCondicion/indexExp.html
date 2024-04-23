@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular el sueldo de una persona</title>
+    <script src="js/sueldoCondicion.js"></script>
+</head>
+<body>
+    <script>
+        let diasTrabajados=30;
+        let valorDia=200000;
+
+        console.log("Días trabajados: "+diasTrabajados);
+        console.log("Valor día: "+valorDia);
+        console.log("Sueldo: $"+salarioExp(diasTrabajados,valorDia));
+        console.log("Salud: $"+saludExp(diasTrabajados,valorDia));
+        console.log("Pensión: $"+pensionExp(diasTrabajados,valorDia));
+        console.log("Arl: $"+arlExp(diasTrabajados,valorDia));
+        console.log("Transporte: "+condicionTransExp(diasTrabajados,valorDia));
+        console.log("Retencion: "+condicionRetencionExp(diasTrabajados,valorDia));
+        console.log("Descuentos: $"+descuentosExp(diasTrabajados,valorDia));
+        console.log("Sueldo Total: $"+sueldoTotalExp(diasTrabajados,valorDia));
+    </script>
+    
+</body>
+</html>
