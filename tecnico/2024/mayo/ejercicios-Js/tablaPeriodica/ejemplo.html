@@ -1,0 +1,145 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros de Colores</title>
+    <style>
+        .box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: lightgray;
+            border: 2px solid lightgray;
+            margin: 10px;
+            vertical-align: middle;
+        }
+
+        .selectable {
+            cursor: pointer;
+            font-weight: bold;
+            color: darkgreen;
+            margin-right: 10px;
+        }
+        .rojo {
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1" id="box1"></div>
+    <div class="box box2" id="box2"></div>
+    <div class="box box3" id="box3"></div>
+    <div class="box box4" id="box4"></div>
+    <div class="box box5" id="box5"></div>
+    <div class="box box6" id="box6"></div>
+
+    <div>
+        <span class="selectable" data-color="rojo">Rojo</span>
+        <span class="selectable" data-color="green">Verde</span>
+        <span class="selectable" data-color="blue">Azul</span>
+    </div>
+
+    <script>
+        // Define los grupos de cuadros y sus colores asociados
+        const groups = {
+            rojo: ['box1', 'box2'],
+            green: ['box3', 'box4'],
+            blue: ['box5', 'box6']
+        };
+
+        document.querySelectorAll('.selectable').forEach(function(element) {
+            element.addEventListener('click', function() {
+                var group = this.getAttribute('data-color'); // Obtiene el grupo del atributo data-group
+                var boxes = groups[group]; // Obtiene los cuadros del grupo
+                var color = group; // Usa el nombre del grupo como color
+                boxes.forEach(function(boxId) {
+                    var box = document.querySelector('.' + boxId); // Busca el cuadro por su clase
+                    box.style.border = color; // Cambia el color de fondo del cuadro
+                });
+            });
+        });
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros de Colores</title>
+    <style>
+        .box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: lightgray;
+            border: 2px solid lightgray;
+            margin: 10px;
+            vertical-align: middle;
+        }
+
+        .rojo {
+            border-color: red;
+        }
+
+        .verde {
+            border-color: green;
+        }
+
+        .azul {
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+
+    <div>
+        <span class="selectable" data-color="rojo">Rojo</span>
+        <span class="selectable" data-color="verde">Verde</span>
+        <span class="selectable" data-color="azul">Azul</span>
+    </div>
+
+    <script>
+        // Define los grupos de cuadros y sus colores asociados
+        const groups = {
+            rojo: ['box1', 'box2'],
+            verde: ['box3', 'box4'],
+            azul: ['box5', 'box6']
+        };
+
+        // Mantenemos una referencia al color seleccionado actualmente
+        let colorSeleccionado = null;
+
+        document.querySelectorAll('.selectable').forEach(function(element) {
+            element.addEventListener('click', function() {
+                var group = this.getAttribute('data-color'); // Obtiene el grupo del atributo data-group
+                var boxes = groups[group]; // Obtiene los cuadros del grupo
+                var colorClass = group; // Usa el nombre del grupo como clase de color
+                
+                // Si hay un color seleccionado actualmente, lo eliminamos de todos los cuadros
+                if (colorSeleccionado) {
+                    document.querySelectorAll('.box').forEach(function(box) {
+                        box.classList.remove(colorSeleccionado);
+                    });
+                }
+                
+                // Aplicamos el nuevo color a los cuadros del grupo
+                boxes.forEach(function(boxId) {
+                    var box = document.querySelector('.' + boxId); // Busca el cuadro por su clase
+                    box.classList.add(colorClass); // Agrega la clase de color correspondiente al cuadro
+                });
+
+                // Actualizamos el color seleccionado actualmente
+                colorSeleccionado = colorClass;
+            });
+        });
+    </script>
+</body>
+</html>
