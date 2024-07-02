@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Mayor o igual</title>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/ejercicios-Js/formularios/ejerciciosForm/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/ejercicios-Js/formularios/ejerciciosForm/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 row form">
+            <div class="col-6 formulario">
+                <!-- Formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return areaCuadrados();">
+                    <h4>Calcula el área de los cuadrados</h4>
+                    <div class="col-md-12">
+                        <h5>Cuadrado Uno</h5>
+                      <label for="txtLadoUno" class="form-label">Lado</label>
+                      <input type="number" class="form-control" id="txtLadoUno" required>
+                      <div class="invalid-feedback">
+                        Por favor, ingresa un dato.
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h5>Cuadrado Dos</h5>
+                      <label for="txtLadoDos" class="form-label">Lado</label>
+                      <input type="number" class="form-control" id="txtLadoDos" required>
+                      <div class="invalid-feedback">
+                        Por favor, ingresa un dato.
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h5>Cuadrado Tres</h5>
+                      <label for="txtLadoTres" class="form-label">Lado</label>
+                      <input type="number" class="form-control" id="txtLadoTres" required>
+                      <div class="invalid-feedback">
+                        Por favor, ingresa un dato.
+                      </div>
+                    </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar<i class="fa-regular fa-paper-plane"></i></button>
+                  </div>
+              </form>
+            </div>
+            <div class="col-5 respuesta formulario">
+                <div id="mayor"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/areas.js"></script>
+    <script src="/ejercicios-Js/formularios/ejerciciosForm/js/validate.js"></script>
+</body>
+</html>

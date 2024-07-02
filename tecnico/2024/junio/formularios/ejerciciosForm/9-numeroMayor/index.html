@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Mayor</title>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/ejercicios-Js/formularios/ejerciciosForm/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/ejercicios-Js/formularios/ejerciciosForm/fontawesome/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 row form">
+            <div class="col-6 formulario">
+                <!-- Formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return numMayor();">
+                      <h4>Compara dos números</h4>
+                      <div class="col-md-12">
+                        <label for="numeroUno" class="form-label">Número Uno</label>
+                        <input type="number" class="form-control" id="numeroUno" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="numeroDos" class="form-label">Número Dos</label>
+                        <input type="number" class="form-control" id="numeroDos" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Enviar<i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta formulario">
+                <div id="mayor"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/mayor.js"></script>
+    <script src="/ejercicios-Js/formularios/ejerciciosForm/js/validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentaje Número</title>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+     <div class="container">
+        <div class="col-12 row form">
+            <div class="col-6 formulario">
+                <!-- Formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return porcentaje();">
+                    <div class="col-md-12">
+                      <h4>Ingresa un número para obtener su porcentaje</h4>
+                      <label for="txtNumero" class="form-label">Número</label>
+                      <input type="number" class="form-control" id="txtNumero" required>
+                      <div class="invalid-feedback">
+                        Por favor, ingresa un dato.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Enviar<i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta formulario">
+                <div id="porcentaje">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/porcentaje.js"></script>
+    <script src="js/validate.js"></script>
+</body>
+</html>
