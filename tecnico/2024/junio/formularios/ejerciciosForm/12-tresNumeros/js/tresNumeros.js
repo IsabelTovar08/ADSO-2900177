@@ -9,19 +9,40 @@ function tresNumeros(){
     let numeroTres = parseInt(document.getElementById("txtNumeroTres").value);
     let mayor;
 
-    if  (numeroUno != numeroDos && numeroDos != numeroTres && numeroUno != numeroTres) { 
-        if (numeroUno > numeroDos &&  numeroUno > numeroTres) {
-            mayor = "El número mayor es: "+numeroUno+ " el número uno.";
-         } else if (numeroDos>numeroUno && numeroDos>numeroTres) {
-            mayor = "El número mayor es: "+numeroDos+ " el número dos.";
-         } 
-         else{
-             mayor = "El número mayor es: "+numeroTres +" el número tres.";  
-         }
-     }else{
-       mayor = "Los números son iguales";
+    if ((isNaN(numeroUno) || numeroUno < 1) || (isNaN(numeroDos) || numeroDos < 1) || (isNaN(numeroTres) || numeroTres < 1)) {
+        mensaje = "Por favor, introduce un número válido.";
+    } else {
+        // Inicializar mensaje vacío
+        mensaje = "";
+
+        // Encontrar el mayor
+        if (numeroUno >= numeroDos && numeroUno >= numeroTres) {
+            mayor = numeroUno;
+            mensaje = "El mayor es " + mayor + ", número uno.";
+        } else if (numeroDos >= numeroUno && numeroDos >= numeroTres) {
+            mayor = numeroDos;
+            mensaje = "El mayor es " + mayor + ", número dos.";
+        } else if (numeroTres >= numeroUno && numeroTres >= numeroDos) {
+            mayor = numeroTres;
+            mensaje = "El mayor es " + mayor + ", número tres.";
+        } else {
+            mensaje = "No hay un único mayor.";
+        }
+
+        // Verificar si hay números iguales
+        if (numeroUno == numeroDos && numeroUno == numeroTres) {
+            mensaje = "Los tres números son iguales.";
+        } else {
+            if (numeroUno == numeroDos && numeroUno != numeroTres) {
+                mensaje += '<br>' + "El número uno y dos son iguales.";
+            } else if (numeroUno == numeroTres && numeroUno != numeroDos) {
+                mensaje += '<br>' + "El número uno y tres son iguales.";
+            } else if (numeroDos == numeroTres && numeroDos != numeroUno) {
+                mensaje += '<br>' + "El número dos y tres son iguales.";
+            }
+        }
     }
 
-    document.getElementById('mayor').innerHTML = mayor;
+    document.getElementById('mayor').innerHTML = mensaje;
     return false;
 }

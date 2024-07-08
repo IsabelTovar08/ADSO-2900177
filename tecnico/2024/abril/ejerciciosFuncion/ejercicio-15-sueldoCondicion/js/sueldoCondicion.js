@@ -46,7 +46,7 @@ function arl(pdias,pvalor){
     arlT=(sueldo*0.052);
     return arlT;
 }
-const descuentos = function(pdias,pvalor){
+function descuentos(pdias,pvalor){
     let saludT =  salud(pdias,pvalor);
     let pensionT = pension(pdias,pvalor); 
     let arlT = arl(pdias,pvalor);

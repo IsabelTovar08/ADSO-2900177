@@ -13,34 +13,38 @@ function areaCuadrados(){
     let areaDos = areaCuadrado(ladoDos);
     let areaTres = areaCuadrado(ladoTres);
     
+    if ((isNaN(areaUno) || areaUno < 1) || (isNaN(areaDos) || areaDos < 1) || (isNaN(areaTres) || areaTres < 1)) {
+        mensaje = "Por favor, introduce un número válido.";
+    } else {
+        // Inicializar mensaje vacío
+        mensaje = "";
 
-   
-    if(areaUno!=areaDos || areaDos!=areaTres || areaUno!=areaTres){
-        if(areaUno>areaDos && areaUno>areaTres){
+        // Encontrar el mayor
+        if (areaUno >= areaDos && areaUno >= areaTres) {
             mayor = areaUno;
-            mensaje = "El área del cuadrado uno: "+areaUno+" es mayor."
+            mensaje = "El mayor es " + mayor + ", área del cuadrado uno.";
+        } else if (areaDos >= areaUno && areaDos >= areaTres) {
+            mayor = areaDos;
+            mensaje = "El mayor es " + mayor + ", área del cuadrado dos.";
+        } else if (areaTres >= areaUno && areaTres >= areaDos) {
+            mayor = areaTres;
+            mensaje = "El mayor es " + mayor + ", área del cuadrado tres.";
+        } else {
+            mensaje = "No hay un único mayor.";
         }
-        else{
-            if (areaDos>areaUno && areaDos>areaTres) {
-                mayor = areaDos;
-                mensaje = "El área del cuadrado dos: "+areaDos+" es mayor."
-            } else {
-                mayor = areaTres;
-                mensaje = "El área del cuadrado tres: "+areaTres+" es mayor."
+
+        // Verificar si hay áreas iguales
+        if (areaUno == areaDos && areaUno == areaTres) {
+            mensaje = "Los tres cuadrados tienen el mismo área.";
+        } else {
+            if (areaUno == areaDos && areaUno != areaTres) {
+                mensaje += '<br>' + "El área del cuadrado uno y dos son iguales.";
+            } else if (areaUno == areaTres && areaUno != areaDos) {
+                mensaje += '<br>' + "El área del cuadrado uno y tres son iguales.";
+            } else if (areaDos == areaTres && areaDos != areaUno) {
+                mensaje += '<br>' + "El área del cuadrado dos y tres son iguales.";
             }
         }
-    }
-    if(areaUno==areaDos && areaDos!=areaTres){
-        mensaje = "Área uno y área dos son iguales. El mayor es: "+mayor
-    }
-    else if(areaUno==areaTres && areaDos!=areaTres){
-        mensaje = "Área uno y área tres son iguales. El mayor es: "+mayor
-    }
-    else if(areaDos==areaTres && areaUno!=areaTres){
-        mensaje = "Área dos y área tres son iguales. El mayor es: "+mayor
-    }
-    else{
-        mensaje = "Las tres áreas son iguales."
     }
 
     document.getElementById('mayor').innerHTML =

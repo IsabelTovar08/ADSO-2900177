@@ -5,7 +5,7 @@
  */
 function sueldoCondicion(){
     let diasTrabajados = parseInt(document.getElementById('txtDias').value);
-    let valorDia = parseInt(document.getElementById('txtValor').value);
+    let valorDia = parseFloat(document.getElementById('txtValor').value);
     let sueldo;
     let salud;
     let pension;
@@ -15,14 +15,14 @@ function sueldoCondicion(){
     let descuento;
     let total;
 
-    sueldo = salario(diasTrabajados*valorDia);
-    salud = sueldo*0.12;
-    pension = sueldo*0.16;
-    arl = sueldo*0.052;
+    sueldo = salario(diasTrabajados,valorDia);
+    salud = saludF(diasTrabajados,valorDia);
+    pension = pensionF(diasTrabajados,valorDia);
+    arl = arlF(diasTrabajados,valorDia);
     transporte = condicionTrans(diasTrabajados,valorDia);
     retencion = condicionRetencion(diasTrabajados,valorDia);
-    descuento = salud+pension+arl+retencion;
-    total = (sueldo-descuento)+transporte;
+    descuento = descuentosF(diasTrabajados,valorDia);
+    total = sueldoTotalF(diasTrabajados,valorDia);
     
     document.getElementById('sueldo').innerHTML =
     `Sueldo: <strong>${sueldo}</strong><br>
@@ -32,7 +32,7 @@ function sueldoCondicion(){
     Transporte: <strong>${transporte}</strong><br>
     Retención: <strong>${retencion}</strong><br>
     Descuento: <strong>${descuento}</strong><br>
-    <strong>TOTAL: ${total}</strong><br></br>`;
+    <strong>TOTAL: ${total}</strong><br>`;
     return false;
 }
 function salario(pdias,pvalor){
@@ -47,9 +47,9 @@ function condicionTrans(pdias,pvalor){
     let sueldo = salario(pdias,pvalor);
     let subTransporte;
     if(sueldo<=2*SMMLV){
-         subTransporte=114000;
+        return subTransporte=114000;
     }else{
-         subTransporte=0;
+        return subTransporte=0;
     }
 }
 function condicionRetencion(pdias,pvalor) {
@@ -57,9 +57,44 @@ function condicionRetencion(pdias,pvalor) {
     let sueldo = salario(pdias,pvalor);
     let retencion;
     if(sueldo>=4*SMMLV){
-        retencion=sueldo*0.04;
+       return retencion=sueldo*0.04;
     }
     else{
-         retencion=0;
+        return retencion=0;
     }
+}
+function saludF(pdias,pvalor){
+    let sueldo = salario(pdias,pvalor);
+    let saludT;
+    saludT=(sueldo*0.12);
+    return saludT;
+}
+function pensionF(pdias,pvalor) {
+    let sueldo = salario(pdias,pvalor);
+    let pensionT;
+    pensionT=(sueldo*0.16);
+    return pensionT;
+}
+function arlF(pdias,pvalor){
+    let sueldo = salario(pdias,pvalor);
+    let arlT;
+    arlT=(sueldo*0.052);
+    return arlT;
+}
+function descuentosF(pdias,pvalor){
+    let saludT =  saludF(pdias,pvalor);
+    let pensionT = pensionF(pdias,pvalor); 
+    let arlT = arlF(pdias,pvalor);
+    let retencion = condicionRetencion(pdias,pvalor);
+    let descuento;
+    descuento=saludT+pensionT+arlT+retencion;
+    return descuento;
+}
+function sueldoTotalF(pdias,pvalor) {
+    let sueldo = salario(pdias,pvalor);
+    let descuento = descuentosF(pdias,pvalor);
+    let subTransporte = condicionTrans(pdias,pvalor);
+    let total;
+    total=(sueldo-descuento)+subTransporte;
+    return total;
 }
