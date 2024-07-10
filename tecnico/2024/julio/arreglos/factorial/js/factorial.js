@@ -12,12 +12,13 @@ let resultado;
 factorial = 1;
 numero = 5;
 
-for (iteracion = 1; iteracion <= numero; iteracion++) {
+for(iteracion = 1; iteracion <= numero; iteracion++){
     factorial = factorial * iteracion;
-    arreglo.push(factorial);
+    arreglo.push({ numero: iteracion, resultFactorial: factorial });
 }
+
 for (iteracion = 0; iteracion < arreglo.length; iteracion++) {
-    resultadoLista += '<tbody><tr><th scope="row" id="resultadoNumero"></th><td id="resultadoFactorial">'+arreglo[iteracion]+'</td></tr></tbody>';
+    resultadoLista += `<tr><th scope="row">!${arreglo[iteracion].numero}</th><td>${arreglo[iteracion].resultFactorial}</td></tr>`; 
 }
 
 document.getElementById('resultadoFactorial').innerHTML = resultadoLista;
