@@ -1,0 +1,36 @@
+.tabla{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid;
+    border: double;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 15px;
+    .letra{
+        background-color: #d2ebff;
+        transition: transform 0.5s ease;
+    };
+    .letras{
+        background-color: #a8d8ff;
+    }; 
+    .rojo{
+        background-color: #eca2a2;
+    }
+    .verde{
+        background-color: #aefaa4;
+    }
+    .morado{
+        background-color: #d5a8ff;
+    }
+}
+h1{
+    text-align: center;
+}
+.letra{
+    transition: transform 0.1s ease;
+}
+.tabla:hover{
+    .letra{
+        transform: scale(1.6);
+    }
+}
