@@ -8,6 +8,7 @@ function tresNumeros(){
     let numeroDos = parseInt(document.getElementById("txtNumeroDos").value);
     let numeroTres = parseInt(document.getElementById("txtNumeroTres").value);
     let mayor;
+    let mensaje = "";
 
     if ((isNaN(numeroUno) || numeroUno < 1) || (isNaN(numeroDos) || numeroDos < 1) || (isNaN(numeroTres) || numeroTres < 1)) {
         mensaje = "Por favor, introduce un número válido.";

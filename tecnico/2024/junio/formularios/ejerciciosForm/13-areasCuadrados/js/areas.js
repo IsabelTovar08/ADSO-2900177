@@ -8,7 +8,7 @@ function areaCuadrados(){
     let ladoDos = parseInt(document.getElementById("txtLadoDos").value);
     let ladoTres = parseInt(document.getElementById("txtLadoTres").value);
     let mayor;
-    let mensaje;
+    let mensaje = "";
     let areaUno = areaCuadrado(ladoUno);
     let areaDos = areaCuadrado(ladoDos);
     let areaTres = areaCuadrado(ladoTres);
@@ -16,10 +16,6 @@ function areaCuadrados(){
     if ((isNaN(areaUno) || areaUno < 1) || (isNaN(areaDos) || areaDos < 1) || (isNaN(areaTres) || areaTres < 1)) {
         mensaje = "Por favor, introduce un número válido.";
     } else {
-        // Inicializar mensaje vacío
-        mensaje = "";
-
-        // Encontrar el mayor
         if (areaUno >= areaDos && areaUno >= areaTres) {
             mayor = areaUno;
             mensaje = "El mayor es " + mayor + ", área del cuadrado uno.";
@@ -32,8 +28,6 @@ function areaCuadrados(){
         } else {
             mensaje = "No hay un único mayor.";
         }
-
-        // Verificar si hay áreas iguales
         if (areaUno == areaDos && areaUno == areaTres) {
             mensaje = "Los tres cuadrados tienen el mismo área.";
         } else {
