@@ -11,6 +11,10 @@ function promNotas() {
 
     porcentajeNotas = (notaUno+notaDos+notaTres)/3;
 
-    document.getElementById('promedioNotas').innerHTML = `<strong>${porcentajeNotas}</strong>`;
+    document.getElementById('promedioNotas').innerHTML = 
+    `<strong>El valor de la primera nota es: ${notaUno}</strong><br>
+    <strong>El valor de la segunda nota es: ${notaDos}</strong><br>
+    <strong>El valor de la tercera nota es: ${notaTres}</strong><br>
+    <strong>El promedio de las tres notas es: ${porcentajeNotas}</strong>`;
     return false;
 }
