@@ -13,6 +13,7 @@
     $response['suma'] = $operaciones->sumar();
     $response['resta'] = $operaciones->restar();
     $response['multiplicacion'] = $operaciones->multiplicar();
+    $response['division'] = $operaciones->dividir();
 
     header('Content-Type: application/json');
     echo json_encode($response);

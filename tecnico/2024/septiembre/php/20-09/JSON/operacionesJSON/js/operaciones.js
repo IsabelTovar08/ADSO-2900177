@@ -17,6 +17,7 @@ function realizarOperaciones(){
             document.getElementById('resultadiSuma').textContent = `Suma: ${data.suma}`;
             document.getElementById('resultadoResta').textContent = `Resta: ${data.resta}`;
             document.getElementById('resultadoMultiplicacion').textContent = `Multiplicacion: ${data.multiplicacion}`;
+            document.getElementById('resultadoDivision').textContent = `División: ${data.division}`;
         }
     })
     .catch(error => console.error('Error: ', error));
