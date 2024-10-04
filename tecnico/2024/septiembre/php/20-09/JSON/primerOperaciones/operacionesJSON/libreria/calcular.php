@@ -15,7 +15,6 @@
     $response['multiplicacion'] = $operaciones->multiplicar();
     $response['division'] = $operaciones->dividir();
 
-    $resultado['error'] = 'Operación no válida.';
     header('Content-Type: application/json');
     echo json_encode($response);
 ?>

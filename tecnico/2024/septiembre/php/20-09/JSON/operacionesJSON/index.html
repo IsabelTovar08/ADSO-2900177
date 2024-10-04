@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operaciones JSON</title>
-    <script src="js/operaciones.js"></script>
 </head>
+
 <body>
     <h1>Operaciones</h1>
+    <form id="formOperaciones">
+        <label for="numeroUno">Número Uno:</label>
+        <input type="text" id="txtNumUno" name="txtNumUno" required>
+        <label for="nombre">Número Dos:</label>
+        <input type="numeroDos" id="txtNumDos" name="txtNumDos" required>
+        <select id="operacionSelect" class="form-select" aria-label="Default select example" required>
+            <option selected disabled value="">Elije la Operación</option>
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">División</option>
+            <option value="todas">Todas las operaciones</option>
+        </select>
+        <button type="submit">Calcular</button>
+    </form>
     <P>
-        <div id="resultadiSuma"></div>
-        <div id="resultadoResta"></div>
-        <div id="resultadoMultiplicacion"></div>
-        <div id="resultadoDivision"></div>
+    <div id="resultadiSuma"></div>
+    <div id="resultadoResta"></div>
+    <div id="resultadoMultiplicacion"></div>
+    <div id="resultadoDivision"></div>
     </P>
+    <script src="js/operaciones.js"></script>
 </body>
+
 </html>
