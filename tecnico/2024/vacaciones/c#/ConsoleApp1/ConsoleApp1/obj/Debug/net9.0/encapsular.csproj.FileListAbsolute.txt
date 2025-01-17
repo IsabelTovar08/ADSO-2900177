@@ -1,0 +1,14 @@
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\encapsular.exe
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\encapsular.deps.json
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\encapsular.runtimeconfig.json
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\encapsular.dll
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\encapsular.pdb
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.AssemblyInfoInputs.cache
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.AssemblyInfo.cs
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.dll
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\refint\encapsular.dll
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.pdb
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\encapsular.genruntimeconfig.cache
+C:\Users\Usuario\c#\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ref\encapsular.dll
