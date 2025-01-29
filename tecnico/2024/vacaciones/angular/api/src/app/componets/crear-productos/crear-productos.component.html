@@ -1,0 +1,14 @@
+<p>crear-productos works!</p>
+<h1>crear</h1>
+<form (submit)="cambios()" [formGroup]="form">
+    <mat-form-field>
+        <mat-label>Nombre</mat-label>
+        <input type="text" formControlName="nombre" matInput required>
+    </mat-form-field>
+    <div>
+        <button type="submit" mat-flat-button>Guardar Cambios</button>
+        <a mat-stroked-button routerLink="/productos" >Cancelar</a>
+    </div>
+</form>
+
+

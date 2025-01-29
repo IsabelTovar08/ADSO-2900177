@@ -1,13 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\c#\\MiWebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\c#\\miwebapi\\miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\entidades\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\entidades\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\migrations\\20250118150044_tablalaptops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\migrations\\20250118150044_tablalaptops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\c#\\miwebapi\\miwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|c:\\users\\usuario\\onedrive\\documentos\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\miwebapi\\miwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E156ACF-B229-4731-8AF0-54E4F946AD21}|MiWebApi\\MiWebApi.csproj|solutionrelative:miwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -18,33 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "MiWebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\Program.cs",
-              "RelativeToolTip": "MiWebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA0AAAAVAAAAAAAAAA==",
+              "Title": "LaptopController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Controllers\\LaptopController.cs",
+              "RelativeDocumentMoniker": "MiWebApi\\Controllers\\LaptopController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Controllers\\LaptopController.cs",
+              "RelativeToolTip": "MiWebApi\\Controllers\\LaptopController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowD4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T01:38:24.616Z",
+              "WhenOpened": "2025-01-18T15:12:14.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250118150044_TablaLaptops.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Migrations\\20250118150044_TablaLaptops.cs",
+              "RelativeDocumentMoniker": "MiWebApi\\Migrations\\20250118150044_TablaLaptops.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Migrations\\20250118150044_TablaLaptops.cs",
+              "RelativeToolTip": "MiWebApi\\Migrations\\20250118150044_TablaLaptops.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:00:45.732Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "MiWebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\appsettings.json",
-              "RelativeToolTip": "MiWebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Title": "Laptop.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Entidades\\Laptop.cs",
+              "RelativeDocumentMoniker": "MiWebApi\\Entidades\\Laptop.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Entidades\\Laptop.cs",
+              "RelativeToolTip": "MiWebApi\\Entidades\\Laptop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:54:24.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MiWebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\appsettings.Development.json",
+              "RelativeToolTip": "MiWebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-17T01:26:32.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T14:33:55.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MiWebApi\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\AplicationDbContext.cs",
+              "RelativeToolTip": "MiWebApi\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:11:37.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MiWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\appsettings.json",
+              "RelativeToolTip": "MiWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T01:26:32.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MiWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\Program.cs",
+              "RelativeToolTip": "MiWebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T01:38:24.616Z"
             }
           ]
         }

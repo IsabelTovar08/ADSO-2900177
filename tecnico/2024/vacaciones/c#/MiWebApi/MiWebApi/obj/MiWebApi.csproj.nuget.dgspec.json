@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj",
         "projectName": "MiWebApi",
-        "projectPath": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\MiWebApi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\c#\\MiWebApi\\MiWebApi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\MiWebApi\\MiWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
