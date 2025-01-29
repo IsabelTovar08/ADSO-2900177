@@ -1,0 +1,17 @@
+<h4 class="number_task" >
+    Número de Tareas: {{this.tasks.length}}
+</h4>
+
+<h2 class="title">Tareas</h2>
+
+<div class="container_task" [ngStyle]="{'justify-content': tasks.length === 0 ? 'center' : ''}">
+    <div class="task" *ngFor="let task of tasks let i = index">
+        <small>{{task.id}}</small>
+        <span [ngClass]="{'subrayar': task.completed}" [appStatusTask]="task.completed">{{task.title}}</span>
+        <input class="task_check" type="checkbox" name="" id="" [checked]="task.completed" (change)="completeTask(task)">
+        <button class="task_delete" (click)="deleteTask(task.id)" [appConfirmDelete]="task.title">Eliminar</button>
+    </div>
+    <span [ngStyle]="{'color': 'white'}" *ngIf="tasks.length === 0">
+        No hay tareas
+  </span>
+</div>
