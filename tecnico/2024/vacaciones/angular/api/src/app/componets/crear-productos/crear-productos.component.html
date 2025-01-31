@@ -1,14 +1,19 @@
 <p>crear-productos works!</p>
-<h1>crear</h1>
-<form (submit)="cambios()" [formGroup]="form">
-    <mat-form-field>
+<h1>Crear</h1>
+
+<form [formGroup]="form" (ngSubmit)="sendData()">
+    <mat-form-field appearance="outline">
         <mat-label>Nombre</mat-label>
-        <input type="text" formControlName="nombre" matInput required>
+        <input matInput formControlName="nombre" type="text">
+        <mat-error *ngIf="form.get('nombre')?.hasError('required')">
+            El nombre es obligatorio.
+        </mat-error>
     </mat-form-field>
+
     <div>
-        <button type="submit" mat-flat-button>Guardar Cambios</button>
-        <a mat-stroked-button routerLink="/productos" >Cancelar</a>
+        <button mat-flat-button type="submit" color="primary" [disabled]="form.invalid">
+            Guardar Cambios
+        </button>
+        <a mat-stroked-button routerLink="/productos">Cancelar</a>
     </div>
 </form>
-
-

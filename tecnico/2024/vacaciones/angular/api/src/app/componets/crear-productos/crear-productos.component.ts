@@ -1,25 +1,29 @@
-import { Component, inject } from '@angular/core';
-import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common'; // 🔹 Importar CommonModule
+import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 @Component({
   selector: 'app-crear-productos',
-  imports: [ ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule],
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatButtonModule], // 🔹 Agregado CommonModule
   templateUrl: './crear-productos.component.html',
-  styleUrls: ['./crear-productos.component.css']  // Cambié 'styleUrl' a 'styleUrls'
+  styleUrls: ['./crear-productos.component.css']
 })
 export class CrearProductosComponent {
   form: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
     this.form = this.formBuilder.group({
-      nombre: ['']
+      nombre: new FormControl('', Validators.required) // 🔹 Se asegura de que tiene 'Validators.required'
     });
   }
 
-  cambios() {
-    console.log(this.form.value);
+  sendData() {
+    if (this.form.valid) {
+      console.log(this.form.value);
+    }
   }
 }

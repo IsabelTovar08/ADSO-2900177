@@ -5,6 +5,7 @@ using MiWebApi.Entidades;
 namespace MiWebApi.Controllers
 {
     [Route("api/laptops")]
+    [ApiController]
     public class LaptopController : ControllerBase
     {
         private readonly AplicationDbContext context;
@@ -17,12 +18,28 @@ namespace MiWebApi.Controllers
         [HttpGet]
         public async Task<List<Laptop>> Get()
         {
+            //await Task.Delay(2000); 
             return await context.Laptop.ToListAsync();
+        }
+
+        [HttpGet("{nombre}/existe")]
+        public async Task<ActionResult<bool>> ExisteNombre(string nombre, int id)
+        {
+            //await Task.Delay(3000);
+            if (id == 0) 
+            {
+                return await context.Laptop.AnyAsync(x => x.Nombre == nombre);
+            }
+            else
+            {
+                return await context.Laptop.AnyAsync(x => x.Nombre == nombre && x.Id != id);
+            }
         }
 
         [HttpGet("{id:int}", Name = "ObtenerLaptopPorId")]
         public async Task<ActionResult<Laptop>> Get(int id)
         {
+            //await Task.Delay(2000);
             var laptop = await context.Laptop.FirstOrDefaultAsync(x => x.Id == id);
             if (laptop is null)
             {
@@ -32,21 +49,41 @@ namespace MiWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<CreatedAtRouteResult> Post([FromBody] Laptop laptop)
+        public async Task<IActionResult> Post([FromBody] Laptop laptop)
         {
+
+            var yaExisteNombre = await context.Laptop.AnyAsync(x => x.Nombre == laptop.Nombre);
+
+            if (yaExisteNombre)
+            {
+                var mensajeError = $"Ya existe una laptop con el nombre {laptop.Nombre}";
+                ModelState.AddModelError(nameof(laptop.Nombre), mensajeError);
+                return ValidationProblem(ModelState);
+            }
+
             context.Add(laptop);
             await context.SaveChangesAsync();
             return CreatedAtRoute("ObtenerLaptopPorId", new { id = laptop.Id }, laptop);
         }
 
-        [HttpPut]
+        [HttpPut("{id:int}")]
         public async Task<ActionResult> Put(int id, [FromBody] Laptop laptop)
         {
-            var exixteLaptop = await context.Laptop.AnyAsync(x => x.Id == id);
-            if (!exixteLaptop)
+            var existeLaptop = await context.Laptop.AnyAsync(x => x.Id == id);
+            if (!existeLaptop)
             {
                 return NotFound();
             }
+
+            var existeNombre = await context.Laptop.AnyAsync(x => x.Nombre == laptop.Nombre && x.Id != id);
+            if (existeNombre)
+            {
+                var mensajeError = $"Ya existe una laptop con el nombre {laptop.Nombre}";
+                ModelState.AddModelError(nameof(laptop.Nombre), mensajeError);
+                return ValidationProblem(ModelState);
+            }
+
+            laptop.Id = id;
             context.Update(laptop);
             await context.SaveChangesAsync();
             return NoContent();

@@ -1,0 +1,16 @@
+<p>formulario-producto works!</p>
+<p>{{titulo}}</p>
+<form (submit)="guardarCambios()" [formGroup]="form">
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input type="text" formControlName="nombre" matInput>
+        <mat-error>{{ObtenerErroresNombre()}}</mat-error>
+        @if(form.get('nombre')?.pending){
+            <mat-spinner matSuffix [diameter]="16" style="margin: 8%;"></mat-spinner>
+        }
+    </mat-form-field>
+    <div>
+        <button type="submit" mat-flat-button [disabled]="form.invalid || form.pending">Guardar Cambios</button>
+        <a mat-stroked-button routerLink="/productos">Cancelar</a>
+    </div>
+</form>
