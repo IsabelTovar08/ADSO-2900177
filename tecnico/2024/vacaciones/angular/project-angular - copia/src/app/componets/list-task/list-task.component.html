@@ -1,0 +1,24 @@
+<h4 class="number_task">
+    Número de Tareas: {{this.tareaas?.length}}
+</h4>
+
+
+
+<div class="container_task">
+       
+    <span [ngStyle]="{'color': 'white'}" *ngIf="tareaas?.length === 0">
+        No hay tareas
+    </span>
+    
+    @for (tarea of tareaas; track $index) {
+        <div class="task">
+            <small>{{tarea.nombre}}</small>
+            <a routerLink="/editar/{{tarea.id}}" > <mat-icon>edit</mat-icon>  </a>
+            <input class="task_check" type="checkbox" [checked]="tarea.completada" 
+            [swal]="{title: 'Confirmación', text: tarea.completada ? '¿Estás seguro de que quieres desmarcar esta tarea como terminada?' : '¿Estás seguro de que quieres marcar esta tarea como terminada?', showCancelButton: true}" (confirm)="TareaCompletada(tarea)">
+            <button class="task_delete"
+            [swal]="{title: 'Confirmación', text: '¿Deseas eliminar este registro?', showCancelButton: true}" (confirm)="EliminarTarea(tarea.id)"
+            >Eliminar</button>
+        </div>
+    }
+</div>

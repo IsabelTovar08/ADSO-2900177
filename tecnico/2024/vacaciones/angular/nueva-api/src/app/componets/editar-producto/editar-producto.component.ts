@@ -18,6 +18,7 @@ export class EditarProductoComponent implements OnInit {
 
   
   constructor(private laptopService: LaptopService, private router: Router) { }
+  
   ngOnInit(): void {
     this.laptopService.ObtenerPorId(this.id).subscribe(laptop => {
       this.modelo = laptop;
