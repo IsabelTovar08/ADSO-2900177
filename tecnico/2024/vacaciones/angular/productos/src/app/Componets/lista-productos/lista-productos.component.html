@@ -1,27 +1,21 @@
 <p>lista de Productos</p>
 <a mat-flat-button routerLink="/CrearProductos">Crear producto</a>
 <div class="container-card">
-    
-      @for (producto of productos; track $index) {
-        <mat-card appearance="outlined" class="card">
-            <mat-card-content>
-                <h1>{{producto.nombre}} 
-                    <a routerLink="/EditarProducto/{{producto.id}}">
-                        <mat-icon class="icon-edit">edit</mat-icon>
-                        
 
-                    </a>
+    @for (producto of productos; track $index) {
+    <mat-card appearance="outlined" class="card">
+        <mat-card-content>
+            <h1>{{producto.nombre}}
+                <a routerLink="/EditarProducto/{{producto.id}}"><mat-icon class="icon-edit">edit</mat-icon></a>
+                <span [swal]="{title: 'Confirmación', text: '¿Deseas eliminar este registro?', showCancelButton: true}" (confirm)="eliminar(producto.id)">
                     <mat-icon class="icon-edit">delete</mat-icon>
-                    
-                </h1>
-                <div [swal]="{title: 'Confirmación', text: '¿Deseas eliminar este registro?', showCancelButton: true}" >
 
-                    </div>
-                <p>precio: ${{producto.precio }}.00</p>
-                <p>descripcion: {{producto.descripcion }}</p>
-                <p>stock: {{producto.stock }}</p>
-            </mat-card-content>
-          </mat-card>
-      }
+                </span>
+            </h1>
+            <p>precio: ${{producto.precio }}.00</p>
+            <p>descripcion: {{producto.descripcion }}</p>
+            <p>stock: {{producto.stock }}</p>
+        </mat-card-content>
+    </mat-card>
+    }
 </div>
-  

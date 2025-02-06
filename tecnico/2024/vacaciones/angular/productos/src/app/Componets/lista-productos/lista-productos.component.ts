@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-lista-productos',
-  standalone: true,
+  // standalone: true,
   imports: [MatToolbarModule, MatIconModule, MatButtonModule, RouterLink, MatCardModule, RouterLink, SweetAlert2Module],
   templateUrl: './lista-productos.component.html',
   styleUrl: './lista-productos.component.css'

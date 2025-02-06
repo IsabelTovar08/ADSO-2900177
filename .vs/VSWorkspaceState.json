@@ -5,7 +5,10 @@
     "\\tecnico\\2024",
     "\\tecnico\\2024\\vacaciones",
     "\\tecnico\\2024\\vacaciones\\c#",
-    "\\tecnico\\2024\\vacaciones\\c#\\Tareas"
+    "\\tecnico\\2024\\vacaciones\\c#\\productos",
+    "\\tecnico\\2024\\vacaciones\\c#\\productos\\productos",
+    "\\tecnico\\2024\\vacaciones\\c#\\productos\\productos\\Controllers"
   ],
+  "SelectedNode": "\\tecnico\\2024\\vacaciones\\c#\\productos\\productos\\Controllers\\ProductosController.cs",
   "PreviewInSolutionExplorer": false
 }
