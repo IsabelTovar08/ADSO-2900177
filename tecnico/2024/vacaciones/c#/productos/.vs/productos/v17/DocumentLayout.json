@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\c#\\productos\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\Productos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{124F15F9-2A40-4F04-8D42-06CC435D214D}|productos\\productos.csproj|c:\\users\\usuario\\c#\\productos\\productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{124F15F9-2A40-4F04-8D42-06CC435D214D}|productos\\productos.csproj|solutionrelative:productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\migrations\\20250205160205_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\migrations\\20250205160205_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\entidadess\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\entidadess\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|c:\\users\\usuario\\source\\repos\\productos\\productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA97D2A-4419-4239-9B0F-B0BC86F2D4E5}|Productos\\Productos.csproj|solutionrelative:productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250205160205_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Migrations\\20250205160205_Producto.cs",
+              "RelativeDocumentMoniker": "Productos\\Migrations\\20250205160205_Producto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Migrations\\20250205160205_Producto.cs",
+              "RelativeToolTip": "Productos\\Migrations\\20250205160205_Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T16:02:05.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Productos\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\appsettings.Development.json",
+              "RelativeToolTip": "Productos\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T15:59:20.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "productos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Entidadess\\productos.cs",
+              "RelativeDocumentMoniker": "Productos\\Entidadess\\productos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Entidadess\\productos.cs",
+              "RelativeToolTip": "Productos\\Entidadess\\productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T15:56:03.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\productos\\productos\\Program.cs",
-              "RelativeDocumentMoniker": "productos\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\c#\\productos\\productos\\Program.cs",
-              "RelativeToolTip": "productos\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvywAAAAMAAAAAAAAAA==",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Productos\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Productos\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwC0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T01:10:16.82Z",
+              "WhenOpened": "2025-02-05T15:52:42.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Productos\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\AplicationDbContext.cs",
+              "RelativeToolTip": "Productos\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T15:37:45.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Program.cs",
+              "RelativeDocumentMoniker": "Productos\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Productos\\Productos\\Program.cs",
+              "RelativeToolTip": "Productos\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:49:48.446Z",
               "EditorCaption": ""
             }
           ]
