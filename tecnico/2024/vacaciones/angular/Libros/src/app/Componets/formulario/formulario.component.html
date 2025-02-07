@@ -1,0 +1,28 @@
+<h1>{{titulo}}</h1>
+<form action [formGroup]="form" (submit)="guardarCambios()">
+    <div>
+        <mat-form-field>
+            <mat-label>Titilo</mat-label>
+            <input type="text" matInput formControlName="titulo">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field>
+            <mat-label>Autor</mat-label>
+            <input type="text" matInput formControlName="autor">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Fecha de Publicación</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="fechaPublicacion">
+            <mat-hint>DD/MM/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix
+                [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    </div>
+    <div>
+        <button mat-flat-button type="submit">Crear Libro</button>
+    </div>
+</form>
