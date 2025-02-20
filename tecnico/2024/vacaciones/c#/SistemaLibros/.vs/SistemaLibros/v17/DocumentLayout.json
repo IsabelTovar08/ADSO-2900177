@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Migrations\\20250206153338_Libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaLibros\\Migrations\\20250206153338_Libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "SistemaLibros\\Controllers\\LibroController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
               "RelativeToolTip": "SistemaLibros\\Controllers\\LibroController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T15:35:34.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "20250206153338_Libros.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Migrations\\20250206153338_Libros.cs",
               "RelativeDocumentMoniker": "SistemaLibros\\Migrations\\20250206153338_Libros.cs",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "SistemaLibros\\Migrations\\20250206153338_Libros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:33:39.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:33:39.071Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "SistemaLibros\\ApplicationDbContext.cs",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "SistemaLibros\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:06:36.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:06:36.784Z"
             },
             {
               "$type": "Document",
