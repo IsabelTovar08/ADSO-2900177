@@ -10,12 +10,16 @@
             this.Nombre = nombre;
             this.Edad = edad;
         }
+
         public abstract double CalcularSalario();
+
         public void MostrarDetalle()
         {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}.");
         }
+
     }
+
     public interface IEmpleadoBeneficios
     {
         double CalcularBeneficio();
