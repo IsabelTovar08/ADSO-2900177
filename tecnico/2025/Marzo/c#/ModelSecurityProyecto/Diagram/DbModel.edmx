@@ -23,9 +23,9 @@
             <End Role="Person" EntitySet="People" />
           </AssociationSet>
           <EntitySet Name="UserRoles" EntityType="DbModel.UserRole" />
-          <EntitySet Name="RoleModulePermissioSet" EntityType="DbModel.RoleModulePermissio" />
+          <EntitySet Name="RoleFormPermissioSet" EntityType="DbModel.RoleFormPermissio" />
           <AssociationSet Name="RoleModuleRole" Association="DbModel.RoleModuleRole">
-            <End Role="RoleModule" EntitySet="RoleModulePermissioSet" />
+            <End Role="RoleModule" EntitySet="RoleFormPermissioSet" />
             <End Role="Role" EntitySet="Roles" />
           </AssociationSet>
           <AssociationSet Name="UserRoleRole" Association="DbModel.UserRoleRole">
@@ -38,7 +38,7 @@
           </AssociationSet>
           <EntitySet Name="Permits" EntityType="DbModel.Permission" />
           <AssociationSet Name="RoleModulePermission" Association="DbModel.RoleModulePermission">
-            <End Role="RoleModule" EntitySet="RoleModulePermissioSet" />
+            <End Role="RoleModule" EntitySet="RoleFormPermissioSet" />
             <End Role="Permission" EntitySet="Permits" />
           </AssociationSet>
           <EntitySet Name="FormsModules" EntityType="DbModel.FormModule" />
@@ -51,20 +51,6 @@
             <End Role="Module" EntitySet="Models" />
           </AssociationSet>
           <EntitySet Name="AuditLogSet" EntityType="DbModel.AuditLog" />
-          <AssociationSet Name="RoleModulePermissioFormModule" Association="DbModel.RoleModulePermissioFormModule">
-            <End Role="RoleModulePermissio" EntitySet="RoleModulePermissioSet" />
-            <End Role="FormModule" EntitySet="FormsModules" />
-          </AssociationSet>
-          <EntitySet Name="DocumentTypes" EntityType="DbModel.DocumentType" />
-          <AssociationSet Name="PersonDocumentType" Association="DbModel.PersonDocumentType">
-            <End Role="Person" EntitySet="People" />
-            <End Role="DocumentType" EntitySet="DocumentTypes" />
-          </AssociationSet>
-          <EntitySet Name="BloodTypes" EntityType="DbModel.BloodType" />
-          <AssociationSet Name="PersonBloodType" Association="DbModel.PersonBloodType">
-            <End Role="Person" EntitySet="People" />
-            <End Role="BloodType" EntitySet="BloodTypes" />
-          </AssociationSet>
           <EntitySet Name="Departments" EntityType="DbModel.Department" />
           <EntitySet Name="Citys" EntityType="DbModel.City" />
           <AssociationSet Name="DepartmentCity" Association="DbModel.DepartmentCity">
@@ -81,34 +67,53 @@
             <End Role="Person" EntitySet="People" />
           </AssociationSet>
           <EntitySet Name="Organizations" EntityType="DbModel.Organization" />
-          <EntitySet Name="CategorysOrganization" EntityType="DbModel.CategoryOrganization" />
-          <AssociationSet Name="OrganizationCategoryOrganization" Association="DbModel.OrganizationCategoryOrganization">
-            <End Role="Organization" EntitySet="Organizations" />
-            <End Role="CategoryOrganization" EntitySet="CategorysOrganization" />
-          </AssociationSet>
-          <EntitySet Name="Profiles" EntityType="DbModel.Profile" />
-          <EntitySet Name="ProfilesCategoryOrganization" EntityType="DbModel.ProfileOrganization" />
-          <AssociationSet Name="ProfileCategoryOrganizationProfile" Association="DbModel.ProfileCategoryOrganizationProfile">
-            <End Role="ProfileCategoryOrganization" EntitySet="ProfilesCategoryOrganization" />
-            <End Role="Profile" EntitySet="Profiles" />
-          </AssociationSet>
-          <AssociationSet Name="ProfileCategoryOrganizationCategoryOrganization" Association="DbModel.ProfileCategoryOrganizationCategoryOrganization">
-            <End Role="ProfileCategoryOrganization" EntitySet="ProfilesCategoryOrganization" />
-            <End Role="CategoryOrganization" EntitySet="CategorysOrganization" />
-          </AssociationSet>
           <EntitySet Name="OrganizationDivisions" EntityType="DbModel.Division" />
-          <AssociationSet Name="OrganizationDivisioOrganization" Association="DbModel.OrganizationDivisioOrganization">
-            <End Role="OrganizationDivisio" EntitySet="OrganizationDivisions" />
-            <End Role="Organization" EntitySet="Organizations" />
-          </AssociationSet>
           <EntitySet Name="Assignments" EntityType="DbModel.Assignment" />
           <AssociationSet Name="AssignmentOrganizationDivision" Association="DbModel.AssignmentOrganizationDivision">
             <End Role="Assignment" EntitySet="Assignments" />
             <End Role="OrganizationDivision" EntitySet="OrganizationDivisions" />
           </AssociationSet>
-          <AssociationSet Name="CardAssignment" Association="DbModel.CardAssignment">
-            <End Role="Card" EntitySet="Cards" />
+          <AssociationSet Name="PersonAssignment" Association="DbModel.PersonAssignment">
+            <End Role="Person" EntitySet="People" />
             <End Role="Assignment" EntitySet="Assignments" />
+          </AssociationSet>
+          <EntitySet Name="Branchs" EntityType="DbModel.Branch" />
+          <AssociationSet Name="OrganizationBranch" Association="DbModel.OrganizationBranch">
+            <End Role="Organization" EntitySet="Organizations" />
+            <End Role="Branch" EntitySet="Branchs" />
+          </AssociationSet>
+          <EntitySet Name="DivisionsBranchs" EntityType="DbModel.DivisionBranch" />
+          <AssociationSet Name="DivisionBranchDivision" Association="DbModel.DivisionBranchDivision">
+            <End Role="DivisionBranch" EntitySet="DivisionsBranchs" />
+            <End Role="Division" EntitySet="OrganizationDivisions" />
+          </AssociationSet>
+          <AssociationSet Name="DivisionBranchBranch" Association="DbModel.DivisionBranchBranch">
+            <End Role="DivisionBranch" EntitySet="DivisionsBranchs" />
+            <End Role="Branch" EntitySet="Branchs" />
+          </AssociationSet>
+          <EntitySet Name="Events" EntityType="DbModel.Event" />
+          <EntitySet Name="EventsTypes" EntityType="DbModel.EventType" />
+          <EntitySet Name="AccessPoints" EntityType="DbModel.AccessPoint" />
+          <AssociationSet Name="AccessPointEvent" Association="DbModel.AccessPointEvent">
+            <End Role="AccessPoint" EntitySet="AccessPoints" />
+            <End Role="Event" EntitySet="Events" />
+          </AssociationSet>
+          <EntitySet Name="Attendances" EntityType="DbModel.Attendance" />
+          <AssociationSet Name="AttendanceCard" Association="DbModel.AttendanceCard">
+            <End Role="Attendance" EntitySet="Attendances" />
+            <End Role="Card" EntitySet="Cards" />
+          </AssociationSet>
+          <AssociationSet Name="AttendanceAccessPoint" Association="DbModel.AttendanceAccessPoint">
+            <End Role="Attendance" EntitySet="Attendances" />
+            <End Role="AccessPoint" EntitySet="AccessPoints" />
+          </AssociationSet>
+          <AssociationSet Name="EventEventType" Association="DbModel.EventEventType">
+            <End Role="Event" EntitySet="Events" />
+            <End Role="EventType" EntitySet="EventsTypes" />
+          </AssociationSet>
+          <AssociationSet Name="RoleFormPermissioForm" Association="DbModel.RoleFormPermissioForm">
+            <End Role="RoleFormPermissio" EntitySet="RoleFormPermissioSet" />
+            <End Role="Form" EntitySet="Forms" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="Role">
@@ -118,7 +123,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" />
           <Property Name="Description" Type="String" Nullable="false" />
-          <NavigationProperty Name="RoleModule" Relationship="DbModel.RoleModuleRole" FromRole="Role" ToRole="RoleModule" />
+          <NavigationProperty Name="RoleFormPermission" Relationship="DbModel.RoleModuleRole" FromRole="Role" ToRole="RoleModule" />
           <NavigationProperty Name="UserRole" Relationship="DbModel.UserRoleRole" FromRole="Role" ToRole="UserRole" />
         </EntityType>
         <EntityType Name="User">
@@ -144,13 +149,15 @@
           <NavigationProperty Name="User" Relationship="DbModel.UserPerson" FromRole="Person" ToRole="User" />
           <Property Name="SecondLastName" Type="String" Nullable="false" />
           <Property Name="Email" Type="String" Nullable="false" />
-          <NavigationProperty Name="DocumentTypeId" Relationship="DbModel.PersonDocumentType" FromRole="Person" ToRole="DocumentType" />
           <Property Name="DocumentNumber" Type="String" Nullable="false" />
-          <NavigationProperty Name="BloodTypeId" Relationship="DbModel.PersonBloodType" FromRole="Person" ToRole="BloodType" />
           <Property Name="Phone" Type="String" Nullable="false" />
           <NavigationProperty Name="CityId" Relationship="DbModel.PersonCity" FromRole="Person" ToRole="City" />
           <Property Name="Address" Type="String" Nullable="false" />
           <NavigationProperty Name="Card" Relationship="DbModel.CardPerson" FromRole="Person" ToRole="Card" />
+          <Property Name="DocumenType" Type="String" Nullable="false" />
+          <Property Name="BlodType" Type="String" Nullable="false" />
+          <Property Name="Photo" Type="String" Nullable="false" />
+          <NavigationProperty Name="AssignmentId" Relationship="DbModel.PersonAssignment" FromRole="Person" ToRole="Assignment" />
         </EntityType>
         <EntityType Name="Form">
           <Key>
@@ -160,6 +167,7 @@
           <Property Name="Name" Type="String" Nullable="false" />
           <Property Name="Description" Type="String" Nullable="false" />
           <NavigationProperty Name="FormModule" Relationship="DbModel.FormModuleForm" FromRole="Form" ToRole="FormModule" />
+          <NavigationProperty Name="RoleFormPermissio" Relationship="DbModel.RoleFormPermissioForm" FromRole="Form" ToRole="RoleFormPermissio" />
         </EntityType>
         <EntityType Name="Module">
           <Key>
@@ -193,17 +201,17 @@
           <NavigationProperty Name="RoleId" Relationship="DbModel.UserRoleRole" FromRole="UserRole" ToRole="Role" />
           <NavigationProperty Name="UserId" Relationship="DbModel.UserRoleUser" FromRole="UserRole" ToRole="User" />
         </EntityType>
-        <EntityType Name="RoleModulePermissio">
+        <EntityType Name="RoleFormPermissio">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <NavigationProperty Name="RoleId" Relationship="DbModel.RoleModuleRole" FromRole="RoleModule" ToRole="Role" />
           <NavigationProperty Name="PermissionId" Relationship="DbModel.RoleModulePermission" FromRole="RoleModule" ToRole="Permission" />
-          <NavigationProperty Name="FormModule" Relationship="DbModel.RoleModulePermissioFormModule" FromRole="RoleModulePermissio" ToRole="FormModule" />
+          <NavigationProperty Name="FormId" Relationship="DbModel.RoleFormPermissioForm" FromRole="RoleFormPermissio" ToRole="Form" />
         </EntityType>
         <Association Name="RoleModuleRole">
-          <End Type="DbModel.RoleModulePermissio" Role="RoleModule" Multiplicity="*" />
+          <End Type="DbModel.RoleFormPermissio" Role="RoleModule" Multiplicity="*" />
           <End Type="DbModel.Role" Role="Role" Multiplicity="1" />
         </Association>
         <Association Name="UserRoleRole">
@@ -223,7 +231,7 @@
           <NavigationProperty Name="RoleModule" Relationship="DbModel.RoleModulePermission" FromRole="Permission" ToRole="RoleModule" />
         </EntityType>
         <Association Name="RoleModulePermission">
-          <End Type="DbModel.RoleModulePermissio" Role="RoleModule" Multiplicity="*" />
+          <End Type="DbModel.RoleFormPermissio" Role="RoleModule" Multiplicity="*" />
           <End Type="DbModel.Permission" Role="Permission" Multiplicity="1" />
         </Association>
         <EntityType Name="FormModule">
@@ -233,7 +241,6 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <NavigationProperty Name="Form" Relationship="DbModel.FormModuleForm" FromRole="FormModule" ToRole="Form" />
           <NavigationProperty Name="Module" Relationship="DbModel.FormModuleModule" FromRole="FormModule" ToRole="Module" />
-          <NavigationProperty Name="RoleModulePermissio" Relationship="DbModel.RoleModulePermissioFormModule" FromRole="FormModule" ToRole="RoleModulePermissio" />
         </EntityType>
         <Association Name="FormModuleForm">
           <End Type="DbModel.FormModule" Role="FormModule" Multiplicity="*" />
@@ -243,37 +250,9 @@
           <End Type="DbModel.FormModule" Role="FormModule" Multiplicity="*" />
           <End Type="DbModel.Module" Role="Module" Multiplicity="1" />
         </Association>
-        <Association Name="RoleModulePermissioFormModule">
-          <End Type="DbModel.RoleModulePermissio" Role="RoleModulePermissio" Multiplicity="*" />
-          <End Type="DbModel.FormModule" Role="FormModule" Multiplicity="1" />
-        </Association>
         <ComplexType Name="ComplexType1">
           <Property Type="String" Name="MiddleName" Nullable="false" />
         </ComplexType>
-        <EntityType Name="DocumentType">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" Nullable="false" />
-          <NavigationProperty Name="Person" Relationship="DbModel.PersonDocumentType" FromRole="DocumentType" ToRole="Person" />
-        </EntityType>
-        <Association Name="PersonDocumentType">
-          <End Type="DbModel.Person" Role="Person" Multiplicity="*" />
-          <End Type="DbModel.DocumentType" Role="DocumentType" Multiplicity="1" />
-        </Association>
-        <EntityType Name="BloodType">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" Nullable="false" />
-          <NavigationProperty Name="Person" Relationship="DbModel.PersonBloodType" FromRole="BloodType" ToRole="Person" />
-        </EntityType>
-        <Association Name="PersonBloodType">
-          <End Type="DbModel.Person" Role="Person" Multiplicity="*" />
-          <End Type="DbModel.BloodType" Role="BloodType" Multiplicity="1" />
-        </Association>
         <EntityType Name="Department">
           <Key>
             <PropertyRef Name="Id" />
@@ -314,11 +293,11 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <NavigationProperty Name="PersonId" Relationship="DbModel.CardPerson" FromRole="Card" ToRole="Person" />
           <Property Name="QR" Type="String" Nullable="false" />
-          <Property Name="Photo" Type="String" Nullable="false" />
           <Property Name="Status" Type="Boolean" Nullable="false" />
           <Property Name="ExpirationDate" Type="DateTime" Nullable="false" />
           <Property Name="CreationDate" Type="DateTime" Nullable="false" />
-          <NavigationProperty Name="AssignmentId" Relationship="DbModel.CardAssignment" FromRole="Card" ToRole="Assignment" />
+          <NavigationProperty Name="Attendance" Relationship="DbModel.AttendanceCard" FromRole="Card" ToRole="Attendance" />
+          <Property Name="AttendanceId" Type="Int32" Nullable="false" />
         </EntityType>
         <Association Name="CardPerson">
           <End Type="DbModel.Card" Role="Card" Multiplicity="1" />
@@ -332,67 +311,17 @@
           <Property Name="Name" Type="String" Nullable="false" />
           <Property Name="Phone" Type="String" Nullable="false" />
           <Property Name="Address" Type="String" Nullable="false" />
-          <NavigationProperty Name="CategoryOrganizationId" Relationship="DbModel.OrganizationCategoryOrganization" FromRole="Organization" ToRole="CategoryOrganization" />
-          <NavigationProperty Name="OrganizationDivisio" Relationship="DbModel.OrganizationDivisioOrganization" FromRole="Organization" ToRole="OrganizationDivisio" />
+          <NavigationProperty Name="BranchId" Relationship="DbModel.OrganizationBranch" FromRole="Organization" ToRole="Branch" />
         </EntityType>
-        <EntityType Name="CategoryOrganization">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" Nullable="false" />
-          <NavigationProperty Name="Organization" Relationship="DbModel.OrganizationCategoryOrganization" FromRole="CategoryOrganization" ToRole="Organization" />
-          <NavigationProperty Name="ProfileCategoryOrganization" Relationship="DbModel.ProfileCategoryOrganizationCategoryOrganization" FromRole="CategoryOrganization" ToRole="ProfileCategoryOrganization" />
-        </EntityType>
-        <Association Name="OrganizationCategoryOrganization">
-          <End Type="DbModel.Organization" Role="Organization" Multiplicity="*" />
-          <End Type="DbModel.CategoryOrganization" Role="CategoryOrganization" Multiplicity="1" />
-        </Association>
-        <EntityType Name="Profile">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" Nullable="false" />
-          <NavigationProperty Name="ProfileCategoryOrganization" Relationship="DbModel.ProfileCategoryOrganizationProfile" FromRole="Profile" ToRole="ProfileCategoryOrganization" />
-        </EntityType>
-        <EntityType Name="ProfileOrganization">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <NavigationProperty Name="ProfileId" Relationship="DbModel.ProfileCategoryOrganizationProfile" FromRole="ProfileCategoryOrganization" ToRole="Profile" />
-          <NavigationProperty Name="CategoryOrganizationId" Relationship="DbModel.ProfileCategoryOrganizationCategoryOrganization" FromRole="ProfileCategoryOrganization" ToRole="CategoryOrganization" />
-        </EntityType>
-        <Association Name="ProfileCategoryOrganizationProfile">
-          <End Type="DbModel.ProfileOrganization" Role="ProfileCategoryOrganization" Multiplicity="*" />
-          <End Type="DbModel.Profile" Role="Profile" Multiplicity="1" />
-          <ReferentialConstraint>
-            <Principal Role="ProfileCategoryOrganization">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="Profile">
-              <PropertyRef Name="ProfileCategoryOrganizationId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="ProfileCategoryOrganizationCategoryOrganization">
-          <End Type="DbModel.ProfileOrganization" Role="ProfileCategoryOrganization" Multiplicity="*" />
-          <End Type="DbModel.CategoryOrganization" Role="CategoryOrganization" Multiplicity="1" />
-        </Association>
         <EntityType Name="Division">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" />
-          <NavigationProperty Name="OrganizationId" Relationship="DbModel.OrganizationDivisioOrganization" FromRole="OrganizationDivisio" ToRole="Organization" />
           <NavigationProperty Name="Assignment" Relationship="DbModel.AssignmentOrganizationDivision" FromRole="OrganizationDivision" ToRole="Assignment" />
+          <NavigationProperty Name="DivisionBranch" Relationship="DbModel.DivisionBranchDivision" FromRole="Division" ToRole="DivisionBranch" />
         </EntityType>
-        <Association Name="OrganizationDivisioOrganization">
-          <End Type="DbModel.Division" Role="OrganizationDivisio" Multiplicity="*" />
-          <End Type="DbModel.Organization" Role="Organization" Multiplicity="1" />
-        </Association>
         <EntityType Name="Assignment">
           <Key>
             <PropertyRef Name="Id" />
@@ -400,15 +329,121 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" />
           <NavigationProperty Name="DivisionId" Relationship="DbModel.AssignmentOrganizationDivision" FromRole="Assignment" ToRole="OrganizationDivision" />
-          <NavigationProperty Name="Card" Relationship="DbModel.CardAssignment" FromRole="Assignment" ToRole="Card" />
+          <NavigationProperty Name="Person" Relationship="DbModel.PersonAssignment" FromRole="Assignment" ToRole="Person" />
         </EntityType>
         <Association Name="AssignmentOrganizationDivision">
           <End Type="DbModel.Assignment" Role="Assignment" Multiplicity="*" />
           <End Type="DbModel.Division" Role="OrganizationDivision" Multiplicity="1" />
         </Association>
-        <Association Name="CardAssignment">
-          <End Type="DbModel.Card" Role="Card" Multiplicity="*" />
+        <Association Name="PersonAssignment">
+          <End Type="DbModel.Person" Role="Person" Multiplicity="*" />
           <End Type="DbModel.Assignment" Role="Assignment" Multiplicity="1" />
+        </Association>
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="location" Type="String" Nullable="false" />
+          <NavigationProperty Name="Organization" Relationship="DbModel.OrganizationBranch" FromRole="Branch" ToRole="Organization" />
+          <Property Name="OrganizationId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="DivisionBranch" Relationship="DbModel.DivisionBranchBranch" FromRole="Branch" ToRole="DivisionBranch" />
+        </EntityType>
+        <Association Name="OrganizationBranch">
+          <End Type="DbModel.Organization" Role="Organization" Multiplicity="1" />
+          <End Type="DbModel.Branch" Role="Branch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Branch">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="DivisionBranch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="DivisionId" Relationship="DbModel.DivisionBranchDivision" FromRole="DivisionBranch" ToRole="Division" />
+          <NavigationProperty Name="BranchId" Relationship="DbModel.DivisionBranchBranch" FromRole="DivisionBranch" ToRole="Branch" />
+        </EntityType>
+        <Association Name="DivisionBranchDivision">
+          <End Type="DbModel.DivisionBranch" Role="DivisionBranch" Multiplicity="*" />
+          <End Type="DbModel.Division" Role="Division" Multiplicity="1" />
+        </Association>
+        <Association Name="DivisionBranchBranch">
+          <End Type="DbModel.DivisionBranch" Role="DivisionBranch" Multiplicity="*" />
+          <End Type="DbModel.Branch" Role="Branch" Multiplicity="1" />
+        </Association>
+        <EntityType Name="Event">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="AccessPoint" Relationship="DbModel.AccessPointEvent" FromRole="Event" ToRole="AccessPoint" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="EventTypeId" Relationship="DbModel.EventEventType" FromRole="Event" ToRole="EventType" />
+          <Property Name="Name" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EventType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Event" Relationship="DbModel.EventEventType" FromRole="EventType" ToRole="Event" />
+        </EntityType>
+        <EntityType Name="AccessPoint">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" Nullable="false" />
+          <NavigationProperty Name="EventId" Relationship="DbModel.AccessPointEvent" FromRole="AccessPoint" ToRole="Event" />
+          <NavigationProperty Name="Attendance" Relationship="DbModel.AttendanceAccessPoint" FromRole="AccessPoint" ToRole="Attendance" />
+          <Property Name="Name" Type="String" Nullable="false" />
+        </EntityType>
+        <Association Name="AccessPointEvent">
+          <End Type="DbModel.AccessPoint" Role="AccessPoint" Multiplicity="*" />
+          <End Type="DbModel.Event" Role="Event" Multiplicity="1" />
+        </Association>
+        <EntityType Name="Attendance">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="CardId" Relationship="DbModel.AttendanceCard" FromRole="Attendance" ToRole="Card" />
+          <NavigationProperty Name="AccessPointId" Relationship="DbModel.AttendanceAccessPoint" FromRole="Attendance" ToRole="AccessPoint" />
+          <Property Name="Hour" Type="DateTime" Nullable="false" />
+          <Property Name="TypeOfRecord" Type="String" Nullable="false" />
+        </EntityType>
+        <Association Name="AttendanceCard">
+          <End Type="DbModel.Attendance" Role="Attendance" Multiplicity="1" />
+          <End Type="DbModel.Card" Role="Card" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Attendance">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Card">
+              <PropertyRef Name="AttendanceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AttendanceAccessPoint">
+          <End Type="DbModel.Attendance" Role="Attendance" Multiplicity="*" />
+          <End Type="DbModel.AccessPoint" Role="AccessPoint" Multiplicity="1" />
+        </Association>
+        <Association Name="EventEventType">
+          <End Type="DbModel.Event" Role="Event" Multiplicity="*" />
+          <End Type="DbModel.EventType" Role="EventType" Multiplicity="1" />
+        </Association>
+        <Association Name="RoleFormPermissioForm">
+          <End Type="DbModel.RoleFormPermissio" Role="RoleFormPermissio" Multiplicity="*" />
+          <End Type="DbModel.Form" Role="Form" Multiplicity="1" />
         </Association>
       </Schema>
     </edmx:ConceptualModels>

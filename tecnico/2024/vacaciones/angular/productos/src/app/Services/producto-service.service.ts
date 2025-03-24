@@ -13,7 +13,13 @@ export class ProductoServiceService {
 
   private http = inject(HttpClient);
   private url = environment.url + '/api/productos';
+  private urlPruebaSigec = environment.url ;
 
+
+
+  public ObtenerTodo(entidad: string){
+    return this.http.get<any>(`${this.urlPruebaSigec}${entidad}/select`);
+  }
 
   public ObteberClima(){
     return this.http.get<any>(this.url);

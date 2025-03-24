@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Model
 {
-    internal class User
+    public class User
     {
         public int Id { get; set; }
         public string Username { get; set; }
@@ -16,6 +16,6 @@ namespace Entity.Model
 
         public virtual Person Person { get; set; }
 
-        public virtual ICollection<UserRole> UserRoles { get; set; }
+        public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
 }

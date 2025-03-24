@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entity.Model
 {
-    internal class Permission
+    public class Permission
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public ICollection<RoleFormPermission> RoleFormPermissions { get; set; } = new List<RoleFormPermission>();
     }
 }

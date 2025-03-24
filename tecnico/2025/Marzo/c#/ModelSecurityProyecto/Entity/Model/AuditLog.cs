@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Model
 {
-    internal class AuditLog
+    public class AuditLog
     {
         public int Id { get; set; }
         public string TableName { get; set; }

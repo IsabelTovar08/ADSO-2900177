@@ -2,8 +2,8 @@
 <a mat-flat-button routerLink="/CrearProductos">Crear producto</a>
 <div class="container-card">
 
-    @for (producto of productos; track $index) {
-    <mat-card appearance="outlined" class="card">
+    <!-- @for (producto of productos; track $index) {
+    <mat-card appearance="outlined" class="card" >
         <mat-card-content>
             <h1>{{producto.nombre}}
                 <a routerLink="/EditarProducto/{{producto.id}}"><mat-icon class="icon-edit">edit</mat-icon></a>
@@ -17,5 +17,21 @@
             <p>stock: {{producto.stock }}</p>
         </mat-card-content>
     </mat-card>
-    }
+    } -->
+
+    @for (banco of bancos; track $index) {
+        <mat-card appearance="outlined" class="card" >
+            <mat-card-content>
+                <h1>{{banco.nombre}}
+                    <a (click)="mostrarTextoFuncion()"><mat-icon class="icon-edit">edit</mat-icon></a>
+                    <!-- <span [swal]="{title: 'Confirmación', text: '¿Deseas eliminar este registro?', showCancelButton: true}" (confirm)="eliminar(producto.id)"> -->
+                        <mat-icon class="icon-edit">delete</mat-icon>
+    
+                    <!-- </span> -->
+                </h1>
+                <p>precio: ${{banco.codigo }}.00</p>
+                <p *ngIf="mostrarTexto">A la mano</p>
+            </mat-card-content>
+        </mat-card>
+        }
 </div>
