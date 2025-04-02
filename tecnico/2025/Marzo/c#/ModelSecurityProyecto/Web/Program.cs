@@ -1,4 +1,9 @@
 
+using Business;
+using Data;
+using Entity.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace Web
 {
     public class Program
@@ -13,6 +18,32 @@ namespace Web
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            builder.Services.AddScoped<FormBusiness>();
+            builder.Services.AddScoped<FormData>();
+
+            builder.Services.AddScoped<ModuleBusiness>();
+            builder.Services.AddScoped<ModuleData>();
+
+            builder.Services.AddScoped<RolBusiness>();
+            builder.Services.AddScoped<RolData>();
+
+
+            builder.Services.AddScoped<PermissionBusiness>();
+            builder.Services.AddScoped<PermissionData>();
+
+
+            builder.Services.AddScoped<UserBusiness>();
+            builder.Services.AddScoped<UserData>();
+
+
+            builder.Services.AddScoped<PersonBusiness>();
+            builder.Services.AddScoped<PersonData>();
+
+
+            builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones
+.UseSqlServer("name=DefaultConnection"));
 
             var app = builder.Build();
 

@@ -14,9 +14,9 @@ namespace Business
     public class PersonBusiness
     {
         private readonly PersonData _personData;
-        private readonly ILogger _logger;
+        private readonly ILogger<PersonBusiness> _logger;
 
-        public PersonBusiness(PersonData personData, ILogger logger)
+        public PersonBusiness(PersonData personData, ILogger<PersonBusiness> logger)
         {
             _personData = personData;
             _logger = logger;
@@ -27,28 +27,7 @@ namespace Business
             try
             {
                 var people = await _personData.GetAllAsync();
-                var peopleDTO = new List<PersonDTO>();
-
-                foreach (var person in people)
-                {
-                    peopleDTO.Add(new PersonDTO
-                    {
-                        Id = person.Id,
-                        FirstName = person.FirstName,
-                        MiddleName = person.MiddleName,
-                        LastName = person.LastName,
-                        SecondLastName = person.SecondLastName,
-                        DocumentType = person.DocumentType,
-                        DocumentNumber = person.DocumentNumber,
-                        Email = person.Email,
-                        PhoneNumber = person.PhoneNumber,
-                        Address = person.Address,
-                        BlodType = person.BlodType,
-                        Photo = person.Photo,
-                        CityId = person.CityId,
-                        AssignmentId = person.AssignmentId
-                    });
-                }
+                var peopleDTO = MapToDTOList(people);
 
                 return peopleDTO;
             }
@@ -74,23 +53,7 @@ namespace Business
                     _logger.LogInformation($"No se encontró ningún person con: {id}");
                     throw new EntityNotFoundException("Person: ", id);
                 }
-                return new PersonDTO
-                {
-                    Id = person.Id,
-                    FirstName = person.FirstName,
-                    MiddleName = person.MiddleName,
-                    LastName = person.LastName,
-                    SecondLastName = person.SecondLastName,
-                    DocumentType = person.DocumentType,
-                    DocumentNumber = person.DocumentNumber,
-                    Email = person.Email,
-                    PhoneNumber = person.PhoneNumber,
-                    Address = person.Address,
-                    BlodType = person.BlodType,
-                    Photo = person.Photo,
-                    CityId = person.CityId,
-                    AssignmentId = person.AssignmentId
-                };
+                return MapToDTO(person);
             }
             catch (Exception ex)
             {
@@ -106,47 +69,126 @@ namespace Business
             {
                 ValidatePerson(personDTO);
 
-                var person = new Person
-                {
-                    FirstName = personDTO.FirstName,
-                    MiddleName = personDTO.MiddleName,
-                    LastName = personDTO.LastName,
-                    SecondLastName = personDTO.SecondLastName,
-                    DocumentType = personDTO.DocumentType,
-                    DocumentNumber = personDTO.DocumentNumber,
-                    Email = personDTO.Email,
-                    PhoneNumber = personDTO.PhoneNumber,
-                    Address = personDTO.Address,
-                    BlodType = personDTO.BlodType,
-                    Photo = personDTO.Photo,
-                    CityId = personDTO.CityId,
-                    AssignmentId = personDTO.AssignmentId
-                };
+                var person = MapToEntity(personDTO);
 
                 var personCreado = await _personData.CreateAsync(person);
 
-                return new PersonDTO
-                {
-                    Id = person.Id,
-                    FirstName = person.FirstName,
-                    MiddleName = person.MiddleName,
-                    LastName = person.LastName,
-                    SecondLastName = person.SecondLastName,
-                    DocumentType = person.DocumentType,
-                    DocumentNumber = person.DocumentNumber,
-                    Email = person.Email,
-                    PhoneNumber = person.PhoneNumber,
-                    Address = person.Address,
-                    BlodType = person.BlodType,
-                    Photo = person.Photo,
-                    CityId = person.CityId,
-                    AssignmentId = person.AssignmentId
-                };
+                return MapToDTO(personCreado);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, $"Error al crear nuevo person: {personDTO?.FirstName ?? "null"}");
                 throw new ExternalServiceException("Base de datos", "Error al crear el person", ex);
+            }
+        }
+
+        /// <summary>
+        /// Actualiza un persona existente.
+        /// </summary>
+        public async Task<PersonDTO> UpdatePersonAsync(PersonDTO personDTO)
+        {
+
+            if (personDTO.Id <= 0)
+            {
+                _logger.LogWarning($"Intento de actualizar una persona con ID inválido: {personDTO.Id}");
+                throw new ValidationException("Id", "El ID del persona debe ser mayor que cero.");
+            }
+
+            try
+            {
+                ValidatePerson(personDTO);
+
+                var existingPerson = await _personData.GetByIdAsync(personDTO.Id);
+                if (existingPerson == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún persona con ID: {personDTO.Id}");
+                    throw new EntityNotFoundException("Rol", personDTO.Id);
+                }
+
+                var personEntity = MapToEntity(personDTO);
+
+                bool updated = await _personData.UpdateAsync(personEntity);
+                if (!updated)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo actualizar la persona.");
+                }
+
+                return MapToDTO(personEntity);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al actualizar el persona con ID: {personDTO.Id}");
+                throw new ExternalServiceException("Base de datos", $"Error al actualizar el persona con ID: {personDTO.Id}", ex);
+            }
+        }
+
+        /// <summary>
+        /// Realiza una eliminación lógica de un persona.
+        /// </summary>
+        public async Task<bool> SoftDeletePersonAsync(int id)
+        {
+            if (id <= 0)
+            {
+                _logger.LogWarning($"Intento de eliminación lógica con ID inválido: {id}");
+                throw new ValidationException("id", "El ID del persona debe ser mayor que cero.");
+            }
+
+            try
+            {
+                var existingPerson = await _personData.GetByIdAsync(id);
+                if (existingPerson == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún persona con ID: {id}");
+                    throw new EntityNotFoundException("Rol", id);
+                }
+
+                bool deleted = await _personData.SoftDeleteAsync(id);
+                if (!deleted)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo realizar la eliminación lógica del persona.");
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al eliminar lógicamente el persona con ID: {id}");
+                throw new ExternalServiceException("Base de datos", $"Error al eliminar lógicamente el persona con ID: {id}", ex);
+            }
+        }
+
+        /// <summary>
+        /// Realiza una eliminación permanente de un persona.
+        /// </summary>
+        public async Task<bool> HardDeletePersonAsync(int id)
+        {
+            if (id <= 0)
+            {
+                _logger.LogWarning($"Intento de eliminación permanente con ID inválido: {id}");
+                throw new ValidationException("id", "El ID del persona debe ser mayor que cero.");
+            }
+
+            try
+            {
+                var existingPerson = await _personData.GetByIdAsync(id);
+                if (existingPerson == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún persona con ID: {id}");
+                    throw new EntityNotFoundException("Rol", id);
+                }
+
+                bool deleted = await _personData.HardDeleteAsync(id);
+                if (!deleted)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo eliminar permanentemente el persona.");
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al eliminar permanentemente el persona con ID: {id}");
+                throw new ExternalServiceException("Base de datos", $"Error al eliminar permanentemente el persona con ID: {id}", ex);
             }
         }
 
@@ -174,15 +216,15 @@ namespace Business
                 MiddleName = person.MiddleName,
                 LastName = person.LastName,
                 SecondLastName = person.SecondLastName,
-                DocumentType = person.DocumentType,
+                //DocumentTypeId = person.DocumentTypeId,
                 DocumentNumber = person.DocumentNumber,
                 Email = person.Email,
                 PhoneNumber = person.PhoneNumber,
                 Address = person.Address,
                 BlodType = person.BlodType,
                 Photo = person.Photo,
-                CityId = person.CityId,
-                AssignmentId = person.AssignmentId
+                //CityId = person.CityId,
+                //AssignmentId = person.AssignmentId
             };
         }
 
@@ -196,15 +238,15 @@ namespace Business
                 MiddleName = personDTO.MiddleName,
                 LastName = personDTO.LastName,
                 SecondLastName = personDTO.SecondLastName,
-                DocumentType = personDTO.DocumentType,
+                //DocumentTypeId = personDTO.DocumentTypeId,
                 DocumentNumber = personDTO.DocumentNumber,
                 Email = personDTO.Email,
                 PhoneNumber = personDTO.PhoneNumber,
                 Address = personDTO.Address,
                 BlodType = personDTO.BlodType,
                 Photo = personDTO.Photo,
-                CityId = personDTO.CityId,
-                AssignmentId = personDTO.AssignmentId
+                //CityId = personDTO.CityId,
+                //AssignmentId = personDTO.AssignmentId
             };
         }
 

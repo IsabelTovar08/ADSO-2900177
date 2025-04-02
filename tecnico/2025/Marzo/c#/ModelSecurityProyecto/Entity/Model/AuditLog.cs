@@ -16,5 +16,7 @@ namespace Entity.Model
         public string NewValue { get; set; }
         public string Action { get; set; }
         public DateTime Timestamp { get; set; }
+
+
     }
 }

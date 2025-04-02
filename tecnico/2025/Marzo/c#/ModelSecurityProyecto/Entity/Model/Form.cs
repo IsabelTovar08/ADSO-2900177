@@ -12,7 +12,9 @@ namespace Entity.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public string Url { get; set; }
+        public bool Status { get; set; }
 
-        public ICollection<FormModule> FormsModule { get; set; } = new List<FormModule>();
+
+        public List<FormModule> FormsModule { get; set; } = new List<FormModule>();
     }
 }

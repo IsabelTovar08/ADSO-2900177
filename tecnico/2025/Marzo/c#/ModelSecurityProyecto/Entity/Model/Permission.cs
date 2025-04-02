@@ -11,7 +11,9 @@ namespace Entity.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public bool Status { get; set; }
 
-        public ICollection<RoleFormPermission> RoleFormPermissions { get; set; } = new List<RoleFormPermission>();
+
+        public List<RoleFormPermission> RoleFormPermissions { get; set; } = new List<RoleFormPermission>();
     }
 }
