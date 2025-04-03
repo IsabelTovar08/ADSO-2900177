@@ -3,119 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\userformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\formmodulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\rolusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\formdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\formdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\formmodulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\formmodulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\formmoduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\formmoduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\userrolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\roleuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\roleuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\model\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\formmodulecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\formmodulecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\model\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\permissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\permissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\AppData\\Local\\Temp\\a5b7e85e-b384-49aa-a7e5-2842df331f42_ADSO-2900177-main.zip.f42\\ADSO-2900177-main\\2025\\Inst_Corredor\\ModelSecurity_Proyecto\\Web\\Controllers\\PermissionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\data\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\business\\rolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\rolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\modelsecurityproyecto\\entity\\model\\formmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\formmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -125,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 402,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,93 +70,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserFormDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\UserFormDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\UserFormDTO.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\UserFormDTO.cs",
-              "RelativeToolTip": "Entity\\DTOs\\UserFormDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:56:27.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\User.cs",
-              "RelativeToolTip": "Entity\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:23:47.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PersonData.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\PersonData.cs",
-              "RelativeDocumentMoniker": "Data\\PersonData.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\PersonData.cs",
-              "RelativeToolTip": "Data\\PersonData.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswNsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:06:12.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Entity\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Entity\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:47:07.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\UserBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\UserBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\UserBusiness.cs",
-              "RelativeToolTip": "Business\\UserBusiness.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:04:55.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "Entity\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:25:13.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\UserData.cs",
-              "RelativeDocumentMoniker": "Data\\UserData.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\UserData.cs",
-              "RelativeToolTip": "Data\\UserData.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCIAAAAqAAAAAAAAAA==",
+              "Title": "RolFormPermissionController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RolFormPermissionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RolFormPermissionController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RolFormPermissionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\RolFormPermissionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:05:15.186Z",
+              "WhenOpened": "2025-04-03T01:50:30.008Z",
               "EditorCaption": ""
             },
             {
@@ -230,282 +89,152 @@
               "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\UserController.cs",
               "RelativeToolTip": "Web\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAtwF4AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:46:03.847Z",
+              "WhenOpened": "2025-04-03T01:50:21.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "ModuleController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\ModuleController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\ModuleController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\ModuleController.cs",
               "RelativeToolTip": "Web\\Controllers\\ModuleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:45:11.526Z",
+              "WhenOpened": "2025-04-03T01:48:48.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Person.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\Person.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Person.cs",
-              "RelativeToolTip": "Entity\\Model\\Person.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:01:39.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PersonBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\PersonBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\PersonBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\PersonBusiness.cs",
-              "RelativeToolTip": "Business\\PersonBusiness.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAD4v/QAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:05:54.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\PersonController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\PersonController.cs",
-              "RelativeToolTip": "Web\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAmwHkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:55:44.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PersonDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\PersonDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\PersonDTO.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\PersonDTO.cs",
-              "RelativeToolTip": "Entity\\DTOs\\PersonDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:11:13.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\PermissionController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "Web\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAmwH4AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:56:58.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\FormController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\FormController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\FormController.cs",
-              "RelativeToolTip": "Web\\Controllers\\FormController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAmwK0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:33:49.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Web\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAmwKYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:45:14.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "RolUserController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RolUserController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\RolUserController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\RolUserController.cs",
               "RelativeToolTip": "Web\\Controllers\\RolUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAswLcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:55:07.59Z",
+              "WhenOpened": "2025-04-03T01:48:30.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
+              "Title": "UserRoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\UserRoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\UserRoleBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\UserRoleBusiness.cs",
+              "RelativeToolTip": "Business\\UserRoleBusiness.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:46:15.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\FormModuleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\FormModuleController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Controllers\\FormModuleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\FormModuleController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAxwJ4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:33:33.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleUserData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\RoleUserData.cs",
+              "RelativeDocumentMoniker": "Data\\RoleUserData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\RoleUserData.cs",
+              "RelativeToolTip": "Data\\RoleUserData.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:43:59.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FormData.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\FormData.cs",
               "RelativeDocumentMoniker": "Data\\FormData.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\FormData.cs",
               "RelativeToolTip": "Data\\FormData.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAiwHkAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAjwJ4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:34:37.223Z",
+              "WhenOpened": "2025-04-03T01:40:31.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\FormBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\FormBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\FormBusiness.cs",
-              "RelativeToolTip": "Business\\FormBusiness.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAlwDQAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "FormModuleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormModuleDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\FormModuleDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormModuleDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\FormModuleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:34:46.675Z",
+              "WhenOpened": "2025-04-03T01:33:57.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Form.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Form.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\Form.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Form.cs",
-              "RelativeToolTip": "Entity\\Model\\Form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:35:41.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FormDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\FormDTO.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormDTO.cs",
-              "RelativeToolTip": "Entity\\DTOs\\FormDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:43:14.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PermissionData.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\PermissionData.cs",
-              "RelativeDocumentMoniker": "Data\\PermissionData.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\PermissionData.cs",
-              "RelativeToolTip": "Data\\PermissionData.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAwwL8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:53:23.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:53:33.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Permission.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\Permission.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\Permission.cs",
-              "RelativeToolTip": "Entity\\Model\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:12:43.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\AppData\\Local\\Temp\\a5b7e85e-b384-49aa-a7e5-2842df331f42_ADSO-2900177-main.zip.f42\\ADSO-2900177-main\\2025\\Inst_Corredor\\ModelSecurity_Proyecto\\Web\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\a5b7e85e-b384-49aa-a7e5-2842df331f42_ADSO-2900177-main.zip.f42\\ADSO-2900177-main\\2025\\Inst_Corredor\\ModelSecurity_Proyecto\\Web\\Controllers\\PermissionController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\AppData\\Local\\Temp\\a5b7e85e-b384-49aa-a7e5-2842df331f42_ADSO-2900177-main.zip.f42\\ADSO-2900177-main\\2025\\Inst_Corredor\\ModelSecurity_Proyecto\\Web\\Controllers\\PermissionController.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\a5b7e85e-b384-49aa-a7e5-2842df331f42_ADSO-2900177-main.zip.f42\\ADSO-2900177-main\\2025\\Inst_Corredor\\ModelSecurity_Proyecto\\Web\\Controllers\\PermissionController.cs [Solo lectura]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:57:33.986Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PermissionBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\PermissionBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
-              "RelativeToolTip": "Business\\PermissionBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T04:03:48.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RolData.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\RolData.cs",
-              "RelativeDocumentMoniker": "Data\\RolData.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\RolData.cs",
-              "RelativeToolTip": "Data\\RolData.cs",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAqwLIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:47:49.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RoleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\RoleDTO.cs",
-              "RelativeDocumentMoniker": "Entity\\DTOs\\RoleDTO.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\RoleDTO.cs",
-              "RelativeToolTip": "Entity\\DTOs\\RoleDTO.cs",
+              "DocumentIndex": 11,
+              "Title": "FormModuleCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormModuleCreateDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\FormModuleCreateDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\DTOs\\FormModuleCreateDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\FormModuleCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:46:53.694Z",
+              "WhenOpened": "2025-04-03T01:33:59.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "RolBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\RolBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\RolBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\RolBusiness.cs",
-              "RelativeToolTip": "Business\\RolBusiness.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwOQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormModuleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\FormModuleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\FormModuleBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Business\\FormModuleBusiness.cs",
+              "RelativeToolTip": "Business\\FormModuleBusiness.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwHIAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:46:28.781Z",
+              "WhenOpened": "2025-04-03T01:33:24.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormModule.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\FormModule.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\FormModule.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Model\\FormModule.cs",
+              "RelativeToolTip": "Entity\\Model\\FormModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:34:04.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormModuleData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
+              "RelativeDocumentMoniker": "Data\\FormModuleData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
+              "RelativeToolTip": "Data\\FormModuleData.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAjwJAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:33:26.76Z",
               "EditorCaption": ""
             }
           ]

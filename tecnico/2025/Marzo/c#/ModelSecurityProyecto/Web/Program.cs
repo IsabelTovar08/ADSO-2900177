@@ -41,6 +41,15 @@ namespace Web
             builder.Services.AddScoped<PersonBusiness>();
             builder.Services.AddScoped<PersonData>();
 
+            builder.Services.AddScoped<UserRoleBusiness>();
+            builder.Services.AddScoped<UserRoleData>();
+
+            builder.Services.AddScoped<FormModuleBusiness>();
+            builder.Services.AddScoped<FormModuleData>();
+
+            builder.Services.AddScoped<RoleFormPermissionBusiness>();
+            builder.Services.AddScoped<RoleFormPermissionData>();
+
 
             builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones
 .UseSqlServer("name=DefaultConnection"));

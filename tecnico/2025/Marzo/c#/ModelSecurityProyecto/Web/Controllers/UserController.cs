@@ -114,7 +114,7 @@ namespace Web.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> UdateRole([FromBody] UserDTO userDTO)
+        public async Task<IActionResult> UdateRole([FromBody] UserFormDTO userDTO)
         {
             try
             {
@@ -162,7 +162,7 @@ namespace Web.Controllers
         /// <summary>
         /// Elimina un rol de manera permanente en el sistema
         /// </summary>
-        [HttpPut("permanent/{id:int}")]
+        [HttpDelete("permanent/{id:int}")]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]

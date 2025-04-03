@@ -14,9 +14,9 @@ namespace Data
     public class FormModuleData
     {
         private readonly ApplicationDbContext _context;
-        private readonly ILogger _logger;
+        private readonly ILogger<FormModule> _logger;
 
-        public FormModuleData(ApplicationDbContext context, ILogger logger)
+        public FormModuleData(ApplicationDbContext context, ILogger<FormModule> logger)
         {
             _context = context;
             _logger = logger;
@@ -145,13 +145,21 @@ namespace Data
         {
             try
             {
+                var existingFormModule = await _context.Set<FormModule>().FindAsync(formModule.Id);
+                if (existingFormModule != null)
+                {
+                    _context.Entry(existingFormModule).State = EntityState.Detached; // Evita conflictos de seguimiento
+                }
+
+                formModule.Status = existingFormModule?.Status ?? true; // Mantiene el estado actual
+
                 _context.Set<FormModule>().Update(formModule);
                 await _context.SaveChangesAsync();
                 return true;
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error al actualizar FormModule: {ex.Message}");
+                _logger.LogError($"Error al actualizar el formulario: {ex.Message}");
                 return false;
             }
         }

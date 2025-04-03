@@ -24,8 +24,13 @@ namespace Entity.Context
         public DbSet<Form> Forms { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<UserRole> UserRole { get; set; }
+
         public DbSet<Person> Person { get; set; }
+
         public DbSet<Permission> Permits { get; set; }
+        public DbSet<FormModule> FormsModules { get; set; }
+        public DbSet<RoleFormPermission> RoleFormPermissioSet { get; set; }
 
 
 

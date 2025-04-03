@@ -1,4 +1,5 @@
 ﻿using Business;
+using Data;
 using Entity.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -87,7 +88,7 @@ namespace Web.Controllers
         [ProducesResponseType(typeof(FormModuleDTO), 201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> CreateFormModule([FromBody] FormModuleDTO formModuleDTO)
+        public async Task<IActionResult> CreateFormModule([FromBody] FormModuleCreateDTO formModuleDTO)
         {
             try
             {
@@ -110,65 +111,75 @@ namespace Web.Controllers
         /// <summary>
         /// Actualiza un formModule existente en el sistema
         /// </summary>
-        [HttpPut("{id}")]
+        [HttpPut]
         [ProducesResponseType(typeof(FormModuleDTO), 200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> UpdateFormModule(int id, [FromBody] FormModuleDTO formModuleDTO)
+        public async Task<IActionResult> UpdateFormModule([FromBody] FormModuleCreateDTO formModuleDTO)
         {
             try
             {
-                if (id != formModuleDTO.Id)
-                {
-                    return BadRequest(new { message = "El ID de la ruta no coincide con el ID del objeto." });
-                }
-
-                var updatedFormModule = await _formModuleBusiness.UpdateFormModuleAsync(formModuleDTO);
-
-                return Ok(updatedFormModule);
+                var updatedFormPermission = await _formModuleBusiness.UpdateFormModuleAsync(formModuleDTO);
+                if (updatedFormPermission == null)
+                    return NotFound(new { message = "Form permission no encontrado." });
+                return Ok(updatedFormPermission);
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al actualizar el formModule con ID: {FormModuleId}", id);
+                _logger.LogWarning(ex, "Validación fallida al actualizar el Form permission");
                 return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "No se encontró el formModule con ID: {FormModuleId}", id);
-                return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al actualizar el formModule con ID: {FormModuleId}", id);
+                _logger.LogError(ex, "Error al actualizar el Form permission.");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
 
 
         /// <summary>
-        /// Elimina un formModule del sistema
+        /// Elimina un rol de manera lógica en el sistema
         /// </summary>
-        [HttpDelete("{id}")]
+        [HttpPut("logical/{id:int}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteFormModule(int id)
+        public async Task<IActionResult> SoftDeleteFormModule(int id)
+        {
+            try
+            {
+                var deleted = await _formModuleBusiness.SoftDeleteFormModuleAsync(id);
+                if (!deleted)
+                    return NotFound(new { message = "Form module no encontrado." });
+                return Ok(new { message = "Form module desactivado correctamente," });
+            }
+            catch (ExternalServiceException ex)
+            {
+                _logger.LogError($"Error al desactivar el foem module: {id}");
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+        /// <summary>
+        /// Elimina un rol de manera permanente en el sistema
+        /// </summary>
+        [HttpDelete("permanent/{id:int}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(500)]
+        public async Task<IActionResult> HardDeleteRoleUser(int id)
         {
             try
             {
                 var deleted = await _formModuleBusiness.HardDeleteFormModuleAsync(id);
-
                 if (!deleted)
-                {
-                    return NotFound(new { message = "FormModule no encontrado o ya eliminado" });
-                }
-
-                return Ok(new { message = "Form eliminado exitosamente" });
+                    return NotFound(new { message = "Form module no encontrado." });
+                return NoContent();
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al eliminar el formModule con ID: {FormModuleId}", id);
+                _logger.LogError(ex, "Error al eliminar el form module.");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

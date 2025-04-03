@@ -14,9 +14,9 @@ namespace Data
     public class RoleFormPermissionData
     {
         private readonly ApplicationDbContext _context;
-        private readonly ILogger _logger;
+        private readonly ILogger<RoleFormPermissionData> _logger;
 
-        public RoleFormPermissionData(ApplicationDbContext context, ILogger logger)
+        public RoleFormPermissionData(ApplicationDbContext context, ILogger<RoleFormPermissionData> logger)
         {
             _context = context;
             _logger = logger;
@@ -110,6 +110,7 @@ namespace Data
         {
             try
             {
+                roleFormPermission.Status = true;
                 await _context.Set<RoleFormPermission>().AddAsync(roleFormPermission);
                 await _context.SaveChangesAsync();
                 return roleFormPermission;
@@ -147,13 +148,59 @@ namespace Data
         {
             try
             {
+                var existingRoleFormPermission = await _context.Set<RoleFormPermission>().FindAsync(roleFormPermission.Id);
+                if (existingRoleFormPermission != null)
+                {
+                    _context.Entry(existingRoleFormPermission).State = EntityState.Detached; // Evita conflicto de seguimiento
+                    roleFormPermission.Status = existingRoleFormPermission.Status; // Mantiene el Status original
+                }
+
                 _context.Set<RoleFormPermission>().Update(roleFormPermission);
                 await _context.SaveChangesAsync();
                 return true;
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error al actualizar RoleFormPermission: {ex.Message}");
+                _logger.LogError($"Error al actualizar el usuario rol form permission {roleFormPermission.Id}: {ex.Message}");
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Desactiva un RolFormPErmission (eliminación lógica) con LINQ.
+        /// </summary>
+        public async Task<bool> SoftDeleteAsync(int id)
+        {
+            try
+            {
+                var roleFormPErmission = await _context.Set<RoleFormPermission>().FindAsync(id);
+                if (roleFormPErmission == null) return false;
+                roleFormPErmission.Status = false;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al desactivar el role form permission {id}: {ex.Message}");
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Desactiva un RolFormPErmission (eliminación lógica) con SQL.
+        /// </summary>
+        public async Task<bool> SoftDeleteAsyncSQL(int id)
+        {
+            try
+            {
+                const string query = "UPDATE RoleFormPermissioSet SET Status = 0 WHERE Id = @Id;";
+                var parameters = new { Id = id };
+                int rowsAffected = await _context.ExecuteAsync(query, parameters);
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al desactivar el rol form permisio {id}: {ex.Message}");
                 return false;
             }
         }

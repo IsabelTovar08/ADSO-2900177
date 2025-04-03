@@ -12,7 +12,7 @@ namespace Entity.Model
         public int RoleId {  get; set; }
         public int FormId { get; set; }
         public int PermissionId { get; set; }
-        public bool State { get; set; }
+        public bool Status { get; set; }
 
 
         public Role Role { get; set; }

@@ -14,9 +14,9 @@ namespace Data
     public class UserRoleData
     {
         private readonly ApplicationDbContext _context;
-        private readonly ILogger _logger;
+        private readonly ILogger<UserRoleData> _logger;
 
-        public UserRoleData(ApplicationDbContext context, ILogger logger)
+        public UserRoleData(ApplicationDbContext context, ILogger<UserRoleData> logger)
         {
             _context = context;
             _logger = logger;
@@ -110,6 +110,12 @@ namespace Data
         {
             try
             {
+                var userExists = await _context.User.AnyAsync(u => u.Id == userRole.UserId);
+                if (!userExists)
+                {
+                    throw new Exception("El usuario no existe.");
+                }
+
                 await _context.Set<UserRole>().AddAsync(userRole);
                 await _context.SaveChangesAsync();
                 return userRole;
@@ -139,6 +145,136 @@ namespace Data
                 throw;
             }
         }
+
+        /// <summary>
+        /// Actualiza un usuario con LINQ.
+        /// </summary>
+        public async Task<bool> UpdateAsync(UserRole userRole)
+        {
+            try
+            {
+                var existingUserRole = await _context.Set<UserRole>().FindAsync(userRole.Id);
+                if (existingUserRole != null)
+                {
+                    _context.Entry(existingUserRole).State = EntityState.Detached; // Evita conflicto de seguimiento
+                    userRole.Status = existingUserRole.Status; // Mantiene el Status original
+                }
+
+                _context.Set<UserRole>().Update(userRole);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al actualizar el usuario rol {userRole.Id}: {ex.Message}");
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Actualiza un usuario con SQL.
+        /// </summary>
+        public async Task<bool> UpdateAsyncSQL(UserRole userRole)
+        {
+            try
+            {
+                var existingUserRole = await _context.Set<UserRole>().FindAsync(userRole.Id);
+                if (existingUserRole == null)
+                {
+                    _logger.LogWarning($"No se encontró el rol de usuario con ID {userRole.Id}");
+                    return false;
+                }
+
+                // Mantener el estado original
+                userRole.Status = existingUserRole.Status;
+
+                const string query = @"
+        UPDATE UserRole 
+        SET UserId = @UserId, RoleId = @RoleId, Status = @Status
+        WHERE Id = @Id;";
+
+                var parameters = new { userRole.Id, userRole.UserId, userRole.RoleId, userRole.Status };
+                int rowsAffected = await _context.ExecuteAsync(query, parameters);
+
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al actualizar el rol de usuario {userRole.Id}: {ex.Message}");
+                throw;
+            }
+        }
+
+
+        /// <summary>
+        /// Actualiza un usuario con SQL.
+        /// </summary>
+        public async Task<bool> UpdateAsyncSQL(User user)
+        {
+            try
+            {
+                var existingUser = await _context.Set<User>().FindAsync(user.Id);
+                if (existingUser != null)
+                {
+                    user.Status = existingUser.Status; // Mantiene el Status original
+                }
+
+                const string query = @"
+            UPDATE User 
+            SET Username = @Username, Password = @Password, ActivationCode = @ActivationCode
+            WHERE Id = @Id;";
+
+                var parameters = new { user.Id, user.Username, user.Password, user.ActivationCode };
+                int rowsAffected = await _context.ExecuteAsync(query, parameters);
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al actualizar el usuario {user.Id}: {ex.Message}");
+                throw;
+            }
+        }
+
+
+        /// <summary>
+        /// Desactiva un usuario (eliminación lógica) con LINQ.
+        /// </summary>
+        public async Task<bool> SoftDeleteAsync(int id)
+        {
+            try
+            {
+                var userRole = await _context.Set<UserRole>().FindAsync(id);
+                if (userRole == null) return false;
+                userRole.Status = false;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al desactivar el usuario rol {id}: {ex.Message}");
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Desactiva un usuario (eliminación lógica) con SQL.
+        /// </summary>
+        public async Task<bool> SoftDeleteAsyncSQL(int id)
+        {
+            try
+            {
+                const string query = "UPDATE UserRoles SET Status = 0 WHERE Id = @Id;";
+                var parameters = new { Id = id };
+                int rowsAffected = await _context.ExecuteAsync(query, parameters);
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al desactivar el usuario rol {id}: {ex.Message}");
+                return false;
+            }
+        }
+
 
         /// <summary>
         /// Elimina permanentemente una relación UserRole con LINQ.

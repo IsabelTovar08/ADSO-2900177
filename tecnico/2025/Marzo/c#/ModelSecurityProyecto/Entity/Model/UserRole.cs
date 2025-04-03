@@ -13,7 +13,7 @@ namespace Entity.Model
         //public string UserName { get; set; }
         public int RoleId { get; set; }
         //public string RoleName { get; set; }
-        public bool State { get; set; }
+        public bool Status { get; set; }
 
 
         public User User { get; set; }

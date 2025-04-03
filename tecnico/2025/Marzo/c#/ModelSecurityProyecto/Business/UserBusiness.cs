@@ -126,7 +126,7 @@ namespace Business
         /// <summary>
         /// Actualiza un user existente.
         /// </summary>
-        public async Task<UserDTO> UpdateUserAsync(UserDTO userDTO)
+        public async Task<UserDTO> UpdateUserAsync(UserFormDTO userDTO)
         {
 
             if (userDTO.Id <= 0)

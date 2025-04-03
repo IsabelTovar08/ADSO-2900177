@@ -14,8 +14,8 @@ namespace Business
     public class FormModuleBusiness
     {
         private readonly FormModuleData _FormModuleData;
-        private readonly ILogger _logger;
-        public FormModuleBusiness(FormModuleData formModuleData, ILogger logger)
+        private readonly ILogger<FormModule> _logger;
+        public FormModuleBusiness(FormModuleData formModuleData, ILogger<FormModule> logger)
         {
             _FormModuleData = formModuleData;
             _logger = logger;
@@ -60,7 +60,7 @@ namespace Business
             }
         }
 
-        public async Task<FormModuleDTO> CreateFormAsync(FormModuleDTO formModuleDTO)
+        public async Task<FormModuleDTO> CreateFormAsync(FormModuleCreateDTO formModuleDTO)
         {
             try
             {
@@ -74,34 +74,46 @@ namespace Business
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error al crear nuevo form: {formModuleDTO?.FormName ?? "null"}");
+                _logger.LogError(ex, $"Error al crear nuevo form module ");
                 throw new ExternalServiceException("Base de datos", "Error al crear el formulario módulo", ex);
             }
         }
 
 
-        public async Task<FormModuleDTO> UpdateFormModuleAsync(FormModuleDTO formModuleDTO)
+        public async Task<FormModuleDTO> UpdateFormModuleAsync(FormModuleCreateDTO formModuleDTO)
         {
             if (formModuleDTO.Id <= 0)
             {
-                throw new ValidationException("Id", "El ID del formulario módulo debe ser mayor que cero.");
+                _logger.LogWarning($"Intento de actualizar un form module con ID inválido: {formModuleDTO.Id}");
+                throw new ValidationException("Id", "El ID del form module debe ser mayor que cero.");
             }
 
-            var existingFormModule = await _FormModuleData.GetByIdAsync(formModuleDTO.Id);
-            if (existingFormModule == null)
+            try
             {
-                throw new EntityNotFoundException("Formulario módulo", formModuleDTO.Id);
+                ValidateForm(formModuleDTO);
+
+                var existingUser = await _FormModuleData.GetByIdAsync(formModuleDTO.Id);
+                if (existingUser == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún form module con ID: {formModuleDTO.Id}");
+                    throw new EntityNotFoundException("Rol", formModuleDTO.Id);
+                }
+
+                var usereEntity = MapToEntity(formModuleDTO);
+
+                bool updated = await _FormModuleData.UpdateAsync(usereEntity);
+                if (!updated)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo actualizar el form module.");
+                }
+
+                return MapToDTO(usereEntity);
             }
-
-            var updatedEntity = MapToEntity(formModuleDTO);
-            var updated = await _FormModuleData.UpdateAsync(updatedEntity);
-
-            if (!updated)
+            catch (Exception ex)
             {
-                throw new ExternalServiceException("Base de datos", "No se pudo actualizar el formulario módulo.");
+                _logger.LogError(ex, $"Error al actualizar el user con ID: {formModuleDTO.Id}");
+                throw new ExternalServiceException("Base de datos", $"Error al actualizar el uform module con ID: {formModuleDTO.Id}", ex);
             }
-
-            return MapToDTO(updatedEntity);
         }
         public async Task<bool> SoftDeleteFormModuleAsync(int id)
         {
@@ -161,14 +173,23 @@ namespace Business
             //}
         }
 
+        private void ValidateForm(FormModuleCreateDTO formModuleDTO)
+        {
+            if (formModuleDTO == null)
+            {
+                throw new Utilities.Exceptions.ValidationException("El objeto form module no puede ser nulo.");
+            }
+        }
+
         private FormModuleDTO MapToDTO(FormModule formModule)
         {
             return new FormModuleDTO
             {
+                Id = formModule.Id,
                 FormId = formModule.FormId,
-                FormName = formModule.Form.Name,
+                FormName = formModule.Form?.Name ?? "",
                 ModuleId = formModule.ModuleId,
-                ModuleName = formModule.Module.Name
+                ModuleName = formModule.Module?.Name ?? ""
 
             };
         }
@@ -178,11 +199,24 @@ namespace Business
         {
             return new FormModule
             {
+                Id = formModuleDTO.Id,
                 FormId = formModuleDTO.FormId,
-                ModuleId = formModuleDTO.ModuleId
+                ModuleId = formModuleDTO.ModuleId,
+                
+                
             };
         }
 
+
+        private FormModule MapToEntity(FormModuleCreateDTO formModuleDTO)
+        {
+            return new FormModule
+            {
+                Id = formModuleDTO.Id,
+                FormId = formModuleDTO.FormId,
+                ModuleId = formModuleDTO.ModuleId,
+            };
+        }
         // Método para mapear una lista de Form a una lista de FormModuleDTO
         private IEnumerable<FormModuleDTO> MapToDTOList(IEnumerable<FormModule> formsModule)
         {

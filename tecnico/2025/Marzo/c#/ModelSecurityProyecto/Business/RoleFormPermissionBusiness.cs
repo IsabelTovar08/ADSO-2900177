@@ -14,8 +14,8 @@ namespace Business
     public class RoleFormPermissionBusiness
     {
         private readonly RoleFormPermissionData _RoleFormPermissionData;
-        private readonly ILogger _logger;
-        public RoleFormPermissionBusiness(RoleFormPermissionData roleFormPermissionData, ILogger logger)
+        private readonly ILogger<RoleFormPermissionBusiness> _logger;
+        public RoleFormPermissionBusiness(RoleFormPermissionData roleFormPermissionData, ILogger<RoleFormPermissionBusiness> logger)
         {
             _RoleFormPermissionData = roleFormPermissionData;
             _logger = logger;
@@ -60,7 +60,7 @@ namespace Business
             }
         }
 
-        public async Task<RoleFormPermissionDTO> CreateRoleFormPermissionAsync(RoleFormPermissionDTO roleFormPermissionDTO)
+        public async Task<RoleFormPermissionDTO> CreateRoleFormPermissionAsync(RoleFormPermissionCreateDTO roleFormPermissionDTO)
         {
             try
             {
@@ -74,12 +74,134 @@ namespace Business
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error al crear nuevo permiso por formulario para cada rol: {roleFormPermissionDTO?.FormName ?? "null"}");
+                _logger.LogError(ex, $"Error al crear nuevo permiso por formulario para cada rol: ");
                 throw new ExternalServiceException("Base de datos", "Error al crear el permiso por formulario para cada rol", ex);
             }
         }
 
+        public async Task<RoleFormPermissionDTO> UpdateRoleFOrmPermissionAsync(RoleFormPermissionCreateDTO roleFormPermissionCreateDTO)
+        {
+
+            if (roleFormPermissionCreateDTO.Id <= 0)
+            {
+                _logger.LogWarning($"Intento de actualizar un role form permission con ID inválido: {roleFormPermissionCreateDTO.Id}");
+                throw new ValidationException("Id", "El ID del role form permission debe ser mayor que cero.");
+            }
+
+            try
+            {
+                ValidateForm(roleFormPermissionCreateDTO);
+
+                var existingUser = await _RoleFormPermissionData.GetByIdAsync(roleFormPermissionCreateDTO.Id);
+                if (existingUser == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún role form permission con ID: {roleFormPermissionCreateDTO.Id}");
+                    throw new EntityNotFoundException("Rol", roleFormPermissionCreateDTO.Id);
+                }
+
+                var usereEntity = MapToEntity(roleFormPermissionCreateDTO);
+
+                bool updated = await _RoleFormPermissionData.UpdateAsync(usereEntity);
+                if (!updated)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo actualizar el role form permission.");
+                }
+
+                return MapToDTO(usereEntity);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al actualizar el role form permission con ID: {roleFormPermissionCreateDTO.Id}");
+                throw new ExternalServiceException("Base de datos", $"Error al actualizar el role form permission con ID: {roleFormPermissionCreateDTO.Id}", ex);
+            }
+        }
+
+        /// <summary>
+        /// Realiza una eliminación lógica de un user.
+        /// </summary>
+        public async Task<bool> SoftDeleteUserAsync(int id)
+        {
+            if (id <= 0)
+            {
+                _logger.LogWarning($"Intento de eliminación lógica con ID inválido: {id}");
+                throw new ValidationException("id", "El ID del user debe ser mayor que cero.");
+            }
+
+            try
+            {
+                var existingUser = await _RoleFormPermissionData.GetByIdAsync(id);
+                if (existingUser == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún user con ID: {id}");
+                    throw new EntityNotFoundException("Rol", id);
+                }
+
+                bool deleted = await _RoleFormPermissionData.SoftDeleteAsync(id);
+                if (!deleted)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo realizar la eliminación lógica del user rol.");
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al eliminar lógicamente el user con ID: {id}");
+                throw new ExternalServiceException("Base de datos", $"Error al eliminar lógicamente el user rol con ID: {id}", ex);
+            }
+        }
+
+        /// <summary>
+        /// Realiza una eliminación permanente de un user.
+        /// </summary>
+        public async Task<bool> HardDeleteUserAsync(int id)
+        {
+            if (id <= 0)
+            {
+                _logger.LogWarning($"Intento de eliminación permanente con ID inválido: {id}");
+                throw new ValidationException("id", "El ID del user debe ser mayor que cero.");
+            }
+
+            try
+            {
+                var existingUser = await _RoleFormPermissionData.GetByIdAsync(id);
+                if (existingUser == null)
+                {
+                    _logger.LogInformation($"No se encontró ningún user rol con ID: {id}");
+                    throw new EntityNotFoundException("Rol", id);
+                }
+
+                bool deleted = await _RoleFormPermissionData.HardDeleteAsync(id);
+                if (!deleted)
+                {
+                    throw new ExternalServiceException("Base de datos", "No se pudo eliminar permanentemente el user rol.");
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al eliminar permanentemente el user con ID: {id}");
+                throw new ExternalServiceException("Base de datos", $"Error al eliminar permanentemente el user rol con ID: {id}", ex);
+            }
+        }
+
+
         private void ValidateForm(RoleFormPermissionDTO roleFormPermissionDTO)
+        {
+            if (roleFormPermissionDTO == null)
+            {
+                throw new Utilities.Exceptions.ValidationException("El objeto permiso por formulario para cada rol no puede ser nulo.");
+            }
+
+            //if (string.IsNullOrWhiteSpace(roleFormPermissionDTO.Name))
+            //{
+            //    _logger.LogWarning("Se intentó crear/actualizar un form con nombre vacío.");
+            //    throw new Utilities.Exceptions.ValidationException("Name", "El nombre del formulario es onbigatorio");
+            //}
+        }
+
+        private void ValidateForm(RoleFormPermissionCreateDTO roleFormPermissionDTO)
         {
             if (roleFormPermissionDTO == null)
             {
@@ -99,19 +221,20 @@ namespace Business
             {
                 Id = roleFormPermission.Id,
                 RoleId = roleFormPermission.RoleId,
-                RoleName = roleFormPermission.Role.Name,
+                RoleName = roleFormPermission.Role?.Name ?? "",
                 FormId = roleFormPermission.FormId,
-                FormName = roleFormPermission.Form.Name,
+                FormName = roleFormPermission.Form?.Name ?? "",
                 PermissionId = roleFormPermission.PermissionId,
-                PermissionName = roleFormPermission.Permission.Name
+                PermissionName = roleFormPermission.Permission?.Name ?? ""
             };
         }
 
         // Método para mapear de RoleFormPermissionDTO a Form
-        private RoleFormPermission MapToEntity(RoleFormPermissionDTO roleFormPermissionDTO)
+        private RoleFormPermission MapToEntity(RoleFormPermissionCreateDTO roleFormPermissionDTO)
         {
             return new RoleFormPermission
             {
+                Id = roleFormPermissionDTO.Id,
                 RoleId = roleFormPermissionDTO.RoleId,
                 FormId = roleFormPermissionDTO.FormId,
                 PermissionId = roleFormPermissionDTO.PermissionId,
