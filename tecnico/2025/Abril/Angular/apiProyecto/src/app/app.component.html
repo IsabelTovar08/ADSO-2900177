@@ -1,0 +1,30 @@
+<h1>Personas</h1>
+<div class ="container">
+  @for (person of persona; track $index) {
+    <mat-card appearance="outlined">
+      <mat-card-header>Primer Nombre:<h1>{{person.firstName}}</h1></mat-card-header>
+      <mat-card-content>
+        <p>Segundo Nombre: {{person.middleName}}</p>
+        <p>Primer Apellido: {{person.lastName}}</p>
+        <p>Segundo apellido: {{person.secondLastName}}</p>
+        <p>Número documento: {{person.documentNumber}}</p>
+        <p>Celular: {{person.phoneNumber}}</p>
+        <p>Email: {{person.email}}</p>
+        <p>Dirección: {{person.address}}</p>
+      </mat-card-content>
+    </mat-card>
+  }
+</div>
+<h1>Roles</h1>
+<div class ="container">
+  @for (rol of roles; track $index) {
+    <mat-card appearance="outlined">
+      <mat-card-header>Nombre: <h1>{{rol.name}}</h1></mat-card-header>
+      <mat-card-content>
+        <p>Descripción: {{rol.description}}</p>
+      </mat-card-content>
+    </mat-card>
+  }
+</div>
+
+<router-outlet></router-outlet>

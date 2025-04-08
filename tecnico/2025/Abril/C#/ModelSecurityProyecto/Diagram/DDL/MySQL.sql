@@ -1,0 +1,183 @@
+﻿CREATE TABLE Roles (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Description VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE People (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    MiddleName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    SecondLastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    DocumentNumber VARCHAR(20) NOT NULL,
+    Phone VARCHAR(20) NOT NULL,
+    Address VARCHAR(255) NOT NULL,
+    DocumenType VARCHAR(20) NOT NULL,
+    BlodType VARCHAR(10) NOT NULL,
+    Photo VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    CityId_Id INT NOT NULL,
+    AssignmentId_Id INT NOT NULL,
+    FOREIGN KEY (CityId_Id) REFERENCES Citys(Id),
+    FOREIGN KEY (AssignmentId_Id) REFERENCES Assignments(Id)
+);
+
+CREATE TABLE Users (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL,
+    Password VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    ActivationCode VARCHAR(100) NOT NULL,
+    PersonId_Id INT NOT NULL,
+    FOREIGN KEY (PersonId_Id) REFERENCES People(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Citys (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    DepartmentId_Id INT NOT NULL,
+    FOREIGN KEY (DepartmentId_Id) REFERENCES Departments(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Departments (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE OrganizationDivisions (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE Assignments (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    DivisionId_Id INT NOT NULL,
+    FOREIGN KEY (DivisionId_Id) REFERENCES OrganizationDivisions(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE UserRoles (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    IsDeleted BOOLEAN NOT NULL,
+    RoleId_Id INT NOT NULL,
+    UserId_Id INT NOT NULL,
+    FOREIGN KEY (RoleId_Id) REFERENCES Roles(Id),
+    FOREIGN KEY (UserId_Id) REFERENCES Users(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Permits (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE Forms (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Description VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE RoleFormPermissioSet (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    IsDeleted BOOLEAN NOT NULL,
+    RoleId_Id INT NOT NULL,
+    PermissionId_Id INT NOT NULL,
+    FormId_Id INT NOT NULL,
+    FOREIGN KEY (RoleId_Id) REFERENCES Roles(Id),
+    FOREIGN KEY (PermissionId_Id) REFERENCES Permits(Id),
+    FOREIGN KEY (FormId_Id) REFERENCES Forms(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Models (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Description VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE FormsModules (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    IsDeleted BOOLEAN NOT NULL,
+    Form_Id INT NOT NULL,
+    Module_Id INT NOT NULL,
+    FOREIGN KEY (Form_Id) REFERENCES Forms(Id),
+    FOREIGN KEY (Module_Id) REFERENCES Models(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Organizations (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Phone VARCHAR(20) NOT NULL,
+    Address VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE Branchs (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    OrganizationId INT NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    FOREIGN KEY (OrganizationId) REFERENCES Organizations(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE DivisionsBranchs (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    IsDeleted BOOLEAN NOT NULL,
+    DivisionId_Id INT NOT NULL,
+    BranchId_Id INT NOT NULL,
+    FOREIGN KEY (DivisionId_Id) REFERENCES OrganizationDivisions(Id),
+    FOREIGN KEY (BranchId_Id) REFERENCES Branchs(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE EventsTypes (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL
+) ENGINE=InnoDB;
+
+CREATE TABLE Events (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Date DATETIME NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    EventTypeId_Id INT NOT NULL,
+    FOREIGN KEY (EventTypeId_Id) REFERENCES EventsTypes(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE AccessPoints (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Type VARCHAR(50) NOT NULL,
+    Name VARCHAR(100) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    EventId_Id INT NOT NULL,
+    FOREIGN KEY (EventId_Id) REFERENCES Events(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Attendances (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Hour DATETIME NOT NULL,
+    TypeOfRecord VARCHAR(50) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    AccessPointId_Id INT NOT NULL,
+    FOREIGN KEY (AccessPointId_Id) REFERENCES AccessPoints(Id)
+) ENGINE=InnoDB;
+
+CREATE TABLE Cards (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    QR VARCHAR(255) NOT NULL,
+    IsDeleted BOOLEAN NOT NULL,
+    ExpirationDate DATETIME NOT NULL,
+    CreationDate DATETIME NOT NULL,
+    AttendanceId INT NOT NULL,
+    PersonId_Id INT NOT NULL,
+    FOREIGN KEY (PersonId_Id) REFERENCES People(Id)
+) ENGINE=InnoDB;

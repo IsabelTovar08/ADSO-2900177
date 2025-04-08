@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1n9LuqqRa0k=",
+  "dgSpecHash": "xCp5L2mNQe8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

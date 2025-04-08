@@ -12,12 +12,12 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("250407c5-2989-4f26-9ff8-f06f863c744a")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Productos")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("productos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1d1d3b414caf73548f45a5ff087acfa14d26164")]
-[assembly: System.Reflection.AssemblyProductAttribute("Productos")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Productos")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74773b5ab37d0b4ae9bef8162d6cb94ddcbfba1c")]
+[assembly: System.Reflection.AssemblyProductAttribute("productos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("productos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

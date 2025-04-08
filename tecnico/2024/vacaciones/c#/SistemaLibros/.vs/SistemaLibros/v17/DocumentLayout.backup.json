@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LibroController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
               "RelativeDocumentMoniker": "SistemaLibros\\Controllers\\LibroController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
               "RelativeToolTip": "SistemaLibros\\Controllers\\LibroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T15:35:34.387Z",
               "EditorCaption": ""
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Entidades\\Libro.cs",
               "RelativeDocumentMoniker": "SistemaLibros\\Entidades\\Libro.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "SistemaLibros\\Entidades\\Libro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:10:53.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:10:53.153Z"
             },
             {
               "$type": "Document",
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SistemaLibros\\appsettings.Development.json",
@@ -100,21 +99,19 @@
               "RelativeToolTip": "SistemaLibros\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-06T14:39:58.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:39:58.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Program.cs",
               "RelativeDocumentMoniker": "SistemaLibros\\Program.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Program.cs",
               "RelativeToolTip": "SistemaLibros\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T14:37:38.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:37:38.836Z"
             }
           ]
         }

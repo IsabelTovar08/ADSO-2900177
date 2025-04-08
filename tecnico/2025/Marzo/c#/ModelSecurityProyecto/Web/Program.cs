@@ -19,6 +19,13 @@ namespace Web
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(politica =>
+                politica.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
+                );
+            });
+
 
             builder.Services.AddScoped<FormBusiness>();
             builder.Services.AddScoped<FormData>();
@@ -64,9 +71,10 @@ namespace Web
             }
 
             app.UseHttpsRedirection();
+            app.UseCors();
+
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

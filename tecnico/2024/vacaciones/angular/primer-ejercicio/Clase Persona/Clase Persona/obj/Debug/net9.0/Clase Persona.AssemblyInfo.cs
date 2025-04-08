@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Clase Persona")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+533579a8a63a518e443513c4d69b5421a59b0102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74773b5ab37d0b4ae9bef8162d6cb94ddcbfba1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Clase Persona")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Clase Persona")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

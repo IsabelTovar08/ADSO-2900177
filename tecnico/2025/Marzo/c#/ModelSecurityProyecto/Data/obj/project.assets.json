@@ -2866,11 +2866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2892,8 +2892,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj"
+            "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\ModelSecurityProyecto\\Entity\\Entity.csproj"
             }
           }
         }
