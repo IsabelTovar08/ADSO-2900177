@@ -19,13 +19,8 @@ namespace Data
         public FormData2(ApplicationDbContext context, ILogger<Form> logger)
             : base(context, logger)
         {
+
         }
 
-        // Aquí puedes agregar métodos específicos para la entidad Form si los necesitas.
-        // Ejemplo:
-        // public async Task<IEnumerable<Form>> GetFormsByUserId(int userId)
-        // {
-        //     return await _context.Forms.Where(f => f.UserId == userId).ToListAsync();
-        // }
     }
 }

@@ -14,7 +14,7 @@ namespace Data.Clases
     /// Clase base genérica para operaciones CRUD utilizando Entity Framework Core.
     /// </summary>
     /// <typeparam name="T">Entidad a la que se aplicarán las operaciones CRUD.</typeparam>
-    public class CrudBase<T> : ICrud<T> where T : class
+    public class CrudBase<T> : ICrud<T>, ISoftDelete<T> where T : class
     {
         protected readonly ApplicationDbContext _context;
         protected readonly ILogger<T> _logger;
@@ -39,6 +39,7 @@ namespace Data.Clases
             try
             {
                 return await _context.Set<T>().ToListAsync();
+
             }
             catch (Exception ex)
             {
@@ -100,6 +101,15 @@ namespace Data.Clases
                 if (existing == null)
                     return false;
 
+                // Verifica que no esté eliminada lógicamente
+                var isDeletedProp = typeof(T).GetProperty("IsDeleted");
+                if (isDeletedProp != null && isDeletedProp.PropertyType == typeof(bool))
+                {
+                    var isDeletedValue = (bool)isDeletedProp.GetValue(existing)!;
+                    if (isDeletedValue)
+                        return false;
+                }
+
                 _context.Entry(existing).CurrentValues.SetValues(entity);
                 await _context.SaveChangesAsync();
                 return true;
@@ -130,6 +140,35 @@ namespace Data.Clases
             catch (Exception ex)
             {
                 _logger.LogError(ex, $"Error al eliminar entidad de tipo {typeof(T).Name} con ID {id}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Realiza una eliminación lógica de la entidad por su identificador.
+        /// </summary>
+        /// <param name="id">Identificador de la entidad.</param>
+        /// <returns>True si la eliminación lógica fue exitosa; false si no se encontró o no se pudo eliminar.</returns>
+        public virtual async Task<bool> SoftDeleteAsync(int id)
+        {
+            try
+            {
+                var entity = await _context.Set<T>().FindAsync(id);
+                if (entity == null)
+                    return false;
+
+                var prop = typeof(T).GetProperty("IsDeleted");
+                if (prop == null || !prop.CanWrite || prop.PropertyType != typeof(bool))
+                    throw new InvalidOperationException($"La entidad {typeof(T).Name} no tiene una propiedad IsDeleted válida.");
+
+                prop.SetValue(entity, true);
+                _context.Entry(entity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error al realizar eliminación lógica de entidad de tipo {typeof(T).Name} con ID {id}");
                 throw;
             }
         }

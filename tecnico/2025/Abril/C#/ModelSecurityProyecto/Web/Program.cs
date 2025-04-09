@@ -1,6 +1,7 @@
 
 using Business;
 using Data;
+using Data.Clases;
 using Entity.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -61,9 +62,32 @@ namespace Web
             builder.Services.AddScoped<FormData2>();
             builder.Services.AddScoped<FormBusiness>();
 
+            builder.Services.AddScoped<ModuleData2>();
+            builder.Services.AddScoped<ModuleBusiness2>();
 
-            builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones
-.UseSqlServer("name=DefaultConnection"));
+
+            var connectionString = builder.Configuration.GetConnectionString("SQLServer");
+            var databaseProvider = builder.Configuration["DatabaseProvider"];
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                switch (databaseProvider.ToLower())
+                {
+                    case "postgresql":
+                        options.UseNpgsql(connectionString);
+                        break;
+                    case "mysql":
+                        var serverVersion = new MySqlServerVersion(new Version(8, 0, 41)); // Ejemplo de versión 8.0.21, ajusta según tu versión de MySQL
+                        options.UseMySql(connectionString, serverVersion);
+                        break;
+                    case "sqlserver":
+                    default:
+                        options.UseSqlServer(connectionString);
+                        break;
+                }
+            });
+
+
 
             var app = builder.Build();
 
