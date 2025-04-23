@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\clases\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\clases\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\interfaces\\icrudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\interfaces\\icrudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\business\\formmodulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\formmodulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\business\\clases\\formbusiness2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\clases\\formbusiness2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\clases\\formdata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\clases\\formdata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\business\\clases\\modulebusiness2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\clases\\moduledata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\clases\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\clases\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\business\\clases\\businessbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\clases\\businessbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,20 +63,12 @@
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\interfaces\\icreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\interfaces\\icrudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\interfaces\\icrudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formmoduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyecto\\data\\moduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 402,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,46 +114,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\FormBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\FormBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\FormBusiness.cs",
+              "RelativeToolTip": "Business\\FormBusiness.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAOYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:46:43.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Web\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Web\\Controllers\\FormController.cs",
+              "RelativeToolTip": "Web\\Controllers\\FormController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:29:06.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PermissionBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\PermissionBusiness.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
-              "RelativeToolTip": "Business\\PermissionBusiness.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:33:02.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModuleBusiness2.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\ModuleBusiness2.cs",
-              "RelativeDocumentMoniker": "Business\\clases\\ModuleBusiness2.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\ModuleBusiness2.cs",
-              "RelativeToolTip": "Business\\clases\\ModuleBusiness2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:44:03.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CrudBase.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Clases\\CrudBase.cs",
               "RelativeDocumentMoniker": "Data\\Clases\\CrudBase.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Clases\\CrudBase.cs",
               "RelativeToolTip": "Data\\Clases\\CrudBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T19:44:54.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "FormData2.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Clases\\FormData2.cs",
               "RelativeDocumentMoniker": "Data\\Clases\\FormData2.cs",
@@ -149,12 +161,11 @@
               "RelativeToolTip": "Data\\Clases\\FormData2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:45:45.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:45:45.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "FormBusiness2.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\FormBusiness2.cs",
               "RelativeDocumentMoniker": "Business\\clases\\FormBusiness2.cs",
@@ -162,12 +173,11 @@
               "RelativeToolTip": "Business\\clases\\FormBusiness2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:02:02.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:02:02.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ISoftDelete.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ISoftDelete.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\ISoftDelete.cs",
@@ -175,12 +185,11 @@
               "RelativeToolTip": "Data\\Interfaces\\ISoftDelete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:45:21.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:45:21.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ModuleData2.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Clases\\ModuleData2.cs",
               "RelativeDocumentMoniker": "Data\\Clases\\ModuleData2.cs",
@@ -188,7 +197,19 @@
               "RelativeToolTip": "Data\\Clases\\ModuleData2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:05:38.718Z",
+              "WhenOpened": "2025-04-08T20:05:38.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormModuleData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
+              "RelativeDocumentMoniker": "Data\\FormModuleData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
+              "RelativeToolTip": "Data\\FormModuleData.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswHsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:01:24.078Z",
               "EditorCaption": ""
             },
             {
@@ -207,6 +228,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ModuleBusiness2.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\ModuleBusiness2.cs",
+              "RelativeDocumentMoniker": "Business\\clases\\ModuleBusiness2.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\ModuleBusiness2.cs",
+              "RelativeToolTip": "Business\\clases\\ModuleBusiness2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T22:44:03.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICrudBase.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ICrudBase.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\ICrudBase.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ICrudBase.cs",
+              "RelativeToolTip": "Data\\Interfaces\\ICrudBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:44:45.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormModuleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\FormModuleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\FormModuleBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\FormModuleBusiness.cs",
+              "RelativeToolTip": "Business\\FormModuleBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:05:13.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PermissionBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\PermissionBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\PermissionBusiness.cs",
+              "RelativeToolTip": "Business\\PermissionBusiness.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:33:02.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ICreate.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ICreate.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\ICreate.cs",
@@ -214,25 +284,11 @@
               "RelativeToolTip": "Data\\Interfaces\\ICreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:29:11.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:29:11.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICrudBase.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ICrudBase.cs",
-              "RelativeDocumentMoniker": "Data\\Interfaces\\ICrudBase.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\ICrudBase.cs",
-              "RelativeToolTip": "Data\\Interfaces\\ICrudBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:44:45.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "BusinessBase.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\clases\\BusinessBase.cs",
               "RelativeDocumentMoniker": "Business\\clases\\BusinessBase.cs",
@@ -240,12 +296,11 @@
               "RelativeToolTip": "Business\\clases\\BusinessBase.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:01:48.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:01:48.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "RolData.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\RolData.cs",
               "RelativeDocumentMoniker": "Data\\RolData.cs",
@@ -253,12 +308,11 @@
               "RelativeToolTip": "Data\\RolData.cs",
               "ViewState": "AgIAAK4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:02:17.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:02:17.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "PersonData.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\PersonData.cs",
               "RelativeDocumentMoniker": "Data\\PersonData.cs",
@@ -266,25 +320,11 @@
               "RelativeToolTip": "Data\\PersonData.cs",
               "ViewState": "AgIAADIBAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:02:02.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:02:02.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormModuleData.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
-              "RelativeDocumentMoniker": "Data\\FormModuleData.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\FormModuleData.cs",
-              "RelativeToolTip": "Data\\FormModuleData.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:01:24.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ModuleData.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\ModuleData.cs",
               "RelativeDocumentMoniker": "Data\\ModuleData.cs",
@@ -292,12 +332,11 @@
               "RelativeToolTip": "Data\\ModuleData.cs",
               "ViewState": "AgIAALcAAAAAAAAAAAAIwJQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:53:03.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T21:53:03.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IBusinessCreate.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\Interfaces\\IBusinessCreate.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusinessCreate.cs",
@@ -305,12 +344,11 @@
               "RelativeToolTip": "Business\\Interfaces\\IBusinessCreate.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:04:31.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:04:31.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IBusinessRead.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\Interfaces\\IBusinessRead.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusinessRead.cs",
@@ -318,12 +356,11 @@
               "RelativeToolTip": "Business\\Interfaces\\IBusinessRead.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:04:34.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:04:34.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IBusinessDelete.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\Interfaces\\IBusinessDelete.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusinessDelete.cs",
@@ -331,12 +368,11 @@
               "RelativeToolTip": "Business\\Interfaces\\IBusinessDelete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:04:32.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:04:32.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "IBusinessBase.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Business\\Interfaces\\IBusinessBase.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBusinessBase.cs",
@@ -344,12 +380,11 @@
               "RelativeToolTip": "Business\\Interfaces\\IBusinessBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T20:01:43.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:01:43.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IRead.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\IRead.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRead.cs",
@@ -357,12 +392,11 @@
               "RelativeToolTip": "Data\\Interfaces\\IRead.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:44:41.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:44:41.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IDelete.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyecto\\Data\\Interfaces\\IDelete.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IDelete.cs",
@@ -370,8 +404,7 @@
               "RelativeToolTip": "Data\\Interfaces\\IDelete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:44:39.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:44:39.889Z"
             }
           ]
         }
