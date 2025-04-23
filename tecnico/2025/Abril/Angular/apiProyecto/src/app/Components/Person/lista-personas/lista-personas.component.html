@@ -1,5 +1,4 @@
 <h1>Person</h1>
-
 <mat-card>
     <mat-card-header>
         <mat-card-title>Person</mat-card-title>
@@ -33,11 +32,11 @@
               <mat-cell
                   *matCellDef="let person">{{person.age}}</mat-cell>
           </ng-container>
-          <ng-container matColumnDef="status">
+          <ng-container matColumnDef="status" *ngIf="authService.getUserRoles().includes('Admin')">
             <mat-header-cell *matHeaderCellDef>Status</mat-header-cell>
             <mat-cell
                 *matCellDef="let person">
-                <p><mat-slide-toggle [(ngModel)]="person.status" (click)="toggleIsActive(person)"></mat-slide-toggle></p>
+                <p ><mat-slide-toggle [(ngModel)]="person.status" (click)="toggleIsActive(person)"></mat-slide-toggle></p>
 
             </mat-cell>
         </ng-container>

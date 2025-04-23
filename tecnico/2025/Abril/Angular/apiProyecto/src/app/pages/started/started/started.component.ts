@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { AuthService } from '../../../../services/auth-service.service';
 
 @Component({
   selector: 'app-started',
@@ -36,7 +37,8 @@ export class StartedComponent {
   constructor(
     private fb: FormBuilder,
     private api: ApiService,
-    private router: Router
+    private router: Router,
+    private authService: AuthService
   ) {
     this.loginForm = this.fb.group({
       userName: ['', Validators.required],
@@ -53,6 +55,8 @@ export class StartedComponent {
       next: (data) => {
         const token = data.token;
         localStorage.setItem('jwt', token);
+        // localStorage.setItem('token', response.token);
+
 
         Swal.fire({
           icon: 'success',
@@ -61,13 +65,14 @@ export class StartedComponent {
           timer: 1500
         });
 
-        const roles = this.getUserRoles(token);
+        var roles = this.authService.getUserRoles();
+        console.log(roles)
         if (roles.includes('Admin')) {
           console.log('Es admin');
         } else {
           console.log('No es admin');
         }
-      this.router.navigate(['/dashboard'])
+        this.router.navigate(['/dashboard'])
 
       },
       error: () => {
@@ -80,22 +85,7 @@ export class StartedComponent {
     });
   }
 
-  getUserRoles(token: string): string[] {
-    const payload = this.parseJwt(token);
-    const roles = payload?.role;
-    return Array.isArray(roles) ? roles : [roles];
-  }
-
-  parseJwt(token: string): any {
-    try {
-      const base64Payload = token.split('.')[1];
-      const decodedPayload = atob(base64Payload);
-      return JSON.parse(decodedPayload);
-    } catch (e) {
-      console.error('Error al decodificar el token:', e);
-      return null;
-    }
-  }
+  
   iconState: 'initial' | 'expanded' = 'initial';
   showExtras = false;
 

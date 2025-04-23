@@ -6,17 +6,22 @@ import {MatButtonModule, MatIconButton} from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import { AuthService } from '../../../../services/auth-service.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-dashboard',
   imports: [
+    CommonModule,
     RouterOutlet, MatSidenavModule, MatListModule, RouterLink, MatButtonModule,  MatCardModule, MatIconModule,
   ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
 export class DashboardComponent {
-  constructor(private router: Router, private authService: AuthService) {}
+  isAdmin = false;
+  constructor(private router: Router, public authService: AuthService) {
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+  }
 
   goToConfig() {
     this.router.navigate(['/config']);

@@ -10,15 +10,16 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialog } from '@angular/material/dialog';
 import Swal from 'sweetalert2';
 import { FormUserComponent } from '../../User/form-user/form-user.component';
-import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CommonModule } from '@angular/common';
+import { AuthService } from '../../../../services/auth-service.service';
 
 @Component({
   selector: 'app-lista-personas',
   imports: [
-     MatCardModule, 
-     CommonModule,
-     MatTableModule, MatIconModule, MatButtonModule, MatFormFieldModule, FormsModule, MatInputModule, MatSlideToggleModule],
+    MatCardModule,
+    CommonModule,
+    MatTableModule, MatIconModule, MatButtonModule, MatFormFieldModule, FormsModule, MatInputModule, MatSlideToggleModule],
   templateUrl: './lista-personas.component.html',
   styleUrl: './lista-personas.component.css'
 })
@@ -27,21 +28,27 @@ export class ListaPersonasComponent {
   personeleccionado?: any;
   nombreuser: String = '';
   filteredperson: any[] = [];
+  isAdmin = false;
 
 
-  displayedColumns: string[] = ['name','lastName', 'identification','email', 'age', 'status', 'actions'];
+  displayedColumns: string[] = ['name', 'lastName', 'identification', 'email', 'age', 'actions'];
 
-  constructor(private dialog: MatDialog, private apiService: ApiService) { }
+  constructor(private dialog: MatDialog, private apiService: ApiService, public authService: AuthService) {
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+    if (this.isAdmin) {
+      this.displayedColumns.push('status')
+    }
+  }
 
   ngOnInit(): void {
     this.cargarperson();
   }
-cargarperson(){
-  this.apiService.ObtenerTodo('person').subscribe(person => {
-    this.person = person;
-    console.log(person)
-  })
-}
+  cargarperson() {
+    this.apiService.ObtenerTodo('person').subscribe(person => {
+      this.person = person;
+      console.log(person)
+    })
+  }
   openFormCreate(): void {
     const dialogRef = this.dialog.open(FormUserComponent, {
       width: '400px',
@@ -82,14 +89,14 @@ cargarperson(){
       cancelButtonText: 'Cancelar'
     }).then((result) => {
       if (result.isConfirmed) {
-       this.apiService.delete('person', person.id).subscribe(() => {
-        this.cargarperson();
-       })
+        this.apiService.delete('person', person.id).subscribe(() => {
+          this.cargarperson();
+        })
       }
     });
   }
 
-  toggleIsActive(person : any){
+  toggleIsActive(person: any) {
     this.apiService.deleteLogic('person', person.id).subscribe(() => {
       Swal.fire({
         title: `Actualización exitosa`,
