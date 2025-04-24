@@ -1,13 +1,12 @@
 <h1>Person</h1>
+<div>Entidad restringida para el Administrador.</div>
 <mat-card>
     <mat-card-header>
         <mat-card-title>Person</mat-card-title>
         <button mat-raised-button color="primary"
             (click)="openFormCreate()">Agregar Persona</button>
     </mat-card-header>
-
     <mat-table [dataSource]="person" class="mat-elevation-z8">
-
             <ng-container matColumnDef="name">
                 <mat-header-cell *matHeaderCellDef>Nombres</mat-header-cell>
                 <mat-cell *matCellDef="let person">{{person.name}}</mat-cell>
@@ -32,7 +31,7 @@
               <mat-cell
                   *matCellDef="let person">{{person.age}}</mat-cell>
           </ng-container>
-          <ng-container matColumnDef="status" *ngIf="authService.getUserRoles().includes('Admin')">
+          <ng-container matColumnDef="status" *ngIf="isAdmin">
             <mat-header-cell *matHeaderCellDef>Status</mat-header-cell>
             <mat-cell
                 *matCellDef="let person">

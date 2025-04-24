@@ -45,7 +45,11 @@ export class ListaPersonasComponent {
   }
   cargarperson() {
     this.apiService.ObtenerTodo('person').subscribe(person => {
-      this.person = person;
+      if (!this.isAdmin) {
+        this.person = person.filter((p: any) => p.status === true);
+      } else {
+        this.person = person;
+      }
       console.log(person)
     })
   }

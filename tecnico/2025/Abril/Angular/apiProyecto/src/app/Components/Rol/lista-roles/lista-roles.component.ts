@@ -13,6 +13,7 @@ import { FormUserComponent } from '../../User/form-user/form-user.component';
 import { FormularioComponent } from '../formulario/formulario.component';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
+import { AuthService } from '../../../../services/auth-service.service';
 
 @Component({
   selector: 'app-lista-roles',
@@ -25,18 +26,27 @@ export class ListaRolesComponent {
   roleseleccionado?: any;
   nombreuser: String = '';
   filteredroles: any[] = [];
+  isAdmin = false;
 
+  displayedColumns: string[] = ['name', 'description', 'actions'];
 
-  displayedColumns: string[] = ['name', 'description', 'status', 'actions'];
-
-  constructor(private dialog: MatDialog, private apiService: ApiService) { }
+  constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) { 
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+    if (this.isAdmin) {
+      this.displayedColumns.push('status')
+    }
+  }
 
   ngOnInit(): void {
     this.cargarroles();
   }
 cargarroles(){
   this.apiService.ObtenerTodo('rol').subscribe(roles => {
-    this.roles = roles;
+    if (!this.isAdmin) {
+      this.roles = roles.filter((r: any) => r.status === true || r.status === 1);
+    } else {
+      this.roles = roles;
+    }
     console.log(roles)
   })
 }

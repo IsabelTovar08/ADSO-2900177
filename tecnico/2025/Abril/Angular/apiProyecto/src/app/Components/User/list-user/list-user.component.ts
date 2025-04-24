@@ -12,6 +12,7 @@ import { MatTableModule } from '@angular/material/table';
 import Swal from 'sweetalert2';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
+import { AuthService } from '../../../../services/auth-service.service';
 
 
 @Component({
@@ -25,11 +26,16 @@ export class ListUserComponent {
   userSeleccionado?: any;
   nombreuser: String = '';
   filteredusers: any[] = [];
+  isAdmin = false;
 
+  displayedColumns: string[] = ['userName', 'personId', 'actions'];
 
-  displayedColumns: string[] = ['userName', 'status', 'personId', 'actions'];
-
-  constructor(private dialog: MatDialog, private apiService: ApiService) { }
+  constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) { 
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+    if (this.isAdmin) {
+      this.displayedColumns.push('status')
+    }
+  }
 
   ngOnInit(): void {
     this.cargarusers();

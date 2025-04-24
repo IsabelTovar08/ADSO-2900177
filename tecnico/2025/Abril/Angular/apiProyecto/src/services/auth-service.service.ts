@@ -22,7 +22,6 @@ export class AuthService {
   isAuthenticated(): boolean {
     const token = this.getToken();
     
-    // Si no hay token o el token no es válido → cerrar sesión
     if (!token || !this.isTokenValid(token)) {
       this.logoutWithAlert();
       return false;
@@ -31,16 +30,6 @@ export class AuthService {
     return true;
   }
   
-
-  // isAuthenticated(): boolean {
-  //   const token = this.getToken();
-  //   if (token !== null  this.isTokenValid(token)) {
-  //     this.logoutWithAlert();
-  //     return false;
-  //   }
-  //   return true;
-  // }
-
   logout(): void {
     localStorage.removeItem(this.tokenKey);
     this.router.navigate(['']);
@@ -49,13 +38,14 @@ export class AuthService {
 
   private isTokenValid(token: string): boolean {
     try {
-      const payload = JSON.parse(atob(token.split('.')[1]));
-      const exp = payload.exp;
+      const decoded: any = jwtDecode(token);
+      const exp = decoded.exp;
       return Date.now() < exp * 1000;
     } catch {
       return false;
     }
   }
+  
 
   getUserRoles(): string[] {
     const token = this.getToken();

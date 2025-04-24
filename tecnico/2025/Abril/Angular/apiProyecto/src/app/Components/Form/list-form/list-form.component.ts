@@ -13,6 +13,7 @@ import { FormUserComponent } from '../../User/form-user/form-user.component';
 import { FormFormComponent } from '../form-form/form-form.component';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
+import { AuthService } from '../../../../services/auth-service.service';
 
 @Component({
   selector: 'app-list-form',
@@ -25,19 +26,27 @@ export class ListFormComponent {
   formseleccionado?: any;
   nombreuser: String = '';
   filteredforms: any[] = [];
+  isAdmin = false;
 
+  displayedColumns: string[] = ['name', 'description', 'actions'];
 
-  displayedColumns: string[] = ['name', 'description', 'status', 'actions'];
-
-  constructor(private dialog: MatDialog, private apiService: ApiService) { }
+  constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) {
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+    if (this.isAdmin) {
+      this.displayedColumns.push('status')
+    }
+   }
 
   ngOnInit(): void {
     this.cargarforms();
   }
 cargarforms(){
   this.apiService.ObtenerTodo('form').subscribe(forms => {
-    this.forms = forms;
-    console.log(forms)
+    if (!this.isAdmin) {
+      this.forms = forms.filter((f: any) => f.status === true || f.status === 1);
+    } else {
+      this.forms = forms;
+    }
   })
 }
   openFormCreate(): void {

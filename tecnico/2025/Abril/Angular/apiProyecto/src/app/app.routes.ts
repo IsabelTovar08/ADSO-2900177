@@ -27,7 +27,7 @@ export const routes: Routes = [
 
             {path : 'moduleForm', component: ListModuleFOrmComponent},
 
-            { path: '', redirectTo: 'person', pathMatch: 'full' }
+            { path: '', redirectTo: 'user', pathMatch: 'full' }
 
         ]
     },

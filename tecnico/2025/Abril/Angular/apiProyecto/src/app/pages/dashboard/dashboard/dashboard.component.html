@@ -9,7 +9,7 @@
       </div>
       <br>
       <button mat-button (click)="logout()">Cerrar sesión</button>
-
+      <div *ngIf="isAdmin">Administrador con todos los permisos</div>
       <!-- Configuración -->
       <h3 class="sidenav-section-title">
         <mat-icon>settings</mat-icon>ModelSecurity
@@ -24,7 +24,7 @@
       <a mat-list-item routerLink="/dashboard/userRol">
         UserRol
       </a>
-      <a mat-list-item routerLink="/dashboard/person">
+      <a *ngIf="isAdmin" mat-list-item routerLink="/dashboard/person">
         Person
       </a>
       <a mat-list-item routerLink="/dashboard/form">

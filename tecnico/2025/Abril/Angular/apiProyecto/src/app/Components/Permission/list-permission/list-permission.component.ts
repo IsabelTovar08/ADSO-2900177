@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { FormPermissionComponent } from '../form-permission/form-permission.component';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
+import { AuthService } from '../../../../services/auth-service.service';
 
 @Component({
   selector: 'app-list-permission',
@@ -25,11 +26,16 @@ export class ListPermissionComponent {
   permissionseleccionado?: any;
   nombreuser: String = '';
   filteredpermissions: any[] = [];
+  isAdmin = false;
 
+  displayedColumns: string[] = ['name', 'description', 'actions'];
 
-  displayedColumns: string[] = ['name', 'description', 'status', 'actions'];
-
-  constructor(private dialog: MatDialog, private apiService: ApiService) { }
+  constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) {
+    this.isAdmin = this.authService.getUserRoles().includes('Admin');
+    if (this.isAdmin) {
+      this.displayedColumns.push('status')
+    }
+   }
 
   ngOnInit(): void {
     this.cargarpermissions();
