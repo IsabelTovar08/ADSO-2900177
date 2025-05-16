@@ -28,7 +28,11 @@ export class ListUserComponent {
   filteredusers: any[] = [];
   isAdmin = false;
 
+<<<<<<< HEAD
   displayedColumns: string[] = ['userName', 'personId', 'actions'];
+=======
+  displayedColumns: string[] = ['userName','email', 'personId', 'actions'];
+>>>>>>> mayo
 
   constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) { 
     this.isAdmin = this.authService.getUserRoles().includes('Admin');
@@ -41,7 +45,11 @@ export class ListUserComponent {
     this.cargarusers();
   }
 cargarusers(){
+<<<<<<< HEAD
   this.apiService.ObtenerTodo('user').subscribe(users => {
+=======
+  this.apiService.ObtenerTodo('User').subscribe(users => {
+>>>>>>> mayo
     this.users = users;
     console.log(users)
   })
@@ -86,7 +94,11 @@ cargarusers(){
       cancelButtonText: 'Cancelar'
     }).then((result) => {
       if (result.isConfirmed) {
+<<<<<<< HEAD
        this.apiService.delete('branchs', users.idBranch).subscribe(() => {
+=======
+       this.apiService.delete('User', users.id).subscribe(() => {
+>>>>>>> mayo
         this.cargarusers();
        })
       }

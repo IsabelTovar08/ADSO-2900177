@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Lbke6poQZFs=",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
+=======
+  "dgSpecHash": "L2bYIQd9z9E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
+>>>>>>> mayo
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

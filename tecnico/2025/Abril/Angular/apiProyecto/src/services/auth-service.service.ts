@@ -60,6 +60,13 @@ export class AuthService {
   }
   
   logoutWithAlert() {
+<<<<<<< HEAD
+=======
+    if (this.router.url === '/') {
+      this.logout();
+      return;
+    }
+>>>>>>> mayo
     Swal.fire({
       icon: 'warning',
       title: 'Sesión expirada',

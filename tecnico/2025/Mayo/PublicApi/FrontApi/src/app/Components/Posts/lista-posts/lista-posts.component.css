@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 16px;
+    align-items: start; /* Alinea los elementos al inicio y NO estirados */
+  }
+  
+  mat-card {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: aliceblue;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Evita que se estire el contenido interno */
+  }
+  
+  mat-card-title,
+  mat-card-content {
+    width: 100%;
+  }
+  
+  .VerComentarios {
+    color: rgb(80, 13, 196);
+    cursor: pointer;
+  }
+  

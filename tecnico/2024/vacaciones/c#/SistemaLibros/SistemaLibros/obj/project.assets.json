@@ -5176,11 +5176,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
       "projectName": "SistemaLibros",
       "projectPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
+      "projectName": "SistemaLibros",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\SistemaLibros.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\obj\\",
+>>>>>>> mayo
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

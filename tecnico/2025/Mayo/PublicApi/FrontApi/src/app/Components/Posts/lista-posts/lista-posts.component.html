@@ -1,0 +1,47 @@
+<h1>Posts
+    <button mat-icon-button (click)="savePosts()">
+        <mat-icon>add</mat-icon>
+    </button>
+
+</h1>
+<div class="container">
+    @for (post of result; track $index) {
+    <mat-card appearance="outlined">
+        <mat-card-title>
+            <strong>Título:</strong> {{ post.title }}
+            <button mat-icon-button (click)="postSeleccionado=post; savePosts()">
+                <mat-icon>edit</mat-icon>
+            </button> 
+            <button mat-icon-button (click)="deletePost(post.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+
+        </mat-card-title>
+        <br />
+        <mat-card-content>
+            {{ post.body }}
+            <div class="VerComentarios" (click)="saveComments()">
+                Agregar Comentario
+            </div>
+            <div class="VerComentarios" (click)="cargarComentarios(post.id)">
+                Ver Comentarios
+            </div>
+            @for (Comentario of comentarios; track $index) {
+            <mat-card appearance="outlined" *ngIf="postIdActual === post.id">
+               
+                <mat-card-content>
+                    <button mat-icon-button (click)="commentSeleccionado=Comentario; saveComments()">
+                        <mat-icon>edit</mat-icon>
+                    </button> 
+                    <button mat-icon-button (click)="deleteComent(Comentario.id)">
+                        <mat-icon>remove</mat-icon>
+                    </button>({{ $index +1 }}) -
+                    {{Comentario.body}}</mat-card-content>
+                
+            </mat-card>
+
+            }
+        </mat-card-content>
+    </mat-card>
+    }
+</div>

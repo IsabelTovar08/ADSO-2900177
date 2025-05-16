@@ -1,0 +1,33 @@
+<button mat-flat-button (click)="verGuardados=!verGuardados">Ver Guardados</button>
+<app-generic-table *ngIf="verGuardados"
+ [title]="'Albunes'"
+  [dataSource]="usersGuardados"
+  [displayedColumns]="displayedColumns"
+  [columns]="[
+      { key: 'name', label: 'Nombre' },
+      { key: 'username', label: 'Nombre Usuario' },
+      { key: 'email', label: 'Email' },
+      { key: 'phone', label: 'Teléfono' }
+    ]"
+  (onCreate)="save(null)"
+  (onEdit)="save($event)"
+  (onDelete)="deleteusers($event.id)"
+  (onSaveSelected)="onGuardarSeleccionados($event)">
+</app-generic-table>
+
+
+<app-generic-table
+  [title]="'Albunes'"
+  [dataSource]="users"
+  [displayedColumns]="displayedColumns"
+  [columns]="[
+      { key: 'name', label: 'Nombre' },
+      { key: 'username', label: 'Nombre Usuario' },
+      { key: 'email', label: 'Email' },
+      { key: 'phone', label: 'Teléfono' }
+    ]"
+  (onCreate)="save(null)"
+  (onEdit)="save($event)"
+  (onDelete)="deleteusers($event.id)"
+  (onSaveSelected)="onGuardarSeleccionados($event)">
+</app-generic-table>

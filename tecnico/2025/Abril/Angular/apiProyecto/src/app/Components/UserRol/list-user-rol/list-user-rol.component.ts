@@ -25,7 +25,11 @@ export class ListUserRolComponent {
   filtereduserRoles: any[] = [];
 
 
+<<<<<<< HEAD
   displayedColumns: string[] = ['rolId','rolName','userId', 'userName', 'actions'];
+=======
+  displayedColumns: string[] = ['rolName', 'userName', 'actions'];
+>>>>>>> mayo
 
   constructor(private dialog: MatDialog, private apiService: ApiService) { }
 

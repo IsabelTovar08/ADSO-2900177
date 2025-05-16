@@ -39,7 +39,11 @@ export class FormUserRolComponent {
 
   }
   cargarusers() {
+<<<<<<< HEAD
     this.apiService.ObtenerTodo('user').subscribe(users => {
+=======
+    this.apiService.ObtenerTodo('User').subscribe(users => {
+>>>>>>> mayo
       this.users = users;
     })
   }

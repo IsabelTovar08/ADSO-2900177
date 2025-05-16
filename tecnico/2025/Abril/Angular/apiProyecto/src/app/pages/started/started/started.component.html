@@ -1,6 +1,10 @@
 <div class="start-wrapper">
   <div class="center-icon" [@iconExpand]="iconState">
+<<<<<<< HEAD
     💇‍♀️
+=======
+    ✅
+>>>>>>> mayo
   </div>
 
   <div class="icon-burst" *ngIf="showExtras">
@@ -14,6 +18,7 @@
   <div class="welcome-message" *ngIf="showExtras" @fadeIn>
     <h2>Bienvenido</h2>
     <p>Inicia sesión para continuar</p>
+<<<<<<< HEAD
   
     <div class="login-container" style="max-width: 400px; margin: auto;">
       <form [formGroup]="loginForm" (ngSubmit)="login()">
@@ -21,17 +26,30 @@
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Nombre de usuario</mat-label>
           <input matInput type="text" formControlName="userName" required>
+=======
+
+    <div class="login-container" style="max-width: 600px; margin: auto;">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Correo electrónico</mat-label>
+          <input matInput type="email" formControlName="email" required>
+>>>>>>> mayo
           <mat-error *ngIf="loginForm.get('userName')?.hasError('required')">
             Campo obligatorio
           </mat-error>
         </mat-form-field>
+<<<<<<< HEAD
   
+=======
+        <br>
+>>>>>>> mayo
         <mat-form-field appearance="fill" class="full-width">
           <mat-label>Contraseña</mat-label>
           <input matInput type="password" formControlName="password" required>
           <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
             Campo obligatorio
           </mat-error>
+<<<<<<< HEAD
         </mat-form-field>
   <br>
         <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">
@@ -41,4 +59,25 @@
     </div>
   </div>
   
+=======
+          <mat-error *ngIf="loginForm.get('password')?.hasError('minlength')">
+            La contraseña debe incluir mínimo 6 caracteres
+          </mat-error>
+          <mat-error *ngIf="loginForm.get('password')?.hasError('pattern')">
+            La contraseña debe incluir letras y números
+          </mat-error>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" type="submit"
+          [disabled]="loginForm.invalid">
+          Ingresar
+        </button>
+      </form>
+      <button id="google-signin-button" [ngClass]="{ 'hidden': !showExtras }"
+          (click)="onGoogleLogin()">Continuar con Google</button>
+    </div>
+  </div>
+
+  <!-- Mueve esto fuera del *ngIf pero controla su visibilidad -->
+>>>>>>> mayo
 </div>

@@ -9,6 +9,7 @@
 
     <mat-table [dataSource]="userRoles" class="mat-elevation-z8">
 
+<<<<<<< HEAD
             <ng-container matColumnDef="rolId">
                 <mat-header-cell *matHeaderCellDef>ID ROl</mat-header-cell>
                 <mat-cell *matCellDef="let userRol">{{userRol.rolId}}</mat-cell>
@@ -23,6 +24,13 @@
                 <mat-cell
                     *matCellDef="let userRol">{{userRol.userId}}</mat-cell>
             </ng-container>
+=======
+            <ng-container matColumnDef="rolName">
+                <mat-header-cell *matHeaderCellDef>Nombre del ROl</mat-header-cell>
+                <mat-cell
+                    *matCellDef="let userRol">{{userRol.rolName}}</mat-cell>
+            </ng-container>
+>>>>>>> mayo
             <ng-container matColumnDef="userName">
                 <mat-header-cell *matHeaderCellDef>UserName</mat-header-cell>
                 <mat-cell

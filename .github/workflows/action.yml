@@ -1,0 +1,24 @@
+name: Dev Build
+
+on:
+  push:
+    branches: [ mayo ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
+      OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build
+        run: dotnet build

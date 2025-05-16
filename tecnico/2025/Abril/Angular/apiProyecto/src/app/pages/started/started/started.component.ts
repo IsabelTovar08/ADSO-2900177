@@ -3,7 +3,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+<<<<<<< HEAD
 import { Router } from '@angular/router';
+=======
+import { ActivatedRoute, Router } from '@angular/router';
+>>>>>>> mayo
 import Swal from 'sweetalert2';
 import { ApiService } from '../../../../services/api.service';
 import { MatInputModule } from '@angular/material/input';
@@ -12,16 +16,28 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { AuthService } from '../../../../services/auth-service.service';
 
+<<<<<<< HEAD
 @Component({
   selector: 'app-started',
   imports: [ CommonModule, FormsModule, ReactiveFormsModule, MatInputModule, MatFormFieldModule, MatButtonModule, MatIconModule],
+=======
+declare const google: any;
+
+@Component({
+  selector: 'app-started',
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, MatInputModule, MatFormFieldModule, MatButtonModule, MatIconModule],
+>>>>>>> mayo
   templateUrl: './started.component.html',
   styleUrl: './started.component.css',
   animations: [
     trigger('iconExpand', [
       state('initial', style({ transform: 'scale(0.2)', opacity: 0 })),
       state('expanded', style({ transform: 'scale(1)', opacity: 1 })),
+<<<<<<< HEAD
       transition('initial => expanded', animate('1000ms ease-out'))
+=======
+      transition('initial => expanded', animate('500ms ease-out'))
+>>>>>>> mayo
     ]),
     trigger('fadeIn', [
       transition(':enter', [
@@ -33,11 +49,18 @@ import { AuthService } from '../../../../services/auth-service.service';
 })
 export class StartedComponent {
   loginForm: FormGroup;
+<<<<<<< HEAD
+=======
+  iconState: 'initial' | 'expanded' = 'initial';
+  showExtras = false;
+  private googleCodeClient: any;
+>>>>>>> mayo
 
   constructor(
     private fb: FormBuilder,
     private api: ApiService,
     private router: Router,
+<<<<<<< HEAD
     private authService: AuthService
   ) {
     this.loginForm = this.fb.group({
@@ -46,6 +69,99 @@ export class StartedComponent {
     });
   }
 
+=======
+    private authService: AuthService,
+    private route: ActivatedRoute
+  ) {
+    this.loginForm = this.fb.group({
+      email: ['', Validators.required],
+      password: ['', [
+        Validators.required,
+        // Validators.minLength(6),
+        // Validators.pattern(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/)
+      ]]
+    });
+  }
+
+  ngOnInit(): void {
+    this.startAnimations();
+    const code = this.route.snapshot.queryParamMap.get('code');
+  
+  // Si el código está presente, llama al método handleCredentialResponse
+  if (code) {
+    this.handleCredentialResponse(code);
+  } else {
+    // Si no hay código, no hace nada o maneja el error
+    console.log('No se encontró código de autenticación en la URL');
+  }
+  }
+
+  startAnimations(): void {
+    setTimeout(() => {
+      this.iconState = 'expanded';
+      setTimeout(() => {
+        this.showExtras = true;
+        this.loadGoogleButton(); // Google solo se carga después de mostrar extras
+      }, 200);
+    }, 500);
+  }
+
+  loadGoogleButton(): void {
+    const checkGoogleLoaded = () => {
+      if ((window as any).google) {
+        this.googleCodeClient = google.accounts.oauth2.initCodeClient({
+          client_id: '140227784056-arlnkaj5j7frl6k3uku5ft0e178dq42m.apps.googleusercontent.com',
+          scope: 'openid email profile',
+          redirect_uri: 'http://localhost:4200',
+          ux_mode: 'redirect',
+          callback: () => { } // No necesario en redirect, pero puede usarse en popup
+        });
+      } else {
+        setTimeout(checkGoogleLoaded, 100);
+      }
+    };
+
+    checkGoogleLoaded();
+  }
+
+
+  handleCredentialResponse(code: string) {
+    if (code) {
+      this.api.exchangeCodeForToken(code).subscribe({
+        next: res => {
+          // Guarda el token JWT en el localStorage
+          localStorage.setItem('jwt', res.token);
+
+          // Notifica al usuario que la autenticación fue exitosa
+          Swal.fire({
+            icon: 'success',
+            title: 'Inicio de sesión exitoso',
+            showConfirmButton: false,
+            timer: 1500
+          });
+
+          // Redirige a la página de Dashboard
+          this.router.navigate(['/dashboard']);
+        },
+        error: err => {
+          // Si hay un error, muestra el mensaje adecuado
+          Swal.fire('Error', 'Login con Google falló', 'error');
+        }
+      });
+    } else {
+      // Si no hay código en la URL, muestra un error
+      Swal.fire('Error', 'No se encontró código de autenticación en la URL', 'warning');
+    }
+  }
+
+  onGoogleLogin(): void {
+    if (this.googleCodeClient) {
+      this.googleCodeClient.requestCode(); // Solo redirige al hacer clic
+    } else {
+      Swal.fire('Espera', 'Google aún se está cargando. Intenta en unos segundos.', 'info');
+    }
+  }
+>>>>>>> mayo
   login() {
     if (this.loginForm.invalid) return;
 
@@ -54,10 +170,14 @@ export class StartedComponent {
     this.api.login(credentials).subscribe({
       next: (data) => {
         const token = data.token;
+<<<<<<< HEAD
         localStorage.setItem('jwt', token);
         // localStorage.setItem('token', response.token);
 
 
+=======
+        this.authService.setToken(token)
+>>>>>>> mayo
         Swal.fire({
           icon: 'success',
           title: 'Inicio de sesión exitoso',
@@ -85,6 +205,7 @@ export class StartedComponent {
     });
   }
 
+<<<<<<< HEAD
   
   iconState: 'initial' | 'expanded' = 'initial';
   showExtras = false;
@@ -98,4 +219,6 @@ export class StartedComponent {
   
 
 
+=======
+>>>>>>> mayo
 }

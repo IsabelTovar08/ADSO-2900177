@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\",
   "Documents": [
     {
@@ -25,6 +26,37 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\migrations\\20250206153338_libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2024\\vacaciones\\c#\\sistemalibros\\sistemalibros\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9C17E2-72C4-43F1-B1ED-29ACCC6DEFB9}|SistemaLibros\\SistemaLibros.csproj|solutionrelative:sistemalibros\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> mayo
     }
   ],
   "DocumentGroupContainers": [
@@ -34,14 +66,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaLibros\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.json",
+              "RelativeToolTip": "SistemaLibros\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T21:26:49.469Z",
+              "EditorCaption": ""
+            },
+            {
+>>>>>>> mayo
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "LibroController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
@@ -49,12 +101,22 @@
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
               "RelativeToolTip": "SistemaLibros\\Controllers\\LibroController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwDIAAAAtAAAAAAAAAA==",
+=======
+              "DocumentIndex": 4,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "SistemaLibros\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "SistemaLibros\\Controllers\\LibroController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwBgAAAAJAAAAAAAAAA==",
+>>>>>>> mayo
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T15:35:34.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "20250206153338_Libros.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Migrations\\20250206153338_Libros.cs",
@@ -88,11 +150,37 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T15:06:36.784Z"
+=======
+              "DocumentIndex": 6,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Entidades\\Libro.cs",
+              "RelativeDocumentMoniker": "SistemaLibros\\Entidades\\Libro.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Entidades\\Libro.cs",
+              "RelativeToolTip": "SistemaLibros\\Entidades\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:10:53.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaLibros\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SistemaLibros\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:06:36.784Z",
+              "EditorCaption": ""
+>>>>>>> mayo
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.Development.json",
               "RelativeDocumentMoniker": "SistemaLibros\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.Development.json",
@@ -112,6 +200,42 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:37:38.836Z"
+=======
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SistemaLibros\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\appsettings.Development.json",
+              "RelativeToolTip": "SistemaLibros\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T14:39:58.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaLibros\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Program.cs",
+              "RelativeToolTip": "SistemaLibros\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:37:38.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250206153338_Libros.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Migrations\\20250206153338_Libros.cs",
+              "RelativeDocumentMoniker": "SistemaLibros\\Migrations\\20250206153338_Libros.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2024\\vacaciones\\c#\\SistemaLibros\\SistemaLibros\\Migrations\\20250206153338_Libros.cs",
+              "RelativeToolTip": "SistemaLibros\\Migrations\\20250206153338_Libros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:33:39.071Z",
+              "EditorCaption": ""
+>>>>>>> mayo
             }
           ]
         }

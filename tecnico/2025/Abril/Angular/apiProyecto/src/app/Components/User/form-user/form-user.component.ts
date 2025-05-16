@@ -50,23 +50,40 @@ export class FormUserComponent {
     this.userForm = this.fb.group({
       id: [this.user?.id || 0],
       userName: [this.user?.userName || '', Validators.required],
+<<<<<<< HEAD
       password: [this.user?.password || '', Validators.required],
       status: [this.user?.status || 1],
       personId :[this.user?.personId || '', Validators.required]
 
 
+=======
+      email :[this.user?.email || '', Validators.required],
+      password: [this.user?.password || '', [Validators.required,
+        Validators.minLength(6),
+        Validators.pattern(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/)]
+      ],
+      personId :[this.user?.personId || '', Validators.required]
+>>>>>>> mayo
     });
   }
 
   guardarform() {
     if (this.isEditMode) {
+<<<<<<< HEAD
       this.apiService.update('user', this.userForm.value).subscribe(() => {
+=======
+      this.apiService.update('User', this.userForm.value).subscribe(() => {
+>>>>>>> mayo
         console.log("update");
         this.dialogRef.close('reload');
       })
     }
     else {
+<<<<<<< HEAD
       this.apiService.Crear('user', this.userForm.value).subscribe(() => {
+=======
+      this.apiService.Crear('User', this.userForm.value).subscribe(() => {
+>>>>>>> mayo
         console.log("creado");
         this.dialogRef.close('reload');
       })

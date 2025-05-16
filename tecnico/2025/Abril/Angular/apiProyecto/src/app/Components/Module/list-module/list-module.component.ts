@@ -14,10 +14,18 @@ import { FormModuleComponent } from '../form-module/form-module.component';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
 import { AuthService } from '../../../../services/auth-service.service';
+<<<<<<< HEAD
 
 @Component({
   selector: 'app-list-module',
   imports: [CommonModule, MatSlideToggle, MatCardModule, MatTableModule, MatIconModule, MatButtonModule, MatFormFieldModule, FormsModule, MatInputModule],
+=======
+import { GenericTableComponent } from "../../generic-table/generic-table.component";
+
+@Component({
+  selector: 'app-list-module',
+  imports: [CommonModule, MatSlideToggle, MatCardModule, MatTableModule, MatIconModule, MatButtonModule, MatFormFieldModule, FormsModule, MatInputModule, GenericTableComponent],
+>>>>>>> mayo
   templateUrl: './list-module.component.html',
   styleUrl: './list-module.component.css'
 })
@@ -32,7 +40,11 @@ export class ListModuleComponent {
   constructor(private dialog: MatDialog, private apiService: ApiService, private authService: AuthService) { 
     this.isAdmin = this.authService.getUserRoles().includes('Admin');
     if (this.isAdmin) {
+<<<<<<< HEAD
       this.displayedColumns.push('status')
+=======
+      this.displayedColumns.push('isDeleted')
+>>>>>>> mayo
     }
   }
 

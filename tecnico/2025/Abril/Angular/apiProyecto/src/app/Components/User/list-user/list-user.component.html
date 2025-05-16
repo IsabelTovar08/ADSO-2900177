@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 
 <mat-card>
     <mat-card-header>
       <mat-card-title>users</mat-card-title>
+=======
+<h1>Users</h1>
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Users</mat-card-title>
+>>>>>>> mayo
       <button mat-raised-button color="primary" (click)="openFormCreate()">Agregar user</button>
     </mat-card-header>
   
@@ -11,6 +18,13 @@
         <mat-header-cell *matHeaderCellDef>Nombre</mat-header-cell>
         <mat-cell *matCellDef="let user">{{user.userName}}</mat-cell>
       </ng-container>
+<<<<<<< HEAD
+=======
+      <ng-container matColumnDef="email">
+        <mat-header-cell *matHeaderCellDef>Email</mat-header-cell>
+        <mat-cell *matCellDef="let user">{{user.email}}</mat-cell>
+      </ng-container>
+>>>>>>> mayo
       <ng-container matColumnDef="status">
         <mat-header-cell *matHeaderCellDef>Estado</mat-header-cell>
         <mat-cell *matCellDef="let user">
@@ -18,8 +32,13 @@
         </mat-cell>
       </ng-container>
       <ng-container matColumnDef="personId">
+<<<<<<< HEAD
         <mat-header-cell *matHeaderCellDef>ID Persona</mat-header-cell>
         <mat-cell *matCellDef="let user">{{user.personId}}</mat-cell>
+=======
+        <mat-header-cell *matHeaderCellDef>Nombre Persona</mat-header-cell>
+        <mat-cell *matCellDef="let user">{{user.namePerson}}</mat-cell>
+>>>>>>> mayo
       </ng-container>
 
       <ng-container matColumnDef="actions">

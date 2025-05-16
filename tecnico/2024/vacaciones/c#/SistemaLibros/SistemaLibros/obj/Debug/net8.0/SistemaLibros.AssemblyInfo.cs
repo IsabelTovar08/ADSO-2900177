@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaLibros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74773b5ab37d0b4ae9bef8162d6cb94ddcbfba1c")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41764cc2d92dfe1077c276078589c1c9fa167cc4")]
+>>>>>>> mayo
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaLibros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaLibros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

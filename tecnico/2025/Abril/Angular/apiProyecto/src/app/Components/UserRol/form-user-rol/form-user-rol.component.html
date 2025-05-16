@@ -6,7 +6,11 @@
         <mat-label>user</mat-label>
         <mat-select formControlName="userId">
           <mat-option *ngFor="let user of users" [value]="user.id">
+<<<<<<< HEAD
             {{ user.userName }}
+=======
+            {{ user.userName || user.email}}
+>>>>>>> mayo
           </mat-option>
         </mat-select>
       </mat-form-field>

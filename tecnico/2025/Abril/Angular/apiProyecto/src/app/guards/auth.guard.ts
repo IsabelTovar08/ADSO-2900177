@@ -11,7 +11,11 @@ export const authGuard: CanActivateFn = (route, state) => {
 
     return true;
   } else {
+<<<<<<< HEAD
     router.navigate(['/']);
+=======
+    authService.logout();
+>>>>>>> mayo
     return false;
   }
 };

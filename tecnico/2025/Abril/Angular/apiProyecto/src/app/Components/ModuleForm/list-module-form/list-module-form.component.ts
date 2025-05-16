@@ -25,7 +25,11 @@ export class ListModuleFOrmComponent {
   filteredmoduleForms: any[] = [];
 
 
+<<<<<<< HEAD
   displayedColumns: string[] = ['formId', 'nameForm', 'moduleId', 'nameModule', 'actions'];
+=======
+  displayedColumns: string[] = [ 'nameForm', 'nameModule', 'actions'];
+>>>>>>> mayo
 
   constructor(private dialog: MatDialog, private apiService: ApiService) { }
 

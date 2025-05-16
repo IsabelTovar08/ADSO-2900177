@@ -72,8 +72,12 @@
     }
   
     button {
+<<<<<<< HEAD
       margin: 0 1rem;
       padding: 1rem 2rem;
+=======
+      margin: 5%;
+>>>>>>> mayo
       border: none;
       border-radius: 1rem;
       background-color: #db70a0;
@@ -94,5 +98,19 @@
     opacity: 1;
   }
   
+<<<<<<< HEAD
   
   
+=======
+  .full-width {
+    width: 100% !important;
+  }
+  .disabled-row {
+    background-color: #f0f0f0; 
+    opacity: 0.6;    
+    pointer-events: none;  
+  }
+  .espacio{
+    border: 5px solid #000;
+  }
+>>>>>>> mayo

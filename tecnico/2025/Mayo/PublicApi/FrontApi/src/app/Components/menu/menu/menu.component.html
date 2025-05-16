@@ -1,0 +1,49 @@
+
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <button mat-icon-button class="example-icon"
+            aria-label="Example icon-button with menu icon"
+            (click)="drawer.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        @if (showFiller) {
+        <p>Lorem, ipsum dolor sit amet consectetur.</p>
+        }
+        <br>
+        <br>
+
+        <a mat-raised-button routerLink="/">
+            Posts
+        </a>
+        <br>
+        <br>
+        <button mat-raised-button routerLink="/albums">
+            Albunes
+        </button>
+        <br>
+        <br>
+        <button mat-raised-button routerLink="/users">
+            Usuarios
+        </button>
+        <br>
+    </mat-drawer>
+
+</mat-drawer-container>
+
+<mat-toolbar>
+    <button mat-icon-button class="example-icon"
+        aria-label="Example icon-button with menu icon"
+        (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon"
+        aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon"
+        aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+    </button>
+</mat-toolbar>

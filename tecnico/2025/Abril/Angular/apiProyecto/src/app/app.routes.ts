@@ -24,7 +24,10 @@ export const routes: Routes = [
             {path : 'userRol', component: ListUserRolComponent},
             {path : 'user', component: ListUserComponent},
             {path : 'rolFormPermission', component: ListRolFormPermissionComponent},
+<<<<<<< HEAD
 
+=======
+>>>>>>> mayo
             {path : 'moduleForm', component: ListModuleFOrmComponent},
 
             { path: '', redirectTo: 'user', pathMatch: 'full' }
