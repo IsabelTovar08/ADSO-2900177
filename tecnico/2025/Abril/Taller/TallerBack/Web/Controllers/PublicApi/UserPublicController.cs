@@ -82,7 +82,7 @@ namespace Web.Controllers.PublicApi
             if (users == null || users.Count == 0)
                 return BadRequest("No se recibieron usuarios.");
 
-           
+
             try
             {
                 var createdUsers = new List<UserPublic>();
@@ -94,7 +94,7 @@ namespace Web.Controllers.PublicApi
                 }
 
                 // Luego devuelve algo con todos los usuarios creados
-                return Ok(createdUsers);
+                return Ok("Usuarios guardados con éxito." +createdUsers);
 
 
             }
@@ -108,23 +108,20 @@ namespace Web.Controllers.PublicApi
                 _Logger.LogError(ex, "Validaión fallida al crear el Usuario.");
                 return StatusCode(500, new { message = ex.Message });
             }
-            return Ok("Usuarios guardados con éxito.");
 
         }
 
         //Actualizar usuarios 
-        [HttpPut("{int}")]
+        [HttpPut]
         [ProducesResponseType(typeof(UserPublic), 201)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
         public async Task<IActionResult> Update([FromBody] UserPublic userDTO)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
             try
             {
-                var createUser = await _UserPublicBusiness.CreateAsync(userDTO);
-                return CreatedAtAction(nameof(GetById), new { id = createUser.Id }, createUser);
+                var createUser = await _UserPublicBusiness.UpdateAsync(userDTO);
+                return Ok();
             }
             catch (ValidationException ex)
             {
@@ -140,17 +137,17 @@ namespace Web.Controllers.PublicApi
 
         // DELETE => PERSISTENT
         //[Authorize]
-        [HttpDelete]
+        [HttpDelete("{id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteUser(DeleteRequest deleteRequest)
+        public async Task<IActionResult> DeleteUser(int id)
         {
             try
             {
-                var response = await _UserPublicBusiness.DeleteAsync(deleteRequest.Id);
+                var response = await _UserPublicBusiness.DeleteAsync(id);
                 return Ok(response); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)

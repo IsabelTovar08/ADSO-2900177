@@ -12,7 +12,6 @@ namespace Web
 
             // Add services to the container.
             builder.Services.AddHttpClient(); // o services.AddHttpClient() si estás usando Startup.cs
-
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

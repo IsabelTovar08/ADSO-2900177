@@ -8,7 +8,7 @@ namespace Business.Strategy
 {
     public enum DeleteStrategyType
     {
-        DeletePersistent,
-        DeleteLogical
+        DeleteLogical,
+        DeletePersistent
     }
 }

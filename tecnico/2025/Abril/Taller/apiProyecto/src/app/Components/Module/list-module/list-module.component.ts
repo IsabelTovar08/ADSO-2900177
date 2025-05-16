@@ -15,6 +15,7 @@ import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
 import { AuthService } from '../../../../services/auth-service.service';
 import { GenericTableComponent } from "../../generic-table/generic-table.component";
+import { Delete } from '../../../Models/delete.models';
 
 @Component({
   selector: 'app-list-module',
@@ -75,6 +76,10 @@ cargarmodules(){
   }
 
   deletemodules(modules: any): void {
+    const deleteObj: Delete = {
+      id: modules.id,
+      strategy: 1
+    };
     Swal.fire({
       title: '¿Estás seguro?',
       text: `¿Quieres eliminar el modules: ${modules.name}?`,
@@ -86,7 +91,7 @@ cargarmodules(){
       cancelButtonText: 'Cancelar'
     }).then((result) => {
       if (result.isConfirmed) {
-       this.apiService.delete('module', modules.id).subscribe(() => {
+       this.apiService.delete('module', deleteObj).subscribe(() => {
         this.cargarmodules();
        })
       }
@@ -94,7 +99,11 @@ cargarmodules(){
   }
 
   toggleIsActive(module : any){
-    this.apiService.deleteLogic('module', module.id).subscribe(() => {
+    const deleteObj: Delete = {
+      id: module.id,
+      strategy: 0
+    };
+    this.apiService.delete('module', deleteObj).subscribe(() => {
       Swal.fire({
         title: `Actualización exitosa`,
         icon: 'success',

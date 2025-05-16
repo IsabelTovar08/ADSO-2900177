@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -133,65 +134,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        // DELETE => LOGICAL
-        [HttpPatch("logical/{id}")]
-        [ProducesResponseType(typeof(object), 200)]
+        [HttpDelete]
+        [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> SoftDeletleUserRol(int id)
+        public async Task<IActionResult> DeleteUserRol(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _UserRolBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(response);
+                await _UserRolBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el userrol con ID: {UserRolId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el userRol con ID: {UserRolId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "UserRol no encontrado con ID: {UserRolId}", id);
+                _logger.LogInformation(ex, "UserRol no encontrado con ID: {UserRolId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al eliminar el userrol con ID: {UserRolId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-        // DELETE => PERSISTENT
-        [Authorize]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(object), 200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteUserRol(int id)
-        {
-            try
-            {
-                var response = await _UserRolBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el userrol con ID: {UserRolId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "UserRol no encontrado con ID: {UserRolId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el userrol con ID: {UserRolId}", id);
+                _logger.LogError(ex, "Error al eliminar el userRol con ID: {UserRolId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

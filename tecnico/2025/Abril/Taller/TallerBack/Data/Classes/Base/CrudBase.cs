@@ -100,7 +100,7 @@ namespace Data.Classes.Base
 
             try
             {
-                var entityExisting = await GetByIdActiveAsync(id);
+                var entityExisting = await GetByIdAsync(id);
                 if (entityExisting == null) return false;
 
                 _context.Entry(entityExisting).CurrentValues.SetValues(entity);

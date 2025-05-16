@@ -23,6 +23,7 @@ namespace Infrastructure.Notifications.Implementations
             {
                 "email" => _messageSenders.FirstOrDefault(s => s is EmailMessageSender),
                 "whatsapp" => _messageSenders.FirstOrDefault(s => s is WhatsAppMessageSender),
+                "telegram" => _messageSenders.FirstOrDefault(s => s is TelegramMessageSender),
                 _ => null
             };
 

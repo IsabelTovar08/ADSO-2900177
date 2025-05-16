@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -134,68 +135,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        // PATCH => TOGGLE ACTIVE/INACTIVE
-        [Authorize]
-        [HttpPatch("toggleActive/{id}")]
+        [HttpDelete]
         [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> ToggleState(int id)
+        public async Task<IActionResult> DeleteForm(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _FormBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(new { message = "Status actualizado correctamente, nuevo valor: Status " + response });
+                await _FormBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al alternar el estado del form con ID: {FormId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el form con ID: {FormId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "Form no encontrado con ID: {FormId}", id);
+                _logger.LogInformation(ex, "Form no encontrado con ID: {FormId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al alternar el estado del form con ID: {FormId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-
-
-        // DELETE => PERSISTENT
-        [Authorize]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteForm(int id)
-        {
-            try
-            {
-                var response = await _FormBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el form con ID: {FormId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "Form no encontrado con ID: {FormId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el form con ID: {FormId}", id);
+                _logger.LogError(ex, "Error al eliminar el form con ID: {FormId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

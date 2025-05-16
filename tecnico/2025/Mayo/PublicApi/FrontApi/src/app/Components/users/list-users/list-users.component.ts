@@ -12,7 +12,8 @@ export interface User {
   name: string;
   username: string;
   email: string;
-  phone: string
+  phone: string;
+  isDeleted: boolean
 }
 @Component({
   selector: 'app-list-users',
@@ -25,7 +26,9 @@ export class ListUsersComponent {
   usersGuardados: any[] = [];
 
   displayedColumns = ['name', 'username', 'email', 'phone', 'actions', 'agregar'];
-verGuardados: boolean = false;
+  displayedColumns2 = ['name', 'userName', 'email', 'phone', 'actions'];
+
+  verGuardados: boolean = false;
 
   constructor(private apiService: ApiService, private dialog: MatDialog, private gateWayService: GatewayService) {
     this.obtenerusers();
@@ -34,7 +37,7 @@ verGuardados: boolean = false;
 
 
   obtenerusers() {
-    this.apiService.ObtenerTodo('users').subscribe((data) => {
+    this.gateWayService.getUsersPublic().subscribe((data) => {
       this.users = data;
     });
   }
@@ -62,7 +65,7 @@ verGuardados: boolean = false;
     Swal.fire({
       showCancelButton: true,
       title: '¿Estás seguro de eliminar el User seleccionado?',
-      text: `A continuación se eliminará el User con id ${id}.`,
+      text: `A continuación se eliminará el User.`,
       icon: 'warning',
       confirmButtonColor: '#765dfb',
       cancelButtonColor: '#d5d7f9',
@@ -70,22 +73,29 @@ verGuardados: boolean = false;
       confirmButtonText: 'Aceptar'
     }).then((result) => {
       if (result.isConfirmed) {
-        this.apiService.delete('users', id).subscribe(() => {
-          Swal.fire({
-            title: 'User Eliminado Exitosamente',
-            text: `Se ha eliminado el User con id ${id}`,
-            icon: 'success',
-            confirmButtonColor: '#765dfb',
-            cancelButtonColor: '#d5d7f9',
-            confirmButtonText: 'Aceptar'
-          })
+        this.gateWayService.deleteUser(id).subscribe({
+          next: () => {
+            Swal.fire({
+              title: 'User Eliminado Exitosamente',
+              text: `Se ha eliminado el User.`,
+              icon: 'success',
+              confirmButtonColor: '#765dfb',
+              confirmButtonText: 'Aceptar'
+            }).then(() => {
+              this.obtenerusersGuardados();
+            });
+          },
+          error: (e) => {
+            console.error(e);
+            Swal.fire('Error', 'No se pudo eliminar el usuario.', 'error');
+          }
         });
       }
-    })
-      .catch((e) => {
-        console.error(e);
-      })
+    }).catch((e) => {
+      console.error(e);
+    });
   }
+
 
   onSelectionChanged(selectedUsers: User[]) {
     console.log('Usuarios seleccionados:', selectedUsers);
@@ -95,7 +105,15 @@ verGuardados: boolean = false;
   onGuardarSeleccionados(items: any[]) {
     // Aquí haces lo que necesites con los elementos seleccionados
     this.gateWayService.enviarUsers(items).subscribe({
-      next: () => alert('¡Usuarios guardados con éxito!'),
+      next: () =>
+        Swal.fire({
+          title: 'Registros Guardados existosamente',
+          icon: 'success',
+          confirmButtonColor: '#765dfb',
+          confirmButtonText: 'Aceptar'
+        }).then(() => {
+          this.obtenerusersGuardados();
+        }),
       error: err => alert('Error al guardar: ' + err.message)
     });
   }

@@ -58,6 +58,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Web.Controllers.PublicGateway",
+    "Method": "Get",
+    "RelativePath": "api/PublicGateway",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

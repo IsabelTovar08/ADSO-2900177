@@ -15,6 +15,7 @@ namespace Business.Services.Auth
         private readonly UserService _userService;
         private readonly GoogleAuthService _googleAuthService;
 
+
         private readonly IConfiguration _config;
         private readonly ILogger<AuthService> _logger;
 
@@ -32,6 +33,7 @@ namespace Business.Services.Auth
             var user = await _userService.ValidateUserAsync(email, password);
             if (user == null)
                 throw new ValidationException("Credenciales inválidas");
+
 
             // Generar token
             return user;

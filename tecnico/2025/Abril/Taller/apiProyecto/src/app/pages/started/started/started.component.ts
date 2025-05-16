@@ -11,12 +11,21 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { AuthService } from '../../../../services/auth-service.service';
-
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 declare const google: any;
 
 @Component({
   selector: 'app-started',
-  imports: [CommonModule, FormsModule, ReactiveFormsModule, MatInputModule, MatFormFieldModule, MatButtonModule, MatIconModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatIconModule,
+    MatProgressSpinnerModule
+  ],
   templateUrl: './started.component.html',
   styleUrl: './started.component.css',
   animations: [
@@ -59,14 +68,14 @@ export class StartedComponent {
   ngOnInit(): void {
     this.startAnimations();
     const code = this.route.snapshot.queryParamMap.get('code');
-  
-  // Si el código está presente, llama al método handleCredentialResponse
-  if (code) {
-    this.handleCredentialResponse(code);
-  } else {
-    // Si no hay código, no hace nada o maneja el error
-    console.log('No se encontró código de autenticación en la URL');
-  }
+
+    // Si el código está presente, llama al método handleCredentialResponse
+    if (code) {
+      this.handleCredentialResponse(code);
+    } else {
+      // Si no hay código, no hace nada o maneja el error
+      console.log('No se encontró código de autenticación en la URL');
+    }
   }
 
   startAnimations(): void {
@@ -100,6 +109,18 @@ export class StartedComponent {
 
   handleCredentialResponse(code: string) {
     if (code) {
+      Swal.fire({
+        title: 'CARGANDO',
+        html: `
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <div class="loader"></div>
+              <p style="margin-top: 10px;">Validando credenciales...</p>
+            </div>
+          `,
+        allowOutsideClick: false,
+        showConfirmButton: false
+      });
+
       this.api.exchangeCodeForToken(code).subscribe({
         next: res => {
           // Guarda el token JWT en el localStorage
@@ -119,6 +140,7 @@ export class StartedComponent {
         error: err => {
           // Si hay un error, muestra el mensaje adecuado
           Swal.fire('Error', 'Login con Google falló', 'error');
+          this.router.navigate(['/']);
         }
       });
     } else {

@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -134,65 +135,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        //// DELETE => LOGICAL
-        [HttpPatch("logical/{id}")]
-        [ProducesResponseType(typeof(object), 200)]
+        [HttpDelete]
+        [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> SoftDeletleRolFormPermission(int id)
+        public async Task<IActionResult> DeleteRolFormPermission(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _RolFormPermissionBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(response);
+                await _RolFormPermissionBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el RolFormPermission con ID: {RolFormPermissionId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el rolFormPermission con ID: {RolFormPermissionId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "RolFormPermission no encontrado con ID: {RolFormPermissionId}", id);
+                _logger.LogInformation(ex, "RolFormPermission no encontrado con ID: {RolFormPermissionId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al eliminar el RolFormPermission con ID: {RolFormPermissionId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-        // DELETE => PERSISTENT
-        [Authorize]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(object), 200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteRolFormPermission(int id)
-        {
-            try
-            {
-                var response = await _RolFormPermissionBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el RolFormPermission con ID: {RolFormPermissionId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "RolFormPermission no encontrado con ID: {RolFormPermissionId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el RolFormPermission con ID: {RolFormPermissionId}", id);
+                _logger.LogError(ex, "Error al eliminar el rolFormPermission con ID: {RolFormPermissionId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

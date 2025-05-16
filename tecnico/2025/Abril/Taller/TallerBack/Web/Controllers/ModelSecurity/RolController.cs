@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -187,66 +188,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        // PATCH => TOGGLE ACTIVE/INACTIVE
-        [Authorize]
-        [HttpPatch("toggleActive/{id}")]
+        [HttpDelete]
         [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> ToggleState(int id)
+        public async Task<IActionResult> DeleteRol(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _RolBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(response);
+               await _RolBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al alternar el estado del rol con ID: {RolId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el rol con ID: {RolId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "Rol no encontrado con ID: {RolId}", id);
+                _logger.LogInformation(ex, "Rol no encontrado con ID: {RolId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al alternar el estado del rol con ID: {RolId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-        // DELETE => PERSISTENT
-        [Authorize]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(bool), 200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteRol(int id)
-        {
-            try
-            {
-                var response = await _RolBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el rol con ID: {RolId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "Rol no encontrado con ID: {RolId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el rol con ID: {RolId}", id);
+                _logger.LogError(ex, "Error al eliminar el rol con ID: {RolId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

@@ -43,6 +43,10 @@ namespace Web
             builder.Services.Configure<EmailSettings>(
             builder.Configuration.GetSection("EmailSettings"));
 
+            //Telegram 
+            builder.Services.Configure<TelegramSettings>(builder.Configuration.GetSection("TelegramSettings"));
+
+
             builder.Services.Configure<TwilioSettings>(
                 builder.Configuration.GetSection("Twilio"));
 

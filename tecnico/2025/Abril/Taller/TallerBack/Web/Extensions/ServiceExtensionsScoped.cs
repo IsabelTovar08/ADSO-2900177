@@ -77,11 +77,15 @@ namespace Web.Extensions
             services.AddScoped<IMessageSender, WhatsAppMessageSender>();
 
             services.AddScoped<INotify, Notifier>();
+            services.AddScoped<IMessageSender, TelegramMessageSender>();
+
 
             //Public Api 
             //Users
             services.AddScoped<ICrudBase<UserPublic>, UserPublicData>();
             services.AddScoped<UserPublicBusiness>();
+            services.AddScoped<UserPublic>();
+
 
             //Albums
             services.AddScoped<ICrudBase<AlbumsPublic>, AlbumsPublicData>();

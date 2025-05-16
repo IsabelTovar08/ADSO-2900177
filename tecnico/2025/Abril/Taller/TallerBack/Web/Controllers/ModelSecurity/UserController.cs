@@ -134,8 +134,8 @@ namespace Web.Controllers.ModelSecurity
         {
             try
             {
-                var response = await _UserBusiness.DeleteAsync(deleteRequest.Id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
+                await _UserBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {

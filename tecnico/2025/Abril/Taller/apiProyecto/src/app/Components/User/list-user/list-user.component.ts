@@ -13,6 +13,7 @@ import Swal from 'sweetalert2';
 import { CommonModule } from '@angular/common';
 import { MatSlideToggle } from '@angular/material/slide-toggle';
 import { AuthService } from '../../../../services/auth-service.service';
+import { Delete } from '../../../Models/delete.models';
 
 
 @Component({
@@ -75,6 +76,10 @@ cargarusers(){
   }
 
   deleteusers(users: any): void {
+        const deleteObj: Delete = {
+          id: users.id,
+          strategy: 1
+        };
     Swal.fire({
       title: '¿Estás seguro?',
       text: `¿Quieres eliminar el users: ${users.userName}?`,
@@ -86,7 +91,7 @@ cargarusers(){
       cancelButtonText: 'Cancelar'
     }).then((result) => {
       if (result.isConfirmed) {
-       this.apiService.delete('User', users.id).subscribe(() => {
+       this.apiService.delete('User', deleteObj).subscribe(() => {
         this.cargarusers();
        })
       }

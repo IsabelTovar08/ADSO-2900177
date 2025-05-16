@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\controllers\\publicgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\controllers\\publicgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\entity\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\controllers\\gatewaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\controllers\\gatewaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\entity\\dtos\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\deleterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\entity\\dtos\\deletestrategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\deletestrategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{33374AF7-B00D-4CAF-9775-1E1861486164}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\web\\entity\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6E12EEE-C825-4897-AC6F-8A7AE7034688}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 402,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +50,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "PublicGateway.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Controllers\\PublicGateway.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PublicGateway.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Controllers\\PublicGateway.cs",
+              "RelativeToolTip": "Web\\Controllers\\PublicGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T22:32:26.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\DeleteRequest.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\DeleteRequest.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\DeleteRequest.cs",
+              "RelativeToolTip": "Entity\\DTOs\\DeleteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:44:57.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteStrategyType.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\DeleteStrategyType.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\DeleteStrategyType.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\DeleteStrategyType.cs",
+              "RelativeToolTip": "Entity\\DTOs\\DeleteStrategyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:44:20.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ServiceExtensionsCors.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Extensions\\ServiceExtensionsCors.cs",
               "RelativeDocumentMoniker": "Web\\Extensions\\ServiceExtensionsCors.cs",
@@ -51,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T02:38:52.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",
@@ -72,31 +123,30 @@
               "RelativeToolTip": "Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T02:38:32.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T02:38:32.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\User.cs",
               "RelativeDocumentMoniker": "Entity\\DTOs\\User.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Entity\\DTOs\\User.cs",
               "RelativeToolTip": "Entity\\DTOs\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T01:41:58.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GatewayController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Controllers\\GatewayController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\GatewayController.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\Web\\Web\\Controllers\\GatewayController.cs",
               "RelativeToolTip": "Web\\Controllers\\GatewayController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwD0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T01:24:03.632Z",
               "EditorCaption": ""

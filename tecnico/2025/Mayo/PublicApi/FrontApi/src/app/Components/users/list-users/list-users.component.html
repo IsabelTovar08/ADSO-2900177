@@ -1,11 +1,11 @@
 <button mat-flat-button (click)="verGuardados=!verGuardados">Ver Guardados</button>
 <app-generic-table *ngIf="verGuardados"
- [title]="'Albunes'"
+ [title]="'Users Guardados'"
   [dataSource]="usersGuardados"
-  [displayedColumns]="displayedColumns"
+  [displayedColumns]="displayedColumns2"
   [columns]="[
       { key: 'name', label: 'Nombre' },
-      { key: 'username', label: 'Nombre Usuario' },
+      { key: 'userName', label: 'Nombre Usuario' },
       { key: 'email', label: 'Email' },
       { key: 'phone', label: 'Teléfono' }
     ]"
@@ -17,7 +17,7 @@
 
 
 <app-generic-table
-  [title]="'Albunes'"
+  [title]="'Users'"
   [dataSource]="users"
   [displayedColumns]="displayedColumns"
   [columns]="[

@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -134,66 +135,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        // PATCH => TOGGLE ACTIVE/INACTIVE
-        [Authorize(Roles = "Admin")]
-        [HttpPatch("toggleActive/{id}")]
+        [HttpDelete]
         [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> ToggleState(int id)
+        public async Task<IActionResult> DeletePerson(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _PersonBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(new { message = "Status actualizado correctamente" });
+               await _PersonBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al alternar el estado del person con ID: {PersonId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el person con ID: {PersonId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "Person no encontrado con ID: {PersonId}", id);
+                _logger.LogInformation(ex, "Person no encontrado con ID: {PersonId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al alternar el estado del person con ID: {PersonId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-        //// DELETE => PERSISTENT
-        [Authorize(Roles = "Admin")]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(object), 200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeletePerson(int id)
-        {
-            try
-            {
-                var response = await _PersonBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el Person con ID: {PersonId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "Person no encontrado con ID: {PersonId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el Person con ID: {PersonId}", id);
+                _logger.LogError(ex, "Error al eliminar el person con ID: {PersonId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }

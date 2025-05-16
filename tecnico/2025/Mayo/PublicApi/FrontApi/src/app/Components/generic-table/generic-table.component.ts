@@ -73,38 +73,6 @@ export class GenericTableComponent<T> {
     this.onAdd.emit(item);
   }
 
-  // Si necesitas reaccionar a un cambio individual
-  onItemSelectionChange(): void {
-    // Aquí puedes emitir eventos o hacer lógica adicional si hace falta
-  }
-
-  // usersSeleccionados: User[] = [];
-  // users: User[] = [];
-  // toggleSeleccion(user: User, checked: boolean) {
-  //   const newUser: User = {
-  //     id: 0,
-  //     name: user.name,
-  //     username: user.username,
-  //     email: user.email,
-  //     phone: user.phone
-  //   };
-  //   console.log(newUser)
-  //   console.log(user)
-
-  //   if (checked) {
-  //     this.usersSeleccionados.push(newUser);
-  //   } else {
-  //     this.usersSeleccionados = this.usersSeleccionados.filter(p => p.id !== user.id);
-  //   }
-  // }
-
-  // enviarSeleccionadosAlGateway() {
-  //   this.gatewayService.enviarUsers(this.usersSeleccionados).subscribe({
-  //     next: () => alert('¡Datos enviados con éxito!'),
-  //     error: err => alert('Error al enviar: ' + err.message)
-  //   });
-  // }
-
 
   isSelected(item: any): boolean {
     return this.selectedItems.includes(item);
@@ -112,6 +80,7 @@ export class GenericTableComponent<T> {
 
   toggleSeleccion(item: any, checked: boolean) {
    item.id = 0;
+   item.isDeleted = false;
     if (checked) {
       this.selectedItems.push(item);
     } else {

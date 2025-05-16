@@ -111,6 +111,18 @@
         }
       }
     },
+    "/api/PublicGateway": {
+      "get": {
+        "tags": [
+          "PublicGateway"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -175,6 +187,9 @@
           "phone": {
             "type": "string",
             "nullable": true
+          },
+          "isDeleted": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

@@ -92,6 +92,7 @@ namespace Business.Classes
             try
             {
                 await _userService.SendEmailWelcome(user);
+                Console.WriteLine("enviadoooooooooo");
             }
             catch (Exception ex)
             {

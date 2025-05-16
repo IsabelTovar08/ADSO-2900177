@@ -56,6 +56,13 @@ namespace Business.Classes
                        "¡Bienvenido!",
                        "Tu cuenta ha sido creada con éxito en nuestra app."
                    );
+                await _notificationSender.NotifyAsync(
+                        "telegram",
+                       +57 + person.Phone, // debe incluir el código de país, ej. "+51987654321"
+                       "¡Bienvenido!",
+                       "Tu cuenta ha sido creada con éxito en nuestra app."
+                   );
+
                 return _mapper.Map<PersonDto>(created);
             }
             catch (ValidationException)

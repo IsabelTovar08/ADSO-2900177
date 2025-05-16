@@ -235,6 +235,28 @@ namespace Entity.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Entity.Models.PublicApi.AlbumsPublic", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AlbumsPublic");
+                });
+
             modelBuilder.Entity("Entity.Models.PublicApi.UserPublic", b =>
                 {
                     b.Property<int>("Id")
@@ -246,6 +268,9 @@ namespace Entity.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -465,6 +490,17 @@ namespace Entity.Migrations
                     b.Navigation("Form");
 
                     b.Navigation("Module");
+                });
+
+            modelBuilder.Entity("Entity.Models.PublicApi.AlbumsPublic", b =>
+                {
+                    b.HasOne("Entity.Models.PublicApi.UserPublic", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Entity.Models.RolFormPermission", b =>

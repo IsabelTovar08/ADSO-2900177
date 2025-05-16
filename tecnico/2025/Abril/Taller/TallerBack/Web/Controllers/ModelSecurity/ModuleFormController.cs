@@ -1,4 +1,5 @@
 ﻿using Business.Classes;
+using Business.Strategy.Request;
 using Entity.DTOs;
 using Entity.DTOs.Create;
 using Microsoft.AspNetCore.Authorization;
@@ -133,66 +134,32 @@ namespace Web.Controllers.ModelSecurity
             }
         }
 
-        // DELETE => LOGICAL
-        [HttpPatch("logical/{id}")]
-        [ProducesResponseType(typeof(object), 200)]
+        [HttpDelete]
+        [ProducesResponseType(200)]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> SoftDeleteModuleForm(int id)
+        public async Task<IActionResult> DeleteModuleForm(DeleteRequest deleteRequest)
         {
             try
             {
-                var response = await _ModuleFormBusiness.ToggleSOftDeleteAsync(id);
-                return Ok(response);
+                await _ModuleFormBusiness.DeleteAsyncStrategy(deleteRequest.Id, deleteRequest.Strategy);
+                return Ok(); // Código 204: Eliminación exitosa sin contenido
             }
             catch (ValidationException ex)
             {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el ModuleForm con ID: {ModuleFormId}", id);
+                _logger.LogWarning(ex, "Validación fallida al eliminar el moduleForm con ID: {ModuleFormId}");
                 return BadRequest(new { message = ex.Message });
             }
             catch (EntityNotFoundException ex)
             {
-                _logger.LogInformation(ex, "ModuleForm no encontrado con ID: {ModuleFormId}", id);
+                _logger.LogInformation(ex, "ModuleForm no encontrado con ID: {ModuleFormId}");
                 return NotFound(new { message = ex.Message });
             }
             catch (ExternalServiceException ex)
             {
-                _logger.LogError(ex, "Error al eliminar el ModuleForm con ID: {ModuleFormId}", id);
-                return StatusCode(500, new { message = ex.Message });
-            }
-        }
-
-
-        // DELETE => PERSISTENT
-        [Authorize]
-        [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(object), 200)]
-        [ProducesResponseType(204)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(500)]
-        public async Task<IActionResult> DeleteModuleForm(int id)
-        {
-            try
-            {
-                var response = await _ModuleFormBusiness.DeleteAsync(id);
-                return Ok(response); // Código 204: Eliminación exitosa sin contenido
-            }
-            catch (ValidationException ex)
-            {
-                _logger.LogWarning(ex, "Validación fallida al eliminar el ModuleForm con ID: {ModuleFormId}", id);
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (EntityNotFoundException ex)
-            {
-                _logger.LogInformation(ex, "ModuleForm no encontrado con ID: {ModuleFormId}", id);
-                return NotFound(new { message = ex.Message });
-            }
-            catch (ExternalServiceException ex)
-            {
-                _logger.LogError(ex, "Error al eliminar el ModuleForm con ID: {ModuleFormId}", id);
+                _logger.LogError(ex, "Error al eliminar el moduleForm con ID: {ModuleFormId}");
                 return StatusCode(500, new { message = ex.Message });
             }
         }
