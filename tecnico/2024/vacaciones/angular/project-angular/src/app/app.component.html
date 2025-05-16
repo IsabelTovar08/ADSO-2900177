@@ -1,0 +1,15 @@
+<!-- <app-addTask ><p>Contenido q quiero mostrar dentro de add componet</p> </app-addTask>
+<button>Presionar</button>
+<app-list-task ></app-list-task>
+<div> Valor Actual
+    {{value}}
+</div> -->
+<!-- <p *ngIf="changedDecected">Cambios Detectados</p>
+<button (click)="updateValue()">Actualizar Valor</button> -->
+<app-addTask (taskAdded)="addTask($event)"></app-addTask>
+<app-list-task 
+    [listTask]="tasks" 
+    (taskCompleted)="markTaskCompleted($event)"
+    (taskDeleted)="deleteTask($event)"
+    ></app-list-task>
+<router-outlet />

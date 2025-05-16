@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Security - Rol</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/prueba.js"></script>
+
+    <!-- google-icons.html -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48;
+      }
+    </style>
+</head>
+<body>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Person</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="user.html">User</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="rol.html">Rol</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="userRol.html">UserRol</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="module.html">Module</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="form.html">Form</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="moduleForm.html">ModuleForm</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Permission.html">Permission</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="rolFormPermission.html">RolFormPermission</a>
+    </li>
+    <li class="nav-item ms-auto titleMS">
+      <h1>Model Security</h1>
+    </li>
+  </ul>
+      <div class="container">
+        <h2>Rol</h2>
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#crear" onclick="mostrarModal(null, 'Crear', 'Rol')">
+            Crear
+            <span class="material-symbols-outlined">
+              add
+            </span>
+          </button>
+        <div id="tabla"></div>
+      </div>
+
+      <div class="modal fade" id="crear" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 titulo" id="staticBackdropLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="id"></div>
+                <form class="row g-3 needs-validation" novalidate id="formulario">
+                    <div class="col-md-4">
+                      <label for="name" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="name" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="description" class="form-label">Descripción</label>
+                      <input type="text" class="form-control" id="description" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        campos = [
+            { key: 'id', label: 'Id' },
+            { key: 'name', label: 'Nombre' },
+            { key: 'description', label: 'Descripción' }
+      ]
+        Consultar('Rol', campos )
+      </script>
+      <script src="js/create.js"></script>
+  <script src="js/delete.js"></script>
+  <script src="js/toggleActiveStatus.js"></script>
+
+      <script src="js/validate.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

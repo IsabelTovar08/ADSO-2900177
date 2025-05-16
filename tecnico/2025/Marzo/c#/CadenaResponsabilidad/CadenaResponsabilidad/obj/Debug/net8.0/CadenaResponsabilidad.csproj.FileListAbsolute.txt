@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\bin\Debug\net8.0\CadenaResponsabilidad.exe
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\bin\Debug\net8.0\CadenaResponsabilidad.deps.json
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\bin\Debug\net8.0\CadenaResponsabilidad.runtimeconfig.json
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\bin\Debug\net8.0\CadenaResponsabilidad.dll
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\bin\Debug\net8.0\CadenaResponsabilidad.pdb
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.sourcelink.json
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.dll
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\refint\CadenaResponsabilidad.dll
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.pdb
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\CadenaResponsabilidad.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\ADSO-2900177\tecnico\2025\Marzo\c#\CadenaResponsabilidad\CadenaResponsabilidad\obj\Debug\net8.0\ref\CadenaResponsabilidad.dll

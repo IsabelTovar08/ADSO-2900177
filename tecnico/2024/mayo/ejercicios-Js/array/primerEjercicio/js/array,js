@@ -1,0 +1,52 @@
+/*
+* Autor: María Isabel Tovar Pastrana
+* Fecha: 29 de Abril del 2024
+
+* Descripción: Ejemplo de Arreglos
+*/
+
+let arregloNumero = [];
+let arregloFrutas = [];
+let sizeArregloNumero;
+let sizeArregloFrutas;
+let iteracion;
+
+arregloNumero = [2,4,6,8,10,12,14,16,18];
+
+arregloFrutas = ['Mora','Piña','Fresa','Limón','Naranja','Guanabana'];
+
+sizeArregloNumero = arregloNumero.length;
+sizeArregloFrutas = arregloFrutas.length;
+
+console.log("Arreglo de Números: "+arregloNumero);
+console.log("Arreglo de Futas: "+arregloFrutas);
+
+console.log("Mostrar Fruta: "+arregloFrutas[3]);
+console.log("Mostrar Número: "+arregloNumero[8]);
+
+for(iteracion=0; iteracion<sizeArregloNumero; iteracion++){
+    console.log("Número "+iteracion+": "+arregloNumero[iteracion]);
+}
+
+let matriz = [];
+let sizeArregloMatriz;
+let iteracionM;
+let iteracion2;
+
+matriz = [
+    [2,3,4,5],
+    [9,8,7],
+    [3,5,7,8,9]
+];
+
+sizeArregloMatriz = matriz.length;
+
+console.log("Matriz");
+console.log(matriz);
+
+
+for(iteracionM=0; iteracionM<sizeArregloMatriz; iteracionM++){
+    sizeInterno = matriz[iteracionM].length
+    for(iteracion2=0; iteracion2<sizeInterno; iteracion2++)
+        console.log("Número "+iteracion2+": "+matriz[iteracionM][iteracion2]);
+}

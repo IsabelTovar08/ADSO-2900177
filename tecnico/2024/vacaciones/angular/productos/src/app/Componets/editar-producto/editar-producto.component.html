@@ -1,0 +1,5 @@
+<p>editar-producto works!</p>
+@if(productoLlega){
+    <app-formulario titulo="Editar Producto" [productoLlega]="productoLlega" (posteo)="ActualizarProducto($event)"></app-formulario>
+
+}

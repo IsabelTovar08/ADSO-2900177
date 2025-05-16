@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Figuras</title>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/90ebe5fba8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 row form">
+            <div class="col-6 formulario">
+                <!-- Formulario -->
+                <form class="row g-3 needs-validation" novalidate onsubmit="return areaFiguras();">
+                      <h4>Calcula el área de las figuras geométricas</h4>
+                      <div class="col-md-12">
+                          <h5>Cuadrado</h5>
+                        <label for="txtLadoCuadrado" class="form-label">Lado</label>
+                        <input type="number" class="form-control" id="txtLadoCuadrado" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                      <h5>Rectángulo</h5>
+                      <div class="col-md-6">
+                        <label for="txtBaseRectangulo" class="form-label">Base</label>
+                        <input type="number" class="form-control" id="txtBaseRectangulo" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="txtAlturaRectangulo" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtAlturaRectangulo" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                      <h5>Triángulo</h5>
+                      <div class="col-md-6">
+                        <label for="txtBaseTriangulo" class="form-label">Base</label>
+                        <input type="number" class="form-control" id="txtBaseTriangulo" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="txtAlturaTriangulo" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtAlturaTriangulo" required>
+                        <div class="invalid-feedback">
+                          Por favor, ingresa un dato.
+                        </div>
+                      </div>
+                    <div class="col-12">
+                      <button class="btn boton" type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta formulario">
+                <div id="areas"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/areas.js"></script>
+    <script src="../js/validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tablero</title>
+</head>
+<body>
+    <div class="container">
+        <div id="principal" class="col-12">
+            <div class="col-12 row">
+                <div class="col-4 celda fondo letra" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Hola
+                </div>
+                <div class="col-4 celda espacio-deiz"></div>
+                <div class="col-4 celda"></div>
+            </div>
+            <div class="col-12 row">
+                <div class="col-8 celda"></div>
+                <div class="col-4 celda espacio-iz"></div>
+            </div>
+            <div class="col-12 row">
+                <div class="col-6 celda"></div>
+                <div class="col-6 celda espacio-iz"></div>
+            </div>
+            <div class="col-12 row">
+                <div class="col-4 celda"></div>
+                <div class="col-8 celda espacio-iz"></div>
+            </div>
+            <div class="col-12 row">
+                <div class="col-xl-12 celda"></div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Primer Elemento Químico</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Descripción
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

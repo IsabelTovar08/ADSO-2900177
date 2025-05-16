@@ -1,0 +1,18 @@
+<p>editar-tarea works!</p>
+<h1>El id es {{id}}</h1>
+
+@if (listas) {
+    <form class="example-form" [formGroup]="formActualizar" (submit)="ActualizarTarea()">
+        <mat-form-field class="example-full-width">
+            <mat-label>Título</mat-label>
+            <input type="email" matInput
+                formControlName="nombre"
+                placeholder="Ex. pat@example.com">
+        </mat-form-field>
+        <div>
+            <button mat-flat-button type="submit">Actualizar</button>
+    
+        </div>
+    </form>
+}
+

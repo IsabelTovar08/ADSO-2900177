@@ -1,0 +1,16 @@
+
+
+<app-generic-table
+  [title]="'Albunes'"
+  [dataSource]="albums"
+  [displayedColumns]="displayedColumns"
+  [columns]="[
+      { key: 'title', label: 'Tittle' },
+      { key: 'username', label: 'Nombre Usuario' }
+
+    ]"
+  (onCreate)="save(null)"
+  (onEdit)="save($event)"
+  (onDelete)="deleteAlbums($event.id)"
+  (onAdd)="addAlbums()">
+</app-generic-table>

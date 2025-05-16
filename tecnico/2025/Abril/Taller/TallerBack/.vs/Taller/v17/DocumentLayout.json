@@ -1,0 +1,1745 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\extensions\\serviceextensionsscoped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextensionsscoped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\publicapi\\albumspublicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\publicapi\\albumspublicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\publicapi\\albumspublicbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\publicapi\\albumspublicbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\publicapi\\albumspubliccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\publicapi\\albumspubliccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\publicapi\\userpublicbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\publicapi\\userpublicbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\businessbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\businessbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\publicapi\\userpubliccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\publicapi\\userpubliccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\models\\publicapi\\albumspublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\models\\publicapi\\albumspublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\base\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\base\\crudbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\publicapi\\userpublicconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\publicapi\\userpublicconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\models\\publicapi\\userpublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\models\\publicapi\\userpublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\context\\auditdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\context\\auditdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\publicapi\\userpublicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\publicapi\\userpublicdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\rolfrompermissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\rolfrompermissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\roluserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\roluserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\moduleformconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\moduleformconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\moduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\moduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\datainitconfiguration\\formconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\datainitconfiguration\\formconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\strategy\\deletestrategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\strategy\\deletestrategytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\strategy\\implements\\factory\\deletepersistent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\strategy\\implements\\factory\\deletepersistent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\strategy\\implements\\factory\\deletelogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\strategy\\implements\\factory\\deletelogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\strategy\\implements\\selectorfactorystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\strategy\\implements\\selectorfactorystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\strategy\\interface\\ideletestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\strategy\\interface\\ideletestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\infrastructure\\notifications\\implementations\\notifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\notifications\\implementations\\notifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\infrastructure\\notifications\\interfases\\inotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\notifications\\interfases\\inotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\infrastructure\\notifications\\interfases\\imessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\notifications\\interfases\\imessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\infrastructure\\notifications\\implementations\\emailmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\notifications\\implementations\\emailmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\UserConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Request\\DeleteRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\rolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\rolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\userrolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\userrolbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\personbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeletedstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeleteStrategyFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\SelectorFactoryStrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\DeleteLogical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\UpdateIsDeleted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\services\\auth\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\services\\auth\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\personcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\personcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\infrastructure\\notifications\\implementations\\whatsappmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450A4B2D-CDF6-4223-B672-45E52907D835}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\notifications\\implementations\\whatsappmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\FormConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\audit\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\audit\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\models\\notifications\\twiliosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\models\\notifications\\twiliosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\helper\\encryptedpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|solutionrelative:helper\\encryptedpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\helper\\helper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|solutionrelative:helper\\helper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\services\\auth\\googleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\services\\auth\\googleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\audit\\auditmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\audit\\auditmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\userroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\userroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextensionscors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\models\\notifications\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\models\\notifications\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\models\\auditlog\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\models\\auditlog\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\extensions\\jwtconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\extensions\\jwtconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\factorydb\\classes\\sqlserverdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\factorydb\\classes\\sqlserverdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\factorydb\\classes\\postgresdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\factorydb\\classes\\postgresdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\factorydb\\interfases\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\factorydb\\interfases\\idbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\factorydb\\dbcontextfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\factorydb\\dbcontextfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\extensions\\serviceextensionsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\extensions\\serviceextensionsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\services\\audit\\auditmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\services\\audit\\auditmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\moduleformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\moduleformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\rolformpermissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\controllers\\modelsecurity\\userrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\controllers\\modelsecurity\\userrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\web\\factorydb\\classes\\mysqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAF4D591-FA76-490C-8BB1-D96DC02C50D3}|Web\\Web.csproj|solutionrelative:web\\factorydb\\classes\\mysqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\rolformpermissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\rolformpermissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\permissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\permissionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\moduleformbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\moduleformbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\business\\classes\\modulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC766D28-BA11-4027-B7DC-211A1F055045}|Business\\Business.csproj|solutionrelative:business\\classes\\modulebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2819E642-0771-4F40-95EE-E46DD4BC5634}|Helper\\Helper.csproj|solutionrelative:helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\rolformpermissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\rolformpermissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\dtos\\auth\\googletokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\googletokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\dtos\\auth\\googlecodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\auth\\googlecodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\permissiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\moduleformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\moduleformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\moduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\moduledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\data\\classes\\specifics\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00D44F-A074-422C-A10E-EBB0C7561134}|Data\\Data.csproj|solutionrelative:data\\classes\\specifics\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250509222622_person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250509222622_person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250509222115_modelsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250509222115_modelsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250511181809_isdeleted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250511181809_isdeleted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250511153501_entity-people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250511153501_entity-people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\auditdb\\20250514175912_init-log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\auditdb\\20250514175912_init-log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250516010645_esquemas-user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250516010645_esquemas-user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250516010232_esquemas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250516010232_esquemas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250515222243_init-data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250515222243_init-data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\taller\\tallerback\\entity\\migrations\\20250516022126_publicapi-user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B86454-95B6-4AEE-9B43-8F821196EDDD}|Entity\\Entity.csproj|solutionrelative:entity\\migrations\\20250516022126_publicapi-user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 402,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlbumsPublicBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PublicApi\\AlbumsPublicBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\PublicApi\\AlbumsPublicBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PublicApi\\AlbumsPublicBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\PublicApi\\AlbumsPublicBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:41:51.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlbumsPublicData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\PublicApi\\AlbumsPublicData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\PublicApi\\AlbumsPublicData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\PublicApi\\AlbumsPublicData.cs",
+              "RelativeToolTip": "Data\\Classes\\PublicApi\\AlbumsPublicData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:40:49.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserPublicBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PublicApi\\UserPublicBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\PublicApi\\UserPublicBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PublicApi\\UserPublicBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\PublicApi\\UserPublicBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:07:03.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPublicController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\PublicApi\\UserPublicController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PublicApi\\UserPublicController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\PublicApi\\UserPublicController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PublicApi\\UserPublicController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwJ0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:45:54.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessBase.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\BusinessBase.cs",
+              "RelativeDocumentMoniker": "Business\\BusinessBase.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\BusinessBase.cs",
+              "RelativeToolTip": "Business\\BusinessBase.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAewG8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:16:15.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Entity\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:11:49.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceExtensionsScoped.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsScoped.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\ServiceExtensionsScoped.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsScoped.cs",
+              "RelativeToolTip": "Web\\Extensions\\ServiceExtensionsScoped.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:51:52.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-11T16:20:41.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlbumsPublicController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\PublicApi\\AlbumsPublicController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PublicApi\\AlbumsPublicController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\PublicApi\\AlbumsPublicController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PublicApi\\AlbumsPublicController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:43:24.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlbumsPublic.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\PublicApi\\AlbumsPublic.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\PublicApi\\AlbumsPublic.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\PublicApi\\AlbumsPublic.cs",
+              "RelativeToolTip": "Entity\\Models\\PublicApi\\AlbumsPublic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:36:55.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserPublicData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\PublicApi\\UserPublicData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\PublicApi\\UserPublicData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\PublicApi\\UserPublicData.cs",
+              "RelativeToolTip": "Data\\Classes\\PublicApi\\UserPublicData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:04:31.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserPublic.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\PublicApi\\UserPublic.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\PublicApi\\UserPublic.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\PublicApi\\UserPublic.cs",
+              "RelativeToolTip": "Entity\\Models\\PublicApi\\UserPublic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:38:48.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\UserConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:08:10.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:47:02.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrudBase.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Base\\CrudBase.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Base\\CrudBase.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Base\\CrudBase.cs",
+              "RelativeToolTip": "Data\\Classes\\Base\\CrudBase.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAuwKMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:16:18.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20250516022126_PublicApi-User.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516022126_PublicApi-User.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250516022126_PublicApi-User.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516022126_PublicApi-User.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250516022126_PublicApi-User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:21:27.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserPublicConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PublicApi\\UserPublicConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\PublicApi\\UserPublicConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PublicApi\\UserPublicConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\PublicApi\\UserPublicConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:13:54.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PermissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\PermissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PermissionConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\PermissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:04:27.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20250516010232_esquemas.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516010232_esquemas.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250516010232_esquemas.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516010232_esquemas.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250516010232_esquemas.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAADMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:02:32.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RolConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\RolConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\RolConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:07:20.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\UserController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\UserController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:35:16.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuditDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Context\\AuditDbContext.cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\AuditDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Context\\AuditDbContext.cs",
+              "RelativeToolTip": "Entity\\Context\\AuditDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:21:58.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\FormController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\FormController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\FormController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\FormController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:33:02.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RolFromPermissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolFromPermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\RolFromPermissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolFromPermissionConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\RolFromPermissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:07:32.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PersonConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PersonConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\PersonConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\PersonConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\PersonConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:04:38.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RolUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolUserConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\RolUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\RolUserConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\RolUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:07:43.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "20250516010645_esquemas-user.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516010645_esquemas-user.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250516010645_esquemas-user.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250516010645_esquemas-user.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250516010645_esquemas-user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:06:45.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ModuleFormConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\ModuleFormConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\ModuleFormConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\ModuleFormConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\ModuleFormConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:02:58.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModuleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\ModuleConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\ModuleConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\ModuleConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\ModuleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:04:15.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\FormConfiguration.cs",
+              "RelativeDocumentMoniker": "Entity\\DataInitConfiguration\\FormConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DataInitConfiguration\\FormConfiguration.cs",
+              "RelativeToolTip": "Entity\\DataInitConfiguration\\FormConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:02:19.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\UserBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\UserBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:34:29.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDeleteStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "RelativeDocumentMoniker": "Business\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "RelativeToolTip": "Business\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:12:32.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteStrategyType.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\DeleteStrategyType.cs",
+              "RelativeDocumentMoniker": "Business\\Strategy\\DeleteStrategyType.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\DeleteStrategyType.cs",
+              "RelativeToolTip": "Business\\Strategy\\DeleteStrategyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:15:17.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SelectorFactoryStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "RelativeDocumentMoniker": "Business\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "RelativeToolTip": "Business\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:15:47.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteLogical.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "RelativeDocumentMoniker": "Business\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "RelativeToolTip": "Business\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:19:37.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeletePersistent.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\Factory\\DeletePersistent.cs",
+              "RelativeDocumentMoniker": "Business\\Strategy\\Implements\\Factory\\DeletePersistent.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Strategy\\Implements\\Factory\\DeletePersistent.cs",
+              "RelativeToolTip": "Business\\Strategy\\Implements\\Factory\\DeletePersistent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:20:42.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "20250515222243_Init-Data.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250515222243_Init-Data.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250515222243_Init-Data.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250515222243_Init-Data.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250515222243_Init-Data.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:22:43.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmailMessageSender.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\EmailMessageSender.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Notifications\\Implementations\\EmailMessageSender.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\EmailMessageSender.cs",
+              "RelativeToolTip": "Infrastructure\\Notifications\\Implementations\\EmailMessageSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:45:38.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Notifier.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\Notifier.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Notifications\\Implementations\\Notifier.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\Notifier.cs",
+              "RelativeToolTip": "Infrastructure\\Notifications\\Implementations\\Notifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:57:22.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IMessageSender.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Interfases\\IMessageSender.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Notifications\\Interfases\\IMessageSender.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Interfases\\IMessageSender.cs",
+              "RelativeToolTip": "Infrastructure\\Notifications\\Interfases\\IMessageSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:43:51.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "INotify.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Interfases\\INotify.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Notifications\\Interfases\\INotify.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Interfases\\INotify.cs",
+              "RelativeToolTip": "Infrastructure\\Notifications\\Interfases\\INotify.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:13:35.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\UserConfiguration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:50:04.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IDeleteStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Interface\\IDeleteStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:42:16.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SelectorFactoryStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\SelectorFactoryStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:41:54.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PersonBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PersonBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\PersonBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PersonBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\PersonBusiness.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:57:34.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserRolBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\UserRolBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\UserRolBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\UserRolBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\UserRolBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:32:36.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RolBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\RolBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\RolBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\RolBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\RolBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:00:48.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Request\\DeleteRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Request\\DeleteRequest.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Request\\DeleteRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Request\\DeleteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:42:31.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "Business\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:40:56.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IDeletedstrategy.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeletedstrategy.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Interface\\IDeletedstrategy.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Interface\\IDeletedstrategy.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Interface\\IDeletedstrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:42:23.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeleteLogical.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\DeleteLogical.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:40:46.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateIsDeleted.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\UpdateIsDeleted.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\UpdateIsDeleted.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\UpdateIsDeleted.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Strategy\\Strategy\\Implements\\Factory\\UpdateIsDeleted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:40:36.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PersonControllers.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\PersonControllers.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\PersonControllers.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\PersonControllers.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\PersonControllers.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:33:56.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "WhatsAppMessageSender.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\WhatsAppMessageSender.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Notifications\\Implementations\\WhatsAppMessageSender.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Infrastructure\\Notifications\\Implementations\\WhatsAppMessageSender.cs",
+              "RelativeToolTip": "Infrastructure\\Notifications\\Implementations\\WhatsAppMessageSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:18:27.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Auth\\UserService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\Auth\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:41:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FormConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\FormConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\FormConfiguration.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\FormConfiguration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\DataInitConfiguration\\DataInitConfiguration\\FormConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:08:32.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Audit\\AuditService.cs",
+              "RelativeDocumentMoniker": "Entity\\Audit\\AuditService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Audit\\AuditService.cs",
+              "RelativeToolTip": "Entity\\Audit\\AuditService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:34:14.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TwilioSettings.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\Notifications\\TwilioSettings.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\Notifications\\TwilioSettings.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\Notifications\\TwilioSettings.cs",
+              "RelativeToolTip": "Entity\\Models\\Notifications\\TwilioSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:21:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\UserData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\UserData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:23:58.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PersonData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\PersonData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\PersonData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\PersonData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\PersonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:14:09.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Data.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Data.csproj",
+              "RelativeToolTip": "Data\\Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T22:33:12.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EncryptedPassword.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\EncryptedPassword.cs",
+              "RelativeDocumentMoniker": "Helper\\EncryptedPassword.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\EncryptedPassword.cs",
+              "RelativeToolTip": "Helper\\EncryptedPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:13:38.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web\\Web.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Web.csproj",
+              "RelativeToolTip": "Web\\Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T18:13:19.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Business.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T15:07:40.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Entity.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Entity.csproj",
+              "RelativeDocumentMoniker": "Entity\\Entity.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Entity.csproj",
+              "RelativeToolTip": "Entity\\Entity.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T15:07:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Helper.csproj",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\Helper.csproj",
+              "RelativeDocumentMoniker": "Helper\\Helper.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\Helper.csproj",
+              "RelativeToolTip": "Helper\\Helper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T15:07:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GoogleAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\GoogleAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Auth\\GoogleAuthService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Auth\\GoogleAuthService.cs",
+              "RelativeToolTip": "Business\\Services\\Auth\\GoogleAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:00:24.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\AuthController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\AuthController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:39:25.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AuditManager.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Audit\\AuditManager.cs",
+              "RelativeDocumentMoniker": "Entity\\Audit\\AuditManager.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Audit\\AuditManager.cs",
+              "RelativeToolTip": "Entity\\Audit\\AuditManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:27:09.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UserRolData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\UserRolData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\UserRolData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\UserRolData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\UserRolData.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:24:07.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ServiceExtensionsCors.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsCors.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\ServiceExtensionsCors.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsCors.cs",
+              "RelativeToolTip": "Web\\Extensions\\ServiceExtensionsCors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:49:54.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\Notifications\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\Notifications\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\Notifications\\EmailSettings.cs",
+              "RelativeToolTip": "Entity\\Models\\Notifications\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:43:26.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Auth.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Auth.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Auth.cs",
+              "RelativeToolTip": "Data\\Classes\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:36:06.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "FormBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\FormBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\FormBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\FormBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\FormBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:56:54.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\AuditLog\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Entity\\Models\\AuditLog\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Models\\AuditLog\\AuditLog.cs",
+              "RelativeToolTip": "Entity\\Models\\AuditLog\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:15:42.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "20250514175912_Init-Log.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\AuditDb\\20250514175912_Init-Log.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\AuditDb\\20250514175912_Init-Log.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\AuditDb\\20250514175912_Init-Log.cs",
+              "RelativeToolTip": "Entity\\Migrations\\AuditDb\\20250514175912_Init-Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:59:13.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "PostgresDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\PostgresDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Web\\FactoryDB\\Classes\\PostgresDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\PostgresDbContextFactory.cs",
+              "RelativeToolTip": "Web\\FactoryDB\\Classes\\PostgresDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:13:21.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "JwtConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\JwtConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\JwtConfigurationExtensions.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\JwtConfigurationExtensions.cs",
+              "RelativeToolTip": "Web\\Extensions\\JwtConfigurationExtensions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:09:26.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "SqlServerDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\SqlServerDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Web\\FactoryDB\\Classes\\SqlServerDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\SqlServerDbContextFactory.cs",
+              "RelativeToolTip": "Web\\FactoryDB\\Classes\\SqlServerDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:11:13.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Interfases\\IDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Web\\FactoryDB\\Interfases\\IDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Interfases\\IDbContextFactory.cs",
+              "RelativeToolTip": "Web\\FactoryDB\\Interfases\\IDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:09:59.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "DbContextFactorySelector.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\DbContextFactorySelector.cs",
+              "RelativeDocumentMoniker": "Web\\FactoryDB\\DbContextFactorySelector.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\DbContextFactorySelector.cs",
+              "RelativeToolTip": "Web\\FactoryDB\\DbContextFactorySelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:14:05.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ServiceExtensionsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsDatabase.cs",
+              "RelativeDocumentMoniker": "Web\\Extensions\\ServiceExtensionsDatabase.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Extensions\\ServiceExtensionsDatabase.cs",
+              "RelativeToolTip": "Web\\Extensions\\ServiceExtensionsDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:42:43.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AuditManager.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Audit\\AuditManager.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Audit\\AuditManager.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Services\\Audit\\AuditManager.cs",
+              "RelativeToolTip": "Business\\Services\\Audit\\AuditManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:38:23.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\ModuleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\ModuleController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\ModuleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\ModuleController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwKAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:33:29.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ModuleFormController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\ModuleFormController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\ModuleFormController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\ModuleFormController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\ModuleFormController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAwIgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:33:38.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\RolController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\RolController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\RolController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\RolController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAYwGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:34:06.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\PermissionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\PermissionController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\PermissionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\PermissionController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAQwG4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:33:46.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RolFormPermissionController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\RolFormPermissionController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\RolFormPermissionController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\RolFormPermissionController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\RolFormPermissionController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAQwIkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:35:14.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "UserRolController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\UserRolController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ModelSecurity\\UserRolController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\Controllers\\ModelSecurity\\UserRolController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ModelSecurity\\UserRolController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAUwIgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:35:18.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "MySqlDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\MySqlDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Web\\FactoryDB\\Classes\\MySqlDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Web\\FactoryDB\\Classes\\MySqlDbContextFactory.cs",
+              "RelativeToolTip": "Web\\FactoryDB\\Classes\\MySqlDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T22:12:04.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "20250511181809_IsDeleted.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250511181809_IsDeleted.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250511181809_IsDeleted.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250511181809_IsDeleted.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250511181809_IsDeleted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:18:09.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RolFormPermissionBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\RolFormPermissionBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\RolFormPermissionBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\RolFormPermissionBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\RolFormPermissionBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:01:05.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "PermissionBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PermissionBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\PermissionBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\PermissionBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\PermissionBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:57:21.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ModuleFormBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\ModuleFormBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\ModuleFormBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\ModuleFormBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\ModuleFormBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:34:38.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ModuleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\ModuleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Classes\\ModuleBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Business\\Classes\\ModuleBusiness.cs",
+              "RelativeToolTip": "Business\\Classes\\ModuleBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:57:03.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "Helper\\MappingProfile.cs",
+              "ViewState": "AgIAACwAAACAg+tOye4wwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:33:58.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "20250511153501_entity-People.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250511153501_entity-People.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250511153501_entity-People.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250511153501_entity-People.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250511153501_entity-People.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:35:01.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RolFormPermissionData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\RolFormPermissionData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\RolFormPermissionData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\RolFormPermissionData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\RolFormPermissionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:23:41.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\TokenDto.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:32:36.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "GoogleTokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\GoogleTokenResponse.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\GoogleTokenResponse.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\GoogleTokenResponse.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\GoogleTokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:31:42.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "GoogleCodeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\GoogleCodeDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\Auth\\GoogleCodeDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\DTOs\\Auth\\GoogleCodeDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\Auth\\GoogleCodeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:31:34.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "PermissionData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\PermissionData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\PermissionData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\PermissionData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\PermissionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:23:11.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ModuleFormData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\ModuleFormData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\ModuleFormData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\ModuleFormData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\ModuleFormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:23:07.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "RolData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\RolData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\RolData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\RolData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\RolData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:15:05.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "FormData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\FormData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\FormData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\FormData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\FormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:15:11.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ModuleData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\ModuleData.cs",
+              "RelativeDocumentMoniker": "Data\\Classes\\Specifics\\ModuleData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Data\\Classes\\Specifics\\ModuleData.cs",
+              "RelativeToolTip": "Data\\Classes\\Specifics\\ModuleData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:18:01.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20250509222622_Person.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250509222622_Person.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250509222622_Person.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250509222622_Person.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250509222622_Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:26:23.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20250509222115_ModelSecurity.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250509222115_ModelSecurity.cs",
+              "RelativeDocumentMoniker": "Entity\\Migrations\\20250509222115_ModelSecurity.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\Taller\\TallerBack\\Entity\\Migrations\\20250509222115_ModelSecurity.cs",
+              "RelativeToolTip": "Entity\\Migrations\\20250509222115_ModelSecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:21:15.861Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

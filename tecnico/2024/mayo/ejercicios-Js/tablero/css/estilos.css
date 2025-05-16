@@ -1,0 +1,34 @@
+/*
+Estilos de Tablero
+Autor: María Isabel Tovar Pastrana
+Fecha: 20 de Mayo del 2024
+*/
+#principal{
+    float: left;
+    width: 590px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    padding: 10px 0 0 20px;
+}
+.row{
+    float: left;
+    display: flexbox;
+    flex-wrap: nowrap;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.celda{
+    border: 1px solid #530505;
+}
+.espacio-deiz{
+    margin: 0 4px 0 4px;
+}
+.espacio-iz{
+    margin-left: 6px;
+}
+.letra{
+    color: #fff;
+}
+.fondo{
+    background-color: #422d7c;
+}

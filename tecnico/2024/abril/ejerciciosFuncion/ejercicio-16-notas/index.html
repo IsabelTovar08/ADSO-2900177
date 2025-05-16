@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular el porcentaje de tres notas</title>
+    <script src="js/notasPorc.js"></script>
+</head>
+<body>
+    <script>
+        let notaUno=5.0;
+        let notaDos=4.0;
+        let notaTres=3.0;
+
+        let porcUno=porcNota(notaUno,0.2);
+        let porcDos=porcNota(notaDos,0.35);
+        let porcTres=porcNota(notaTres,0.45);
+        let porcTotal=porcUno+porcDos+porcTres;
+
+        console.log("Se tienen tres notas: "+"\n"+"Nota 1: "+notaUno+"\n"+"Nota 2: "+notaDos+"\n"+"Nota 3: "+notaTres);
+        console.log("Los porcentajes son los siguientes: "+"\n"+"Porcentaje Nota 1: "+porcUno+"\n"+"Porcentaje Nota 2: "+porcDos+"\n"
+        +"Porcentaje Nota 3: "+porcTres);
+        console.log("Distribuyendo sus porcentajes su promedio es: "+porcTotal+condicionporcentaje(porcTotal));
+</script>
+</body>
+</html>

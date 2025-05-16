@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular el porcentaje de tres notas</title>
+</head>
+<body>
+    <script>
+        let notaUno;
+        let notaDos;
+        let notaTres;
+        let porcUno;
+        let porcDos;
+        let porcTres;
+        let porcTotal;
+
+        notaUno=5;
+        notaDos=4;
+        notaTres=3;
+
+        porcUno=notaUno*0.2;
+        porcDos=notaDos*0.35;
+        porcTres=notaTres*0.45;
+        porcTotal=porcUno+porcDos+porcTres;
+
+        console.log("Se tienen tres notas: "+"\n"+"Nota 1: "+notaUno+"\n"+"Nota 2: "+notaDos+"\n"+"Nota 3: "+notaTres);
+        console.log("Los porcentajes son los siguientes: "+"\n"+"Porcentaje Nota 1: "+porcUno+"\n"+"Porcentaje Nota 2: "+porcDos+"\n"
+        +"Porcentaje Nota 3: "+porcTres);
+        console.log("Distribuyendo sus porcentajes su promedio es: "+porcTotal);
+
+        if(porcTotal>4.5){
+            console.log("La nota promedio es Superior.");
+        }
+        else{
+            if(porcTotal<=4.5  && porcTotal>3.5) {
+                console.log("La nota promedio es Buena.");
+            }
+            else{
+                if(porcTotal<=3.5 && porcTotal>=3){
+                    console.log("La nota promedio es Media.");
+                }
+                else{
+                    console.log("La nota promedio es Mala.");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

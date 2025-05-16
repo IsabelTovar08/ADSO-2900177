@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5342753D-7589-462C-BBF0-923FA22DF024}|Data\\Data.csproj|solutionrelative:data\\formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\model\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\model\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\model\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\dtos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\entity\\dtos\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6605A5ED-060F-417E-BE84-2773F5381C36}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F777F199-DF4A-46E2-B897-A442AA002E2D}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\taller\\taller\\business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968A2999-0C32-430A-9A75-92E5BD35EE1F}|Business\\Business.csproj|solutionrelative:business\\formbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 402,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\AutorDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\AutorDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:45:46.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\User.cs",
+              "RelativeToolTip": "Entity\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:41:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\Autor.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Autor.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\Autor.cs",
+              "RelativeToolTip": "Entity\\Model\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:41:04.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\Libro.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\Libro.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\Model\\Libro.cs",
+              "RelativeToolTip": "Entity\\Model\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:40:57.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:35:31.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\login.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\login.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\login.cs",
+              "RelativeToolTip": "Entity\\DTOs\\login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:33:41.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "Entity\\DTOs\\LibroDTO.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Entity\\DTOs\\LibroDTO.cs",
+              "RelativeToolTip": "Entity\\DTOs\\LibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:32:24.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormData.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Data\\FormData.cs",
+              "RelativeDocumentMoniker": "Data\\FormData.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Data\\FormData.cs",
+              "RelativeToolTip": "Data\\FormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:40:31.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:56:52.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Business\\FormBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\FormBusiness.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\TALLER\\taller\\Business\\FormBusiness.cs",
+              "RelativeToolTip": "Business\\FormBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:47:57.934Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

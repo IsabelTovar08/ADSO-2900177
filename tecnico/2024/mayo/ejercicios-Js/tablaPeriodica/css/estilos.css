@@ -1,0 +1,226 @@
+h1{
+    text-align: center;
+    margin-bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filas{
+    flex-wrap: nowrap;
+    height: 63px;
+    width: 330px;
+    display: flexbox;
+    padding: 0px 0px ;
+    margin: 0px 0px;
+}
+.elemento{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    height: 60px;
+    width: 55px;
+    display: flexbox;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elementoPrimero{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    display: flexbox;
+    cursor: pointer;
+    /* margin-left: 220px; */
+    margin-top: -10px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elementoPrimero span.simbolo{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    margin-left: 18px;
+}
+.elementoPrimero span.numero{
+    font-size: 15px;
+}
+.elementoPrimero span.nombre{
+    font-size: 15px;
+}
+.elementoPrimero span.masa{
+    font-size: 12px;
+}
+.de{
+    float: right;
+}
+.separacion{
+    margin-top: 10px;
+}
+.tam-fila-2{
+    width: 570px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+.margen{
+    height: 60px;
+    width: 990;
+}
+.n-m-r{
+    background-color: #9cc37f ;
+    color: #000;
+}
+.bordenmr{
+    border-color: #1d3f18;
+}
+.m-a{
+    background-color:  #ad2d39 ;
+    color: #fff;
+}
+.bordema{
+    border-color: #000;
+}
+.m-a-t{
+    background-color:   #f1ba1e;
+    color: #fff;
+}
+.bordemat{
+    border-color: #2a2500;
+}
+.m-t{
+    background-color: #a6b7dd ;
+    color: #000;
+}
+.bordemt{
+    border-color: #571fff;
+}
+.metanoides{
+    background-color:   #fadc27  ;
+    color: #000;
+}
+.bordemetanoides{
+    border-color: #673c02;
+}
+.m-p-t{
+    background-color:  #c0acd5 ;
+    color: #000;
+}
+.bordempt{
+    border-color: #2d0060;
+}
+.g-n{
+    background-color:  #f7b4cb ;
+    color: #000;
+}
+.bordegn{
+    border-color: #620024;
+}
+.p-d{
+    background-color: #c5c4c4;
+    color: #000;
+}
+.bordepd{
+    border-color: #151416;
+}
+.lantanidos{
+    background-color:  #2297c6 ;
+    color: #fff;
+}
+.bordelantanidos{
+    border-color: #041724;
+}
+.actinoides{
+    background-color:  #56e3ba;
+    color: #000;
+}
+.bordeactinoides{
+    border-color: #022214;
+}
+.simbolo {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    width: 40px;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: -3px;
+}
+.numero {
+    display: flex;
+    float: left;   
+    font-size: 10px;
+}
+.masa {
+    display: flex;
+    float: right;
+    font-size: 8px;
+}
+.zoom:hover {
+    transform: scale(2.0);
+}
+.circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    /* border: 1px solid #000; */
+}
+
+.selectable {
+    cursor: pointer;
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clasificacion{
+    margin-top: 15px;
+}
+.subtitulo{
+    margin-top: 100px;
+}
+.color{
+    color: #c73200;
+}
+.titulos{
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin-left: 8px;
+    flex-wrap: nowrap;
+}
+.primer-titulo{
+    text-align: center;
+    margin-top: 25px;
+}
+.cuadrito{
+    margin: -10px 0px 0px 0px;
+}
+.principal{
+    width: 1100px;
+}
+.flecha-s{
+    font-size: 15px;
+}
+.numero-principal{
+    margin-left: 60px;
+    margin-top: -10px;
+}
+.nombre-principal{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.peso-principal{
+    margin-top: -10px;
+}
+.simbolo-principal{
+    margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema POS.csproj.AssemblyReference.cache
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema_POS.Properties.Resources.resources
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema POS.csproj.GenerateResource.cache
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema POS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\bin\Debug\Sistema POS.exe.config
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\bin\Debug\Sistema POS.exe
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\bin\Debug\Sistema POS.pdb
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema_POS.Form1.resources
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema POS.exe
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema POS.pdb
+C:\Users\Usuario\c#\Sistema POS\Sistema POS\obj\Debug\Sistema_POS.Views.frmProductos.resources

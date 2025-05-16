@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\c#\\Sistema POS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\views\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\views\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\views\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\views\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\models\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\models\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|c:\\users\\usuario\\c#\\sistema pos\\sistema pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A530A975-9BFA-43D9-81EF-4A20DECD9980}|Sistema POS\\Sistema POS.csproj|solutionrelative:sistema pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Sistema POS\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:28:01.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Views\\frmProductos.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Views\\frmProductos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Views\\frmProductos.cs",
+              "RelativeToolTip": "Sistema POS\\Views\\frmProductos.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAwwGYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:03:37.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProductos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Views\\frmProductos.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Views\\frmProductos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Views\\frmProductos.cs [Design]",
+              "RelativeToolTip": "Sistema POS\\Views\\frmProductos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:52:11.819Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\Producto.cs",
+              "RelativeToolTip": "Sistema POS\\Models\\Producto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyMAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:13:37.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\DataBaseConnection.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Models\\DataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\DataBaseConnection.cs",
+              "RelativeToolTip": "Sistema POS\\Models\\DataBaseConnection.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAIA9wEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:13:03.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Program.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Program.cs",
+              "RelativeToolTip": "Sistema POS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:08:14.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Sistema POS\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:35:56.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Form1.cs",
+              "RelativeToolTip": "Sistema POS\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:57:10.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Models\\Usuario.cs",
+              "RelativeToolTip": "Sistema POS\\Models\\Usuario.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:47:50.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Form1.cs",
+              "RelativeDocumentMoniker": "Sistema POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\c#\\Sistema POS\\Sistema POS\\Form1.cs [Design]",
+              "RelativeToolTip": "Sistema POS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:00:10.273Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+/*
+Saludo "Hola Mundo"
+Autor: María Isabel Tovar Pastrana
+Fecha: 17 de Junio del 2024
+*/
+.formulario{
+    border: dashed 2px #7d8c9e;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 10px 10px 10px;
+}
+.boton{
+    background-color: #b399c2;
+}

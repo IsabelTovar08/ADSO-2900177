@@ -1,0 +1,37 @@
+<p>form-albums works!</p>
+<h3>{{titulo}}</h3>
+<form [formGroup]="moduleForm">
+    <mat-dialog-content>
+        <div class="inline-fields">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Nombre</mat-label>
+                <input matInput formControlName="name" />
+            </mat-form-field>
+        </div>
+        <div class="inline-fields">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Username</mat-label>
+                <input matInput formControlName="username" />
+            </mat-form-field>
+        </div>
+        <div class="inline-fields">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Email</mat-label>
+                <input type="email" matInput formControlName="email" />
+            </mat-form-field>
+        </div> <div class="inline-fields">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Título del Albúm</mat-label>
+                <input matInput formControlName="phone" />
+            </mat-form-field>
+        </div>
+    </mat-dialog-content>
+
+    <mat-dialog-actions align="end">
+        <button mat-button>Cancelar</button>
+        <button mat-flat-button color="primary" (click)="guardarform()"
+            [disabled]="!moduleForm.valid">
+            {{ isEditMode ? 'Actualizar' : 'Guardar' }}
+        </button>
+    </mat-dialog-actions>
+</form>

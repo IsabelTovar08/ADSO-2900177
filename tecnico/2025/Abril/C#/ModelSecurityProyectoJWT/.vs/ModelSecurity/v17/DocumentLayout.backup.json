@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyectoJWT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A2FD528-1AA4-4FC8-B1EC-937A1DFC5629}|Diagram\\Diagram.csproj|c:\\users\\usuario\\documents\\repositorios\\adso-2900177\\tecnico\\2025\\abril\\c#\\modelsecurityproyectojwt\\diagram\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9A2FD528-1AA4-4FC8-B1EC-937A1DFC5629}|Diagram\\Diagram.csproj|solutionrelative:diagram\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 402,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyectoJWT\\Diagram\\DbModel.edmx",
+              "RelativeDocumentMoniker": "Diagram\\DbModel.edmx",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\REPOSITORIOS\\ADSO-2900177\\tecnico\\2025\\Abril\\C#\\ModelSecurityProyectoJWT\\Diagram\\DbModel.edmx [Diagram1]",
+              "RelativeToolTip": "Diagram\\DbModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-07T21:19:19.697Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

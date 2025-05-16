@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular el sueldo de una persona</title>
+</head>
+<body>
+    <script>
+        let sueldo;
+        let diasTrabajados;
+        let valorDia;
+        let salud;
+        let pension;
+        let arl;
+        let deducibles;
+        let subTransporte;
+        let retencion;
+        let sueldoTotal;
+        let SMMLV;
+
+        diasTrabajados=30;
+        valorDia=43000;
+        SMMLV=1300000;
+
+        sueldo=diasTrabajados*valorDia;
+        salud=sueldo*0.12;
+        pension=sueldo*0.16;
+        arl=sueldo*0.052;
+
+        if(sueldo<=2*SMMLV){
+            subTransporte=114000;
+        }
+        else{
+            subTransporte=0;
+        }
+        if(sueldo>=4*SMMLV){
+            retencion=sueldo*0.04;
+        }
+        else{
+            retencion=0;
+        }
+        deducibles=salud+pension+arl+retencion;
+        sueldoTotal=(sueldo+subTransporte)-deducibles;
+
+        console.log("La persona recibe un sueldo de $ "+sueldo);
+        console.log("El valor de salud es $ "+salud);
+        console.log("El valor de pensión es $ "+pension);
+        console.log("El valor de arl es $ "+arl);
+        console.log("El valor de subsidio de tranporte es $ "+subTransporte);
+        console.log("La cantidad de retención es $ "+retencion);
+        console.log("El valor de total de deducibles es $ "+deducibles);
+        console.log("El valor Total del Sueldo es $ "+sueldoTotal);
+    </script>
+    
+</body>
+</html>

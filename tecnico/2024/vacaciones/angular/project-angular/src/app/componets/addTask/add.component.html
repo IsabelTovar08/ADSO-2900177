@@ -1,0 +1,38 @@
+<!-- <h1>Componente para agregar tareas</h1>
+<div class="child_container">
+    <h2>Componente Hijo</h2>
+    <ng-content></ng-content>
+</div> -->
+<!-- <h2 [ngStyle]="{'color': isActive ? 'green' : 'red'}">Título Tarea: {{ form.get('title')?.value }}</h2> -->
+
+<!-- <p *ngIf="myInput.invalid && (myInput.touched || myInput.dirty)">
+    <span *ngIf="myInput.errors?.['required']">Este campo es requerido</span>
+</p>
+<form class="container_input" #myForm="ngForm" (ngSubmit)="sendData(myForm)">
+    <input type="text" placeholder="Ingrese una tarea" [(ngModel)]="titleTask" #myInput = "ngModel" name="taskTitle" required>
+    <button type="submit" [disabled]="!myInput">Ingresar Tarea</button>
+</form>
+
+{{myInput.valid}} -->
+<div class="container_warning" *ngIf="form.get('title')?.invalid && (form.get('title')?.touched || form.get('title')?.dirty)">
+    <small *ngIf="form.get('title')?.errors?.['required']">
+        Este campo es requerido
+    </small>
+    <small *ngIf="form.get('title')?.errors?.['minlength']">
+        Mínimo 5 caracteres
+    </small>
+    <small *ngIf="form.get('title')?.errors?.['maxlength']">
+        Máximo 15 caracteres
+    </small>
+    
+</div>
+
+<div>
+    <span *ngIf="taskActive">
+        No puedes marcar una tarea sin título
+    </span>
+</div>
+<form class="container_input" [formGroup]="form" (ngSubmit)="sendTaskTitle()">
+    <input type="text" placeholder="Ingrese una tarea" formControlName="title" required>
+    <button type="submit" >Ingresar Tarea</button>
+</form>

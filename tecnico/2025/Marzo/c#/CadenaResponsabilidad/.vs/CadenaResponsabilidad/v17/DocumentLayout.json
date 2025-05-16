@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\CadenaResponsabilidad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7FB2F-F6FC-4659-94B5-1AA854C31DEB}|CadenaResponsabilidad\\CadenaResponsabilidad.csproj|c:\\users\\usuario\\documents\\adso-2900177\\tecnico\\2025\\marzo\\c#\\cadenaresponsabilidad\\cadenaresponsabilidad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7FB2F-F6FC-4659-94B5-1AA854C31DEB}|CadenaResponsabilidad\\CadenaResponsabilidad.csproj|solutionrelative:cadenaresponsabilidad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\CadenaResponsabilidad\\CadenaResponsabilidad\\Program.cs",
+              "RelativeDocumentMoniker": "CadenaResponsabilidad\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\ADSO-2900177\\tecnico\\2025\\Marzo\\c#\\CadenaResponsabilidad\\CadenaResponsabilidad\\Program.cs",
+              "RelativeToolTip": "CadenaResponsabilidad\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:53:54.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

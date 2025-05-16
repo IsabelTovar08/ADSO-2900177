@@ -1,0 +1,25 @@
+<h1>jghkjh</h1>
+<!-- <form (ngSubmit)="guardarCambiosProducto($event)" [formGroup]="form"> -->
+    <!-- <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input [formControl]="form.controls.nombre" matInput>
+    </mat-form-field> -->
+    <!-- <input type="text" [formControl]="form.controls.nombre">
+    <div>
+        <button type="submit" mat-flat-button>Guardar cambios</button>
+        <a href="" mat-stroked-button routerLink="/productos">Cancelar</a>
+    </div>
+</form> -->
+<form [formGroup]="productoForm" (ngSubmit)="onSubmit()">
+    <label for="nombre">Nombre del Producto:</label>
+    <input id="nombre" formControlName="nombre" required>
+  
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" formControlName="descripcion" required></textarea>
+  
+    <label for="precio">Precio:</label>
+    <input id="precio" formControlName="precio" required type="number">
+  
+    <button type="submit">Crear Producto</button>
+  </form>
+  

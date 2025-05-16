@@ -1,0 +1,28 @@
+<h3>{{titulo}}</h3>
+<form [formGroup]="moduleForm">
+    <mat-dialog-content>
+        <mat-form-field>
+            <mat-label>User</mat-label>
+            <mat-select formControlName="userId">
+              @for (user of users; track user.id) {
+                <mat-option [value]="user.id">{{ user.name }}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+          
+        <div class="inline-fields">
+            <mat-form-field appearance="fill" class="half-width">
+                <mat-label>Título del Albúm</mat-label>
+                <input matInput formControlName="title" />
+            </mat-form-field>
+        </div>
+    </mat-dialog-content>
+
+    <mat-dialog-actions align="end">
+        <button mat-button>Cancelar</button>
+        <button mat-flat-button color="primary" (click)="guardarform()"
+            [disabled]="!moduleForm.valid">
+            {{ isEditMode ? 'Actualizar' : 'Guardar' }}
+        </button>
+    </mat-dialog-actions>
+</form>

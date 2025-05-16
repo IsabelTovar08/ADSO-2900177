@@ -1,0 +1,14 @@
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.AssemblyInfoInputs.cache
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.AssemblyInfo.cs
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\c#\productos\productos\bin\Debug\net9.0\productos.exe
+C:\Users\Usuario\c#\productos\productos\bin\Debug\net9.0\productos.deps.json
+C:\Users\Usuario\c#\productos\productos\bin\Debug\net9.0\productos.runtimeconfig.json
+C:\Users\Usuario\c#\productos\productos\bin\Debug\net9.0\productos.dll
+C:\Users\Usuario\c#\productos\productos\bin\Debug\net9.0\productos.pdb
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.dll
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\refint\productos.dll
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.pdb
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\productos.genruntimeconfig.cache
+C:\Users\Usuario\c#\productos\productos\obj\Debug\net9.0\ref\productos.dll

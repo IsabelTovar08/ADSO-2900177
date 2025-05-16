@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\angular\\primer-ejercicio\\webAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF962BC-BD52-446E-B4DC-49B4B7FD4771}|webAPI\\webAPI.csproj|c:\\users\\usuario\\angular\\primer-ejercicio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF962BC-BD52-446E-B4DC-49B4B7FD4771}|webAPI\\webAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF962BC-BD52-446E-B4DC-49B4B7FD4771}|webAPI\\webAPI.csproj|c:\\users\\usuario\\angular\\primer-ejercicio\\webapi\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EF962BC-BD52-446E-B4DC-49B4B7FD4771}|webAPI\\webAPI.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\angular\\primer-ejercicio\\webAPI\\webAPI\\Program.cs",
+              "RelativeDocumentMoniker": "webAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\angular\\primer-ejercicio\\webAPI\\webAPI\\Program.cs",
+              "RelativeToolTip": "webAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T22:25:20.594Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\angular\\primer-ejercicio\\webAPI\\webAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "webAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\angular\\primer-ejercicio\\webAPI\\webAPI\\appsettings.Development.json",
+              "RelativeToolTip": "webAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T22:30:03.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
